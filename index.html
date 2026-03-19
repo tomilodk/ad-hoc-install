@@ -58,7 +58,7 @@
 
     <!-- QR code shown on desktop only -->
     <div class="hidden" id="qr-section">
-      <div class="qr-wrap"><canvas id="qr"></canvas></div>
+      <div class="qr-wrap"><div id="qr"></div></div>
       <p class="qr-label">Scan with your iPhone to install directly</p>
     </div>
 
@@ -74,11 +74,8 @@
     <div class="info hidden" id="info"></div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
   <script>
-    // Minimal QR Code generator (QR Model 2, byte mode, ECC-L)
-    // Based on https://github.com/niclas/qrgen — public domain, inlined for zero deps
-    var QR=function(){function t(t,e){for(var n=1<=0;)r^=t<<(n-a);return r}function o(t){for(var n=[],r=0;rt.length&&(e=t.length);for(var n=new Array(e),r=t.length-1;r>=0;r--)n[r]=t[r];return n}function s(t,r,a){for(var o=e(a),i=new Array(a),l=0;l>u&1)!=0}function c(t,e,n){for(var r=t.length,a=0;a=0&&l=0&&l>1&1)!=0)switch(r%3){case 0:a=!(a^o^i);break;case 1:a=!(a^l);break;case 2:a=!(a^o)}else switch(r%3){case 0:a=!((l+i)%2!=0||!(o^i));break;case 1:a=!((l*i)%2!=0||(l*i)%3!=0);break;case 2:a=!(((l+i)%2+(l*i)%3)%2!=0)}!n&&a&&(t[l][o]=!t[l][o])}}function p(t){for(var e=0,n=0;n=0;l--)i[l]=255&o,o>>=8;for(l=0;l=0;){for(var l=0,o=0;o>>7-a%8&1)!=0),a++}for(r=0;r7&&f(g,v,!0),h(g,v),c(g,v,n),d(g,n,!0);for(var b=0,y=0,j=0;j<8;j++){h(g,j);var w=p(g);(0==j||w0?(l=4,o+=(a=s(i.length,e,10)).length+10):i.length>0&&(l=8,o+=(a=s(i.length,e,8)).length+16);for(var u=0;u>=1;o+=d}var h=[236,17];for(u=0;o<8*c[e]-r;u++)a.push(h[u%2]),o+=8;return a}var g=[null,[[10,7,17,13],[1,1,1,1],[1,1,1,1]],[[16,10,28,22],[1,1,1,1],[1,1,1,1]],[[26,15,22,18],[1,1,2,2],[1,1,2,2]],[[18,20,16,26],[2,1,4,2],[2,1,4,2]],[[24,26,22,18],[2,1,4,4],[2,2,2,4]],[[16,18,28,24],[4,2,4,4],[2,2,4,4]],[[18,20,26,18],[4,2,5,6],[2,4,4,6]],[[22,24,26,22],[4,2,6,6],[2,4,4,8]],[[22,30,24,20],[5,2,8,8],[2,6,4,8]],[[26,18,28,24],[5,4,8,11],[4,4,6,8]],[[30,20,24,28],[5,4,11,8],[2,6,4,12]],[[22,24,28,26],[8,4,11,10],[4,4,8,10]],[[22,26,22,24],[9,4,16,12],[4,8,4,14]],[[24,30,24,20],[9,4,16,14],[4,8,8,10]],[[24,22,24,30],[10,6,18,14],[6,8,8,10]],[[28,24,30,24],[10,6,16,14],[6,8,10,10]],[[28,28,28,28],[11,6,19,14],[6,10,10,10]],[[26,30,28,24],[13,6,21,16],[8,10,10,12]],[[26,28,26,30],[14,7,25,18],[8,10,14,10]],[[26,28,28,30],[16,8,25,20],[10,10,14,12]],[[26,28,30,30],[17,8,25,24],[10,12,14,12]],[[28,28,24,30],[17,9,34,18],[12,10,16,14]],[[28,30,30,30],[18,9,30,24],[12,12,16,14]],[[28,30,30,30],[20,10,32,26],[12,14,16,14]],[[28,26,30,30],[21,12,35,28],[14,14,16,16]],[[28,28,30,28],[23,12,37,32],[14,14,18,16]],[[28,30,30,30],[25,12,40,24],[16,14,18,18]],[[28,30,30,30],[26,13,42,28],[14,16,18,18]],[[28,30,30,30],[28,14,45,32],[16,16,20,18]],[[28,30,30,30],[29,15,48,36],[16,18,20,18]],[[28,30,30,30],[31,16,51,36],[18,16,22,18]],[[28,30,30,30],[33,17,54,36],[18,18,22,20]],[[28,30,30,30],[35,18,57,40],[20,18,24,20]],[[28,30,30,30],[37,19,60,44],[20,20,24,20]],[[28,30,30,30],[38,19,63,40],[22,20,24,22]],[[28,30,30,30],[40,20,66,44],[22,22,26,22]],[[28,30,30,30],[43,21,70,48],[22,22,26,24]],[[28,30,30,30],[45,22,74,52],[24,24,26,24]],[[28,30,30,30],[47,24,77,56],[24,24,28,24]],[[28,30,30,30],[49,25,81,60],[26,24,28,26]]],c=[0,26,44,70,100,134,172,196,242,292,346,404,466,532,581,655,733,815,901,991,1085,1156,1258,1364,1474,1588,1706,1828,1921,2051,2185,2323,2465,2611,2761,2876,3034,3196,3362,3532];return{generate:function(t,e){for(var n=1,r=l(t,n,e);null==r;)r=l(t,++n,e);return{version:n,modules:r}}}}();
-
     (function () {
       var params = new URLSearchParams(location.search);
       var app = params.get('app');
@@ -104,23 +101,13 @@
       // Show QR code on non-iOS devices (desktop) so user can scan with phone
       // Encodes the itms-services:// URL so scanning triggers install directly
       var isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent);
-      if (!isIOS) {
+      if (!isIOS && typeof qrcode !== 'undefined') {
         var qrSection = document.getElementById('qr-section');
         qrSection.classList.remove('hidden');
-        var result = QR.generate(installHref, 0); // 0 = ECC-L
-        var modules = result.modules;
-        var size = modules.length;
-        var scale = Math.max(4, Math.floor(200 / size));
-        var canvas = document.getElementById('qr');
-        canvas.width = canvas.height = size * scale;
-        var ctx = canvas.getContext('2d');
-        ctx.fillStyle = '#fff';
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-        ctx.fillStyle = '#000';
-        for (var y = 0; y < size; y++)
-          for (var x = 0; x < size; x++)
-            if (modules[y][x])
-              ctx.fillRect(x * scale, y * scale, scale, scale);
+        var qr = qrcode(0, 'L');
+        qr.addData(installHref);
+        qr.make();
+        document.getElementById('qr').innerHTML = qr.createSvgTag(5, 0);
       }
 
       fetch(base + '/apps/' + app + '/info.json')
