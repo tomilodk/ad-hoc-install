@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Install App</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+      background:#0a0a0a;color:#f5f5f5;
+      min-height:100vh;display:flex;justify-content:center;align-items:center;
+      padding:24px;
+    }
+    .card{
+      background:#1a1a1a;border-radius:24px;padding:40px 32px;
+      max-width:380px;width:100%;text-align:center;
+      box-shadow:0 8px 32px rgba(0,0,0,.4);
+    }
+    .app-icon{
+      width:80px;height:80px;
+      background:linear-gradient(135deg,#4f8cff 0%,#2d5dd8 100%);
+      border-radius:20px;margin:0 auto 20px;
+      display:flex;align-items:center;justify-content:center;
+      font-size:36px;font-weight:700;color:#fff;
+    }
+    h1{font-size:28px;font-weight:700;margin-bottom:4px}
+    .subtitle{font-size:14px;color:#888;margin-bottom:28px;text-transform:uppercase;letter-spacing:1px}
+    .install-btn{
+      display:block;background:#4f8cff;color:#fff;
+      font-size:18px;font-weight:600;padding:16px 32px;
+      border-radius:14px;text-decoration:none;margin-bottom:20px;
+      transition:background .2s;
+    }
+    .install-btn:active{background:#3a6fd4}
+    .note{font-size:12px;color:#666;line-height:1.6;margin-bottom:24px}
+    .info{font-size:12px;color:#555;border-top:1px solid #2a2a2a;padding-top:16px}
+    .info span{display:block;margin-bottom:4px}
+    .info code{background:#222;padding:2px 6px;border-radius:4px;font-family:'SF Mono',Menlo,monospace;font-size:11px}
+    .error{color:#f44;font-size:15px;margin:20px 0}
+    .hidden{display:none}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="app-icon" id="icon">?</div>
+    <h1 id="title">Loading&hellip;</h1>
+    <p class="subtitle" id="subtitle"></p>
+
+    <p class="error hidden" id="error"></p>
+
+    <a class="install-btn hidden" id="install-btn" href="#">
+      Install on iPhone
+    </a>
+
+    <p class="note hidden" id="note">
+      Your device must be registered in the provisioning profile.<br>
+      Open this page on your iPhone, then tap Install.
+    </p>
+
+    <div class="info hidden" id="info"></div>
+  </div>
+
+  <script>
+    (function () {
+      var params = new URLSearchParams(location.search);
+      var app = params.get('app');
+
+      if (!app) {
+        document.getElementById('title').textContent = 'Ad-Hoc Install';
+        document.getElementById('icon').textContent = '?';
+        document.getElementById('error').textContent = 'Pass ?app=name in the URL.';
+        document.getElementById('error').classList.remove('hidden');
+        document.getElementById('subtitle').textContent = '';
+        return;
+      }
+
+      var base = location.href.split('?')[0].replace(/\/+$/, '');
+      var manifestUrl = base + '/apps/' + app + '/manifest.plist';
+      var installHref = 'itms-services://?action=download-manifest&url=' + encodeURIComponent(manifestUrl);
+
+      var btn = document.getElementById('install-btn');
+      btn.href = installHref;
+      btn.classList.remove('hidden');
+      document.getElementById('note').classList.remove('hidden');
+
+      fetch(base + '/apps/' + app + '/info.json')
+        .then(function (r) { return r.json(); })
+        .then(function (info) {
+          document.getElementById('title').textContent = info.title || app;
+          document.getElementById('icon').textContent = (info.title || app).charAt(0).toUpperCase();
+          document.getElementById('subtitle').textContent =
+            'v' + (info.version || '?') + ' \u2014 Preview';
+          document.title = 'Install ' + (info.title || app);
+
+          var infoEl = document.getElementById('info');
+          infoEl.classList.remove('hidden');
+          infoEl.innerHTML =
+            '<span>Commit: <code>' + (info.commit || '?') + '</code></span>' +
+            '<span>Built: <code>' + (info.date || '?') + '</code></span>';
+        })
+        .catch(function () {
+          document.getElementById('title').textContent = app;
+          document.getElementById('icon').textContent = app.charAt(0).toUpperCase();
+          document.getElementById('subtitle').textContent = 'Preview Build';
+        });
+    })();
+  </script>
+</body>
+</html>
