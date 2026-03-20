@@ -1,8 +1,8 @@
 {
   "title": "Kurvo",
-  "version": "1.0.291",
-  "commit": "23a39a2",
-  "message": "refactor: move all navigation state into context provider (Steps 4-5)",
-  "date": "2026-03-20 10:47 UTC",
+  "version": "1.0.292",
+  "commit": "97db1bd",
+  "message": "refactor: untangle navigation provider logic",
+  "date": "2026-03-20 10:59 UTC",
   "bundle": "app.kurvo.prod"
 }
