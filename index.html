@@ -117,6 +117,13 @@
   <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
   <script>
     (function () {
+      // Per-app config for extra features (not in info.json, which CI overwrites)
+      var appConfig = {
+        kurvo: {
+          registerDeviceUrl: 'https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae'
+        }
+      };
+
       var params = new URLSearchParams(location.search);
       var app = params.get('app');
       var selectedVersion = params.get('version');
@@ -147,6 +154,14 @@
       btn.classList.remove('hidden');
       document.getElementById('note').classList.remove('hidden');
 
+      // Show register device button if configured for this app
+      var cfg = appConfig[app];
+      if (cfg && cfg.registerDeviceUrl) {
+        var certBtn = document.getElementById('cert-btn');
+        certBtn.href = cfg.registerDeviceUrl;
+        certBtn.style.display = 'block';
+      }
+
       // QR code on non-iOS devices
       var isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent);
       if (!isIOS && typeof qrcode !== 'undefined') {
@@ -170,13 +185,6 @@
           document.getElementById('subtitle').textContent =
             'v' + displayVersion + (isLatest ? ' \u2014 Latest' : '');
           document.title = 'Install ' + (info.title || app);
-
-          // Show register device button if configured
-          if (info.registerDeviceUrl) {
-            var certBtn = document.getElementById('cert-btn');
-            certBtn.href = info.registerDeviceUrl;
-            certBtn.style.display = 'block';
-          }
 
           // If a specific version is selected, try to find its details from versions.json
           if (selectedVersion && selectedVersion !== info.version) {
