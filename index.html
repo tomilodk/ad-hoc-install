@@ -51,6 +51,15 @@
     .info{font-size:12px;color:#555;border-top:1px solid #2a2a2a;padding-top:16px}
     .info span{display:block;margin-bottom:4px}
     .info code{background:#222;padding:2px 6px;border-radius:4px;font-family:'SF Mono',Menlo,monospace;font-size:11px}
+    .reload-btn{
+      position:fixed;top:16px;right:16px;
+      background:#222;border:1px solid #333;color:#888;
+      width:36px;height:36px;border-radius:10px;
+      display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:all .2s;font-size:16px;
+    }
+    .reload-btn:hover{border-color:#555;color:#aaa}
+    .reload-btn:active{background:#333}
     .error{color:#f44;font-size:15px;margin:20px 0}
     .hidden{display:none}
 
@@ -83,6 +92,7 @@
   </style>
 </head>
 <body>
+  <button class="reload-btn" id="reload-btn" title="Reload">&#x21bb;</button>
   <div class="card">
     <div class="app-icon" id="icon">?</div>
     <h1 id="title">Loading&hellip;</h1>
@@ -273,6 +283,12 @@
         return div.innerHTML;
       }
     })();
+
+    document.getElementById('reload-btn').addEventListener('click', function () {
+      var url = new URL(location.href);
+      url.searchParams.set('_t', Date.now());
+      location.href = url.toString();
+    });
   </script>
 </body>
 </html>
