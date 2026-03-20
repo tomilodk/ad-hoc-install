@@ -4,5 +4,6 @@
   "commit": "42b86a3",
   "message": "fix: replace remaining StatusBar style=\"auto\" with ThemedStatusBar",
   "date": "2026-03-20 11:31 UTC",
-  "bundle": "app.kurvo.prod"
+  "bundle": "app.kurvo.prod",
+  "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }
