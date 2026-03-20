@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.303",
+    "commit": "5a054c2",
+    "message": "fix: write registerDeviceUrl into ad-hoc info.json during CI builds",
+    "date": "2026-03-20 11:56 UTC"
+  },
+  {
     "version": "1.0.302",
     "commit": "8c4813a",
     "message": "fix: unify Spotify widget to column layout in both orientations",

@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.302",
-  "commit": "8c4813a",
-  "message": "fix: unify Spotify widget to column layout in both orientations",
-  "date": "2026-03-20 11:47 UTC",
+  "version": "1.0.303",
+  "commit": "5a054c2",
+  "message": "fix: write registerDeviceUrl into ad-hoc info.json during CI builds",
+  "date": "2026-03-20 11:56 UTC",
   "bundle": "app.kurvo.prod",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }
