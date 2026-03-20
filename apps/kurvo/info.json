@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.311",
-  "commit": "d9393aa",
-  "message": "fix: auto-login after account creation by using onIdTokenChanged",
-  "date": "2026-03-20 22:23 UTC",
+  "version": "1.0.312",
+  "commit": "04ddab0",
+  "message": "fix: freeride button crash from stale closure + heading fallback",
+  "date": "2026-03-20 22:34 UTC",
   "bundle": "app.kurvo.prod",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }

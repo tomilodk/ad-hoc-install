@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.312",
+    "commit": "04ddab0",
+    "message": "fix: freeride button crash from stale closure + heading fallback",
+    "date": "2026-03-20 22:34 UTC"
+  },
+  {
     "version": "1.0.311",
     "commit": "d9393aa",
     "message": "fix: auto-login after account creation by using onIdTokenChanged",
