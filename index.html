@@ -40,6 +40,13 @@
       transition:background .2s;
     }
     .install-btn:active{background:#3a6fd4}
+    .cert-btn{
+      display:none;background:transparent;color:#4f8cff;
+      font-size:14px;font-weight:600;padding:10px 24px;
+      border-radius:10px;text-decoration:none;margin-bottom:20px;
+      border:1px solid #4f8cff;transition:background .2s,color .2s;
+    }
+    .cert-btn:active{background:#4f8cff;color:#fff}
     .note{font-size:12px;color:#666;line-height:1.6;margin-bottom:24px}
     .info{font-size:12px;color:#555;border-top:1px solid #2a2a2a;padding-top:16px}
     .info span{display:block;margin-bottom:4px}
@@ -91,6 +98,9 @@
 
     <a class="install-btn hidden" id="install-btn" href="#">
       Install on iPhone
+    </a>
+    <a class="cert-btn" id="cert-btn" href="#">
+      Register Device
     </a>
 
     <p class="note hidden" id="note">
@@ -160,6 +170,13 @@
           document.getElementById('subtitle').textContent =
             'v' + displayVersion + (isLatest ? ' \u2014 Latest' : '');
           document.title = 'Install ' + (info.title || app);
+
+          // Show register device button if configured
+          if (info.registerDeviceUrl) {
+            var certBtn = document.getElementById('cert-btn');
+            certBtn.href = info.registerDeviceUrl;
+            certBtn.style.display = 'block';
+          }
 
           // If a specific version is selected, try to find its details from versions.json
           if (selectedVersion && selectedVersion !== info.version) {
