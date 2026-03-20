@@ -4,5 +4,6 @@
   "commit": "8c4813a",
   "message": "fix: unify Spotify widget to column layout in both orientations",
   "date": "2026-03-20 11:47 UTC",
-  "bundle": "app.kurvo.prod"
+  "bundle": "app.kurvo.prod",
+  "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }
