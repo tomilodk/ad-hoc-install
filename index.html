@@ -46,6 +46,33 @@
     .info code{background:#222;padding:2px 6px;border-radius:4px;font-family:'SF Mono',Menlo,monospace;font-size:11px}
     .error{color:#f44;font-size:15px;margin:20px 0}
     .hidden{display:none}
+
+    .versions-toggle{
+      background:none;border:1px solid #333;color:#888;
+      font-size:12px;padding:8px 16px;border-radius:8px;
+      cursor:pointer;margin-top:12px;transition:all .2s;
+    }
+    .versions-toggle:hover{border-color:#555;color:#aaa}
+    .versions-list{
+      margin-top:16px;text-align:left;
+      max-height:300px;overflow-y:auto;
+      border-top:1px solid #2a2a2a;
+    }
+    .versions-list::-webkit-scrollbar{width:4px}
+    .versions-list::-webkit-scrollbar-thumb{background:#333;border-radius:2px}
+    .version-item{
+      display:flex;align-items:baseline;justify-content:space-between;
+      padding:10px 8px;border-bottom:1px solid #222;
+      cursor:pointer;transition:background .15s;text-decoration:none;color:inherit;
+    }
+    .version-item:hover{background:#222}
+    .version-item.active{background:#1e2a3a}
+    .version-left{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1}
+    .version-ver{font-size:13px;font-weight:600;color:#f5f5f5}
+    .version-msg{font-size:11px;color:#888;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .version-right{display:flex;flex-direction:column;align-items:flex-end;gap:2px;margin-left:12px;flex-shrink:0}
+    .version-hash{font-size:11px;color:#555;font-family:'SF Mono',Menlo,monospace}
+    .version-date{font-size:10px;color:#444}
   </style>
 </head>
 <body>
@@ -72,6 +99,9 @@
     </p>
 
     <div class="info hidden" id="info"></div>
+
+    <button class="versions-toggle hidden" id="versions-toggle">Show all versions</button>
+    <div class="versions-list hidden" id="versions-list"></div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
@@ -79,6 +109,7 @@
     (function () {
       var params = new URLSearchParams(location.search);
       var app = params.get('app');
+      var selectedVersion = params.get('version');
 
       if (!app) {
         document.getElementById('title').textContent = 'Ad-Hoc Install';
@@ -90,7 +121,15 @@
       }
 
       var base = location.href.split('?')[0].replace(/\/+$/, '');
-      var manifestUrl = base + '/apps/' + app + '/manifest.plist';
+
+      // Determine manifest URL based on whether a specific version is selected
+      var manifestUrl;
+      if (selectedVersion) {
+        manifestUrl = base + '/apps/' + app + '/versions/' + selectedVersion + '/manifest.plist';
+      } else {
+        manifestUrl = base + '/apps/' + app + '/manifest.plist';
+      }
+
       var installHref = 'itms-services://?action=download-manifest&url=' + encodeURIComponent(manifestUrl);
 
       var btn = document.getElementById('install-btn');
@@ -98,8 +137,7 @@
       btn.classList.remove('hidden');
       document.getElementById('note').classList.remove('hidden');
 
-      // Show QR code on non-iOS devices (desktop) so user can scan with phone
-      // Encodes the itms-services:// URL so scanning triggers install directly
+      // QR code on non-iOS devices
       var isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent);
       if (!isIOS && typeof qrcode !== 'undefined') {
         var qrSection = document.getElementById('qr-section');
@@ -110,26 +148,112 @@
         document.getElementById('qr').innerHTML = qr.createSvgTag(5, 0);
       }
 
+      // Load app info
       fetch(base + '/apps/' + app + '/info.json')
         .then(function (r) { return r.json(); })
         .then(function (info) {
+          var displayVersion = selectedVersion || info.version;
+          var isLatest = !selectedVersion || selectedVersion === info.version;
+
           document.getElementById('title').textContent = info.title || app;
           document.getElementById('icon').textContent = (info.title || app).charAt(0).toUpperCase();
           document.getElementById('subtitle').textContent =
-            'v' + (info.version || '?') + ' \u2014 Preview';
+            'v' + displayVersion + (isLatest ? ' \u2014 Latest' : '');
           document.title = 'Install ' + (info.title || app);
 
-          var infoEl = document.getElementById('info');
-          infoEl.classList.remove('hidden');
-          infoEl.innerHTML =
-            '<span>Commit: <code>' + (info.commit || '?') + '</code></span>' +
-            '<span>Built: <code>' + (info.date || '?') + '</code></span>';
+          // If a specific version is selected, try to find its details from versions.json
+          if (selectedVersion && selectedVersion !== info.version) {
+            loadVersionDetails(base, app, selectedVersion, info.title || app);
+          } else {
+            var infoEl = document.getElementById('info');
+            infoEl.classList.remove('hidden');
+            infoEl.innerHTML =
+              '<span>Commit: <code>' + (info.commit || '?') + '</code></span>' +
+              (info.message ? '<span>Message: <code>' + escapeHtml(info.message) + '</code></span>' : '') +
+              '<span>Built: <code>' + (info.date || '?') + '</code></span>';
+          }
         })
         .catch(function () {
           document.getElementById('title').textContent = app;
           document.getElementById('icon').textContent = app.charAt(0).toUpperCase();
-          document.getElementById('subtitle').textContent = 'Preview Build';
+          document.getElementById('subtitle').textContent = selectedVersion ? 'v' + selectedVersion : 'Preview Build';
         });
+
+      // Load versions list
+      fetch(base + '/apps/' + app + '/versions.json')
+        .then(function (r) { return r.json(); })
+        .then(function (versions) {
+          if (!versions || versions.length === 0) return;
+
+          var toggleBtn = document.getElementById('versions-toggle');
+          var listEl = document.getElementById('versions-list');
+          toggleBtn.classList.remove('hidden');
+          toggleBtn.textContent = 'Show all versions (' + versions.length + ')';
+
+          toggleBtn.addEventListener('click', function () {
+            var showing = !listEl.classList.contains('hidden');
+            listEl.classList.toggle('hidden');
+            toggleBtn.textContent = showing
+              ? 'Show all versions (' + versions.length + ')'
+              : 'Hide versions';
+          });
+
+          var latestVersion = versions[0] ? versions[0].version : null;
+
+          versions.forEach(function (v) {
+            var a = document.createElement('a');
+            var isActive = selectedVersion
+              ? v.version === selectedVersion
+              : v.version === latestVersion;
+
+            // Build the URL for this version
+            var versionUrl = '?app=' + app + '&version=' + v.version;
+            a.href = versionUrl;
+            a.className = 'version-item' + (isActive ? ' active' : '');
+
+            var isLatestVer = v.version === latestVersion;
+            var label = 'v' + v.version + (isLatestVer ? ' (latest)' : '');
+
+            a.innerHTML =
+              '<div class="version-left">' +
+                '<span class="version-ver">' + escapeHtml(label) + '</span>' +
+                '<span class="version-msg">' + escapeHtml(v.message || '') + '</span>' +
+              '</div>' +
+              '<div class="version-right">' +
+                '<span class="version-hash">' + escapeHtml((v.commit || '').substring(0, 6)) + '</span>' +
+                '<span class="version-date">' + escapeHtml(v.date || '') + '</span>' +
+              '</div>';
+
+            listEl.appendChild(a);
+          });
+        })
+        .catch(function () { /* no versions.json yet, hide toggle */ });
+
+      function loadVersionDetails(base, app, version, title) {
+        fetch(base + '/apps/' + app + '/versions.json')
+          .then(function (r) { return r.json(); })
+          .then(function (versions) {
+            var found = versions.find(function (v) { return v.version === version; });
+            var infoEl = document.getElementById('info');
+            infoEl.classList.remove('hidden');
+            if (found) {
+              document.getElementById('subtitle').textContent = 'v' + version;
+              infoEl.innerHTML =
+                '<span>Commit: <code>' + escapeHtml(found.commit || '?') + '</code></span>' +
+                (found.message ? '<span>Message: <code>' + escapeHtml(found.message) + '</code></span>' : '') +
+                '<span>Built: <code>' + escapeHtml(found.date || '?') + '</code></span>';
+            } else {
+              infoEl.innerHTML = '<span>Version <code>' + escapeHtml(version) + '</code> not found</span>';
+            }
+          })
+          .catch(function () {});
+      }
+
+      function escapeHtml(str) {
+        var div = document.createElement('div');
+        div.appendChild(document.createTextNode(str));
+        return div.innerHTML;
+      }
     })();
   </script>
 </body>
