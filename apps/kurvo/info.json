@@ -1,7 +1,7 @@
 {
   "title": "Kurvo",
-  "version": "1.0.283",
-  "commit": "0aece64",
-  "date": "2026-03-20 09:04 UTC",
+  "version": "1.0.285",
+  "commit": "1e18881",
+  "date": "2026-03-20 09:41 UTC",
   "bundle": "app.kurvo.prod"
 }
