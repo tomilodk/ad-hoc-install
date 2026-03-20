@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.308",
+    "commit": "ab1ac95",
+    "message": "Initiate",
+    "date": "2026-03-20 21:31 UTC"
+  },
+  {
     "version": "1.0.304",
     "commit": "61f4346",
     "message": "fix: dynamic pager height so widget page is not clipped",
