@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.304",
+    "commit": "61f4346",
+    "message": "fix: dynamic pager height so widget page is not clipped",
+    "date": "2026-03-20 12:01 UTC"
+  },
+  {
     "version": "1.0.303",
     "commit": "5a054c2",
     "message": "fix: write registerDeviceUrl into ad-hoc info.json during CI builds",
