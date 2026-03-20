@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.302",
+    "commit": "8c4813a",
+    "message": "fix: unify Spotify widget to column layout in both orientations",
+    "date": "2026-03-20 11:47 UTC"
+  },
+  {
     "version": "1.0.300",
     "commit": "dd4c7da",
     "message": "fix: align landscape clock with turn instruction panel",
