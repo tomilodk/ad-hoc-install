@@ -1,8 +1,8 @@
 {
   "title": "Kurvo",
-  "version": "1.0.292",
-  "commit": "97db1bd",
-  "message": "refactor: untangle navigation provider logic",
-  "date": "2026-03-20 10:59 UTC",
+  "version": "1.0.295",
+  "commit": "23911e4",
+  "message": "fix: immediately stop all audio when mute button is pressed",
+  "date": "2026-03-20 11:18 UTC",
   "bundle": "app.kurvo.prod"
 }
