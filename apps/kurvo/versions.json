@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.297",
+    "commit": "42b86a3",
+    "message": "fix: replace remaining StatusBar style=\"auto\" with ThemedStatusBar",
+    "date": "2026-03-20 11:31 UTC"
+  },
+  {
     "version": "1.0.295",
     "commit": "23911e4",
     "message": "fix: immediately stop all audio when mute button is pressed",
