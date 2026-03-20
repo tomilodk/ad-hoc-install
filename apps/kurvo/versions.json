@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.291",
+    "commit": "23a39a2",
+    "message": "refactor: move all navigation state into context provider (Steps 4-5)",
+    "date": "2026-03-20 10:47 UTC"
+  },
+  {
     "version": "1.0.289",
     "commit": "1459ead",
     "message": "refactor: add navigation context type definitions (Step 3)",
