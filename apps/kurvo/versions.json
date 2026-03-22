@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.324",
+    "commit": "c952579",
+    "message": "ci: clean up IPA files after local build",
+    "date": "2026-03-22 11:50 UTC"
+  },
+  {
     "version": "1.0.312",
     "commit": "04ddab0",
     "message": "fix: freeride button crash from stale closure + heading fallback",
