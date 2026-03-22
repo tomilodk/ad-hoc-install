@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.330",
+    "commit": "a3efa71",
+    "message": "fix: unify Heimdall into single shared WebSocket connection",
+    "date": "2026-03-22 12:38 UTC"
+  },
+  {
     "version": "1.0.328",
     "commit": "9a2f054",
     "message": "fix: volume slider flicker when dragging knob directly",
