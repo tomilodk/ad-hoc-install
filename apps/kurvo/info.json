@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.324",
-  "commit": "c952579",
-  "message": "ci: clean up IPA files after local build",
-  "date": "2026-03-22 11:50 UTC",
+  "version": "1.0.328",
+  "commit": "9a2f054",
+  "message": "fix: volume slider flicker when dragging knob directly",
+  "date": "2026-03-22 12:08 UTC",
   "bundle": "app.kurvo.prod",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }
