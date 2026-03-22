@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.331",
+    "commit": "6d9c663",
+    "message": "refactor: remove dead Heimdall hooks, deduplicate userLocationRef",
+    "date": "2026-03-22 12:47 UTC"
+  },
+  {
     "version": "1.0.330",
     "commit": "a3efa71",
     "message": "fix: unify Heimdall into single shared WebSocket connection",
