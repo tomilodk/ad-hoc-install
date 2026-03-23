@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.356",
+    "commit": "7a4bf85",
+    "message": "fix: turn action text wrapping, CurveBeacon landscape alignment and sizing",
+    "date": "2026-03-23 11:39 UTC"
+  },
+  {
     "version": "1.0.355",
     "commit": "cd57cfb",
     "message": "refactor: simplify audio ducking internals and debounce settings save",
