@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.355",
+    "commit": "cd57cfb",
+    "message": "refactor: simplify audio ducking internals and debounce settings save",
+    "date": "2026-03-23 11:28 UTC"
+  },
+  {
     "version": "1.0.352",
     "commit": "ef79bbd",
     "message": "fix: three-phase polyline transition to eliminate z-fighting flicker",

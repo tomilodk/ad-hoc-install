@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.352",
-  "commit": "ef79bbd",
-  "message": "fix: three-phase polyline transition to eliminate z-fighting flicker",
-  "date": "2026-03-23 11:15 UTC",
+  "version": "1.0.355",
+  "commit": "cd57cfb",
+  "message": "refactor: simplify audio ducking internals and debounce settings save",
+  "date": "2026-03-23 11:28 UTC",
   "bundle": "app.kurvo.prod",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }
