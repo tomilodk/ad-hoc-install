@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.334",
-  "commit": "7e10381",
-  "message": "feat: generalize fuel-station into waypoint system with multi-stop route builder",
-  "date": "2026-03-23 09:13 UTC",
+  "version": "1.0.336",
+  "commit": "6456a58",
+  "message": "refactor: compact StopsCard and landscape side-by-side curve widget",
+  "date": "2026-03-23 09:49 UTC",
   "bundle": "app.kurvo.prod",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }
