@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.337",
+    "commit": "bc2eb52",
+    "message": "fix: re-authenticate Spotify when player actions fail to communicate",
+    "date": "2026-03-23 09:59 UTC"
+  },
+  {
     "version": "1.0.336",
     "commit": "6456a58",
     "message": "refactor: compact StopsCard and landscape side-by-side curve widget",
