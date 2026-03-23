@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.342",
-  "commit": "06adba3",
-  "message": "fix: StopsCard single-stop remove button, sleeker expanded modal",
-  "date": "2026-03-23 10:28 UTC",
+  "version": "1.0.346",
+  "commit": "3fd0a06",
+  "message": "refactor: simplify battery optimizations after review",
+  "date": "2026-03-23 10:45 UTC",
   "bundle": "app.kurvo.prod",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }
