@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.358",
+    "commit": "01b2fe5",
+    "message": "fix: prevent ScrollView from stealing volume slider touch",
+    "date": "2026-03-23 11:53 UTC"
+  },
+  {
     "version": "1.0.356",
     "commit": "7a4bf85",
     "message": "fix: turn action text wrapping, CurveBeacon landscape alignment and sizing",
