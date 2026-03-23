@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.342",
+    "commit": "06adba3",
+    "message": "fix: StopsCard single-stop remove button, sleeker expanded modal",
+    "date": "2026-03-23 10:28 UTC"
+  },
+  {
     "version": "1.0.339",
     "commit": "8df5153",
     "message": "fix: restore turn instruction width, StopsCard modal overlay, curve wrap",
