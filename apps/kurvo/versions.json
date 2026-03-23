@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.361",
+    "commit": "73d5878",
+    "message": "fix: align road name marginLeft with mockup (60→50px)",
+    "date": "2026-03-23 12:16 UTC"
+  },
+  {
     "version": "1.0.359",
     "commit": "fa708fe",
     "message": "fix: redesign TurnInstruction and landscape CurveBeacon layout",
