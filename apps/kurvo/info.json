@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.337",
-  "commit": "bc2eb52",
-  "message": "fix: re-authenticate Spotify when player actions fail to communicate",
-  "date": "2026-03-23 09:59 UTC",
+  "version": "1.0.338",
+  "commit": "45d5ade",
+  "message": "feat: keep screen awake during navigation even in low power mode",
+  "date": "2026-03-23 10:07 UTC",
   "bundle": "app.kurvo.prod",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }

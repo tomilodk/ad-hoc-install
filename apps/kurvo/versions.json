@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.338",
+    "commit": "45d5ade",
+    "message": "feat: keep screen awake during navigation even in low power mode",
+    "date": "2026-03-23 10:07 UTC"
+  },
+  {
     "version": "1.0.337",
     "commit": "bc2eb52",
     "message": "fix: re-authenticate Spotify when player actions fail to communicate",
