@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.369",
+    "commit": "afb5908",
+    "message": "ci: clean conflicting distribution certs from login keychain before build",
+    "date": "2026-03-25 10:46 UTC"
+  },
+  {
     "version": "1.0.368",
     "commit": "db1e669",
     "message": "ci: pin DEVELOPER_DIR to Xcode 26.0.1 for local builds",
