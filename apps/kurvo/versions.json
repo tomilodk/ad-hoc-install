@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.368",
+    "commit": "db1e669",
+    "message": "ci: pin DEVELOPER_DIR to Xcode 26.0.1 for local builds",
+    "date": "2026-03-25 10:40 UTC"
+  },
+  {
     "version": "1.0.361",
     "commit": "73d5878",
     "message": "fix: align road name marginLeft with mockup (60→50px)",
