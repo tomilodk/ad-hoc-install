@@ -36,10 +36,12 @@
     .install-btn{
       display:block;background:#4f8cff;color:#fff;
       font-size:18px;font-weight:600;padding:16px 32px;
-      border-radius:14px;text-decoration:none;margin-bottom:20px;
+      border-radius:14px;text-decoration:none;margin-bottom:10px;
       transition:background .2s;
     }
     .install-btn:active{background:#3a6fd4}
+    .install-btn.android{background:#3ddc84}
+    .install-btn.android:active{background:#2cb86a}
     .cert-btn{
       display:none;background:transparent;color:#4f8cff;
       font-size:14px;font-weight:600;padding:10px 24px;
@@ -62,6 +64,7 @@
     .reload-btn:active{background:#333}
     .error{color:#f44;font-size:15px;margin:20px 0}
     .hidden{display:none}
+    .platform-btns{margin-bottom:20px}
 
     .versions-toggle{
       background:none;border:1px solid #333;color:#888;
@@ -103,20 +106,22 @@
     <!-- QR code shown on desktop only -->
     <div class="hidden" id="qr-section">
       <div class="qr-wrap"><div id="qr"></div></div>
-      <p class="qr-label">Scan with your iPhone to install directly</p>
+      <p class="qr-label">Scan with your phone to install directly</p>
     </div>
 
-    <a class="install-btn hidden" id="install-btn" href="#">
-      Install on iPhone
-    </a>
+    <div class="platform-btns">
+      <a class="install-btn hidden" id="install-btn-ios" href="#">
+        Install on iPhone
+      </a>
+      <a class="install-btn android hidden" id="install-btn-android" href="#">
+        Install on Android
+      </a>
+    </div>
     <a class="cert-btn" id="cert-btn" href="#">
       Register Device
     </a>
 
-    <p class="note hidden" id="note">
-      Your device must be registered in the provisioning profile.<br>
-      Open this page on your iPhone, then tap Install.
-    </p>
+    <p class="note hidden" id="note"></p>
 
     <div class="info hidden" id="info"></div>
 
@@ -141,30 +146,55 @@
       }
 
       var base = location.href.split('?')[0].replace(/\/+$/, '');
+      var isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent);
+      var isAndroid = /Android/.test(navigator.userAgent);
+      var isDesktop = !isIOS && !isAndroid;
 
-      // Determine manifest URL based on whether a specific version is selected
+      var INSTALL_REPO = 'tomilodk/ad-hoc-install';
+
+      // iOS: itms-services manifest
       var manifestUrl;
       if (selectedVersion) {
         manifestUrl = base + '/apps/' + app + '/versions/' + selectedVersion + '/manifest.plist';
       } else {
         manifestUrl = base + '/apps/' + app + '/manifest.plist';
       }
+      var iosInstallHref = 'itms-services://?action=download-manifest&url=' + encodeURIComponent(manifestUrl);
 
-      var installHref = 'itms-services://?action=download-manifest&url=' + encodeURIComponent(manifestUrl);
+      // Android: direct APK download from GitHub release
+      var apkTag = selectedVersion ? app + '-v' + selectedVersion : app + '-latest';
+      var androidInstallHref = 'https://github.com/' + INSTALL_REPO + '/releases/download/' + apkTag + '/' + app + '.apk';
 
-      var btn = document.getElementById('install-btn');
-      btn.href = installHref;
-      btn.classList.remove('hidden');
-      document.getElementById('note').classList.remove('hidden');
+      var iosBtn = document.getElementById('install-btn-ios');
+      var androidBtn = document.getElementById('install-btn-android');
+      var noteEl = document.getElementById('note');
 
+      iosBtn.href = iosInstallHref;
+      androidBtn.href = androidInstallHref;
 
-      // QR code on non-iOS devices
-      var isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent);
-      if (!isIOS && typeof qrcode !== 'undefined') {
+      if (isIOS) {
+        iosBtn.classList.remove('hidden');
+        noteEl.innerHTML = 'Your device must be registered in the provisioning profile.<br>Open this page on your iPhone, then tap Install.';
+        noteEl.classList.remove('hidden');
+      } else if (isAndroid) {
+        androidBtn.classList.remove('hidden');
+        noteEl.innerHTML = 'You may need to allow installs from this source.<br>Tap Install, then open the downloaded APK.';
+        noteEl.classList.remove('hidden');
+      } else {
+        // Desktop: show both buttons + QR
+        iosBtn.classList.remove('hidden');
+        androidBtn.classList.remove('hidden');
+        noteEl.innerHTML = 'Open this page on your phone, or scan the QR code.';
+        noteEl.classList.remove('hidden');
+      }
+
+      // QR code on desktop — link to this page (works for both platforms)
+      if (isDesktop && typeof qrcode !== 'undefined') {
         var qrSection = document.getElementById('qr-section');
         qrSection.classList.remove('hidden');
+        var pageUrl = location.href.split('?')[0] + '?app=' + app + (selectedVersion ? '&version=' + selectedVersion : '');
         var qr = qrcode(0, 'L');
-        qr.addData(installHref);
+        qr.addData(pageUrl);
         qr.make();
         document.getElementById('qr').innerHTML = qr.createSvgTag(5, 0);
       }
@@ -182,14 +212,13 @@
             'v' + displayVersion + (isLatest ? ' \u2014 Latest' : '');
           document.title = 'Install ' + (info.title || app);
 
-          // Show register device button if configured
-          if (info.registerDeviceUrl) {
+          // Show register device button if configured (iOS only)
+          if (info.registerDeviceUrl && (isIOS || isDesktop)) {
             var certBtn = document.getElementById('cert-btn');
             certBtn.href = info.registerDeviceUrl;
             certBtn.style.display = 'block';
           }
 
-          // If a specific version is selected, try to find its details from versions.json
           if (selectedVersion && selectedVersion !== info.version) {
             loadVersionDetails(base, app, selectedVersion, info.title || app);
           } else {
@@ -234,7 +263,6 @@
               ? v.version === selectedVersion
               : v.version === latestVersion;
 
-            // Build the URL for this version
             var versionUrl = '?app=' + app + '&version=' + v.version;
             a.href = versionUrl;
             a.className = 'version-item' + (isActive ? ' active' : '');
@@ -255,7 +283,7 @@
             listEl.appendChild(a);
           });
         })
-        .catch(function () { /* no versions.json yet, hide toggle */ });
+        .catch(function () {});
 
       function loadVersionDetails(base, app, version, title) {
         fetch(base + '/apps/' + app + '/versions.json')
