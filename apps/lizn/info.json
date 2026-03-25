@@ -1,0 +1,9 @@
+{
+  "title": "LIZN",
+  "version": "1.0.0",
+  "commit": "",
+  "message": "Initial setup",
+  "date": "",
+  "bundle": "dk.makeable.lizn",
+  "registerDeviceUrl": ""
+}
