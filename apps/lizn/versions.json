@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "version": "1.0.0",
+    "commit": "01749de",
+    "message": "Fix Xcode version, ANDROID_HOME/JAVA_HOME, profile-based bundle IDs",
+    "date": "2026-03-25 12:54 UTC"
+  }
+]
