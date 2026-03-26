@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.16",
+    "commit": "74166d7",
+    "message": "Exclude web from platforms — fix OTA export",
+    "date": "2026-03-26 13:00 UTC"
+  },
+  {
     "version": "1.0.14",
     "commit": "b463a46",
     "message": "Sync tab with device domain changes",

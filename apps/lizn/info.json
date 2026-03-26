@@ -1,8 +1,8 @@
 {
   "title": "LIZN Beta",
-  "version": "1.0.14",
-  "commit": "b463a46",
-  "message": "Sync tab with device domain changes",
-  "date": "2026-03-26 12:46 UTC",
+  "version": "1.0.16",
+  "commit": "74166d7",
+  "message": "Exclude web from platforms — fix OTA export",
+  "date": "2026-03-26 13:00 UTC",
   "bundle": "biz.lizn.app.dev"
 }
