@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.370",
+    "commit": "bb6008e",
+    "message": "fix: TripSummaryModal layout + add traveled route dev toggle",
+    "date": "2026-03-26 08:26 UTC"
+  },
+  {
     "version": "1.0.369",
     "commit": "afb5908",
     "message": "ci: clean conflicting distribution certs from login keychain before build",
