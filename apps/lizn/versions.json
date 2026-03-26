@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.24",
+    "commit": "3c2f279",
+    "message": "Rewrite Android transport: BLE GATT → Classic RFCOMM for GAIA",
+    "date": "2026-03-26 20:40 UTC"
+  },
+  {
     "version": "1.0.23",
     "commit": "2665d35",
     "message": "Fix bonding race, receiver leak, Android 13+ compat",
