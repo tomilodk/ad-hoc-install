@@ -1,5 +1,8 @@
 {
   "title": "LIZN Beta",
-  "version": "1.0.9",
+  "version": "1.0.12",
+  "commit": "596c045",
+  "message": "Fix install page metadata — export shell vars for node",
+  "date": "2026-03-26 12:22 UTC",
   "bundle": "biz.lizn.app.dev"
 }
