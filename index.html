@@ -200,7 +200,7 @@
       }
 
       // Load app info
-      fetch(base + '/apps/' + app + '/info.json')
+      fetch(base + '/apps/' + app + '/info.json?_t=' + Date.now())
         .then(function (r) { return r.json(); })
         .then(function (info) {
           var displayVersion = selectedVersion || info.version;
@@ -237,7 +237,7 @@
         });
 
       // Load versions list
-      fetch(base + '/apps/' + app + '/versions.json')
+      fetch(base + '/apps/' + app + '/versions.json?_t=' + Date.now())
         .then(function (r) { return r.json(); })
         .then(function (versions) {
           if (!versions || versions.length === 0) return;
@@ -286,7 +286,7 @@
         .catch(function () {});
 
       function loadVersionDetails(base, app, version, title) {
-        fetch(base + '/apps/' + app + '/versions.json')
+        fetch(base + '/apps/' + app + '/versions.json?_t=' + Date.now())
           .then(function (r) { return r.json(); })
           .then(function (versions) {
             var found = versions.find(function (v) { return v.version === version; });
