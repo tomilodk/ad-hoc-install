@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.23",
+    "commit": "2665d35",
+    "message": "Fix bonding race, receiver leak, Android 13+ compat",
+    "date": "2026-03-26 20:24 UTC"
+  },
+  {
     "version": "1.0.22",
     "commit": "7153d32",
     "message": "Fix Android pairing (createBond), dedup scan results, match reference UI labels",
