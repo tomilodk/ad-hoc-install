@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.18",
+    "commit": "252e9f4",
+    "message": "Fix Expo upload command — eas upload with --build-path",
+    "date": "2026-03-26 17:52 UTC"
+  },
+  {
     "version": "1.0.17",
     "commit": "d4d175e",
     "message": "Upload local builds to Expo (best-effort)",
