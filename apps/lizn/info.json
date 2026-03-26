@@ -1,8 +1,8 @@
 {
   "title": "LIZN Beta",
-  "version": "1.0.18",
-  "commit": "252e9f4",
-  "message": "Fix Expo upload command — eas upload with --build-path",
-  "date": "2026-03-26 17:52 UTC",
+  "version": "1.0.20",
+  "commit": "249062c",
+  "message": "Fix crash: link native earbuds module, fallback to mock when unavailable",
+  "date": "2026-03-26 19:21 UTC",
   "bundle": "biz.lizn.app.dev"
 }
