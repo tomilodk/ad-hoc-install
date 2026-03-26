@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.17",
+    "commit": "d4d175e",
+    "message": "Upload local builds to Expo (best-effort)",
+    "date": "2026-03-26 16:27 UTC"
+  },
+  {
     "version": "1.0.16",
     "commit": "74166d7",
     "message": "Exclude web from platforms — fix OTA export",
