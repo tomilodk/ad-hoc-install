@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.372",
-  "commit": "646915d",
-  "message": "refactor: generalize freeride waypoint handling, DRY up reroute logic",
-  "date": "2026-03-27 16:36 UTC",
+  "version": "1.0.374",
+  "commit": "f2063d7",
+  "message": "refactor: extract HOUR_THRESHOLD_MIN constant, add prefetch debug log",
+  "date": "2026-03-28 08:29 UTC",
   "bundle": "app.kurvo.prod",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }
