@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.34",
+    "commit": "1cc6aeb",
+    "message": "Initiate",
+    "date": "2026-03-28 21:15 UTC"
+  },
+  {
     "version": "1.0.33",
     "commit": "f151d66",
     "message": "Send raw GAIA packets over SPP (no framing), framing only for GAIA UUIDs",
