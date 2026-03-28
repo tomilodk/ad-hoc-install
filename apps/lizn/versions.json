@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.35",
+    "commit": "0f7b8ce",
+    "message": "Re-enable framing (earbuds require it), delay initial requestState",
+    "date": "2026-03-28 21:31 UTC"
+  },
+  {
     "version": "1.0.34",
     "commit": "1cc6aeb",
     "message": "Initiate",
