@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.26",
+    "commit": "252b6e8",
+    "message": "GATT-first bonding, debug log collector with copy-to-clipboard",
+    "date": "2026-03-28 08:36 UTC"
+  },
+  {
     "version": "1.0.24",
     "commit": "3c2f279",
     "message": "Rewrite Android transport: BLE GATT → Classic RFCOMM for GAIA",
