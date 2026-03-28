@@ -1,8 +1,8 @@
 {
   "title": "LIZN Beta",
-  "version": "1.0.27",
-  "commit": "adbad2c",
-  "message": "Add debug log copy button on connecting screen, show failure state",
-  "date": "2026-03-28 08:55 UTC",
+  "version": "1.0.28",
+  "commit": "bf0e44a",
+  "message": "Fix bonding: keep GATT open during createBond, close after success",
+  "date": "2026-03-28 18:30 UTC",
   "bundle": "biz.lizn.app.dev"
 }
