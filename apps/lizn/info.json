@@ -1,8 +1,8 @@
 {
   "title": "LIZN Beta",
-  "version": "1.0.30",
-  "commit": "41808fe",
-  "message": "Trigger bonding via encrypted characteristic read instead of createBond",
-  "date": "2026-03-28 18:57 UTC",
+  "version": "1.0.31",
+  "commit": "b767a92",
+  "message": "Use device SDP UUIDs, try secure RFCOMM, cap reconnects, log outgoing",
+  "date": "2026-03-28 19:56 UTC",
   "bundle": "biz.lizn.app.dev"
 }
