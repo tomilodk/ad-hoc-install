@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.27",
+    "commit": "adbad2c",
+    "message": "Add debug log copy button on connecting screen, show failure state",
+    "date": "2026-03-28 08:55 UTC"
+  },
+  {
     "version": "1.0.26",
     "commit": "252b6e8",
     "message": "GATT-first bonding, debug log collector with copy-to-clipboard",
