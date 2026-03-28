@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.30",
+    "commit": "41808fe",
+    "message": "Trigger bonding via encrypted characteristic read instead of createBond",
+    "date": "2026-03-28 18:57 UTC"
+  },
+  {
     "version": "1.0.28",
     "commit": "bf0e44a",
     "message": "Fix bonding: keep GATT open during createBond, close after success",
