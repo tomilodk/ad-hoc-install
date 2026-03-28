@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.33",
+    "commit": "f151d66",
+    "message": "Send raw GAIA packets over SPP (no framing), framing only for GAIA UUIDs",
+    "date": "2026-03-28 21:00 UTC"
+  },
+  {
     "version": "1.0.32",
     "commit": "b21c3b0",
     "message": "Check bonded devices by name before re-bonding (BLE random address changes)",
