@@ -1,8 +1,8 @@
 {
   "title": "LIZN Beta",
-  "version": "1.0.31",
-  "commit": "b767a92",
-  "message": "Use device SDP UUIDs, try secure RFCOMM, cap reconnects, log outgoing",
-  "date": "2026-03-28 19:56 UTC",
+  "version": "1.0.32",
+  "commit": "b21c3b0",
+  "message": "Check bonded devices by name before re-bonding (BLE random address changes)",
+  "date": "2026-03-28 20:41 UTC",
   "bundle": "biz.lizn.app.dev"
 }
