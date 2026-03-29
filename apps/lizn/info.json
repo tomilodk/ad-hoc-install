@@ -1,8 +1,8 @@
 {
   "title": "LIZN Beta",
-  "version": "1.0.42",
-  "commit": "c64af3e",
-  "message": "Add version label to dev overlay, fix exit dev mode not hiding overlay",
-  "date": "2026-03-29 10:02 UTC",
+  "version": "1.0.43",
+  "commit": "2fe619c",
+  "message": "Rewrite to BLE GATT (like iOS) — RFCOMM was fundamentally broken for writes",
+  "date": "2026-03-29 10:12 UTC",
   "bundle": "biz.lizn.app.dev"
 }
