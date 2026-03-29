@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.41",
+    "commit": "7b8bce8",
+    "message": "Send raw V3 packets without RFCOMM frame wrapper",
+    "date": "2026-03-29 09:20 UTC"
+  },
+  {
     "version": "1.0.40",
     "commit": "25c6bb8",
     "message": "Skip V1 handshake — LIZN earbuds are V3-only, send LIZN commands directly",
