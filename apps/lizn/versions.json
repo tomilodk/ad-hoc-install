@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.57",
+    "commit": "2c5dce8",
+    "message": "Remove balance UI — earbuds return unreliable data, old iOS app hides it",
+    "date": "2026-03-29 12:39 UTC"
+  },
+  {
     "version": "1.0.56",
     "commit": "45f25ef",
     "message": "Fix balance: validate range in native parsers, hide UI when unavailable",
