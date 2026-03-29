@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.60",
+    "commit": "0cae6e3",
+    "message": "Remove redundant comment from pauseForBackground",
+    "date": "2026-03-29 13:23 UTC"
+  },
+  {
     "version": "1.0.57",
     "commit": "2c5dce8",
     "message": "Remove balance UI — earbuds return unreliable data, old iOS app hides it",
