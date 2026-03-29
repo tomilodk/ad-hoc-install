@@ -1,8 +1,8 @@
 {
   "title": "LIZN Beta",
-  "version": "1.0.41",
-  "commit": "7b8bce8",
-  "message": "Send raw V3 packets without RFCOMM frame wrapper",
-  "date": "2026-03-29 09:20 UTC",
+  "version": "1.0.42",
+  "commit": "c64af3e",
+  "message": "Add version label to dev overlay, fix exit dev mode not hiding overlay",
+  "date": "2026-03-29 10:02 UTC",
   "bundle": "biz.lizn.app.dev"
 }
