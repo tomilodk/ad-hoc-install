@@ -1,8 +1,8 @@
 {
   "title": "LIZN Beta",
-  "version": "1.0.45",
-  "commit": "eaf0116",
-  "message": "Filter mock devices from scan list unless explicitly in dev/mock mode",
-  "date": "2026-03-29 10:38 UTC",
+  "version": "1.0.46",
+  "commit": "6f60d0e",
+  "message": "Add iOS debug logging, diagnostics in dev overlay, capture native module errors",
+  "date": "2026-03-29 10:47 UTC",
   "bundle": "biz.lizn.app.dev"
 }
