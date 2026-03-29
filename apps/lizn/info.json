@@ -1,8 +1,9 @@
 {
   "title": "LIZN Beta",
-  "version": "1.0.60",
-  "commit": "0cae6e3",
-  "message": "Remove redundant comment from pauseForBackground",
-  "date": "2026-03-29 13:23 UTC",
-  "bundle": "biz.lizn.app.dev"
+  "version": "1.0.61",
+  "commit": "b3a56f4",
+  "message": "Added register device url for ad-hoc-install page",
+  "date": "2026-03-29 13:32 UTC",
+  "bundle": "biz.lizn.app.dev",
+  "registerDeviceUrl": "https://expo.dev/register-device/477537d2-04e4-4425-84cc-2f651875cc2b"
 }

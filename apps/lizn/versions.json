@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.61",
+    "commit": "b3a56f4",
+    "message": "Added register device url for ad-hoc-install page",
+    "date": "2026-03-29 13:32 UTC"
+  },
+  {
     "version": "1.0.60",
     "commit": "0cae6e3",
     "message": "Remove redundant comment from pauseForBackground",
