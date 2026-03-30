@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.394",
+    "commit": "b9ca5c6",
+    "message": "fix: generate SDK stat cache in CI before xcodebuild runs",
+    "date": "2026-03-30 14:56 UTC"
+  },
+  {
     "version": "1.0.387",
     "commit": "24605dc",
     "message": "fix: native MKOverlayLevel separation to eliminate polyline z-fighting",
