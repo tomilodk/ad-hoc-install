@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.385",
-  "commit": "d0f3e8f",
-  "message": "fix: add e2e-simulator profile to app/eas.json (correct location)",
-  "date": "2026-03-30 09:03 UTC",
+  "version": "1.0.387",
+  "commit": "24605dc",
+  "message": "fix: native MKOverlayLevel separation to eliminate polyline z-fighting",
+  "date": "2026-03-30 13:38 UTC",
   "bundle": "app.kurvo.prod",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }
