@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.385",
+    "commit": "d0f3e8f",
+    "message": "fix: add e2e-simulator profile to app/eas.json (correct location)",
+    "date": "2026-03-30 09:03 UTC"
+  },
+  {
     "version": "1.0.379",
     "commit": "149fe52",
     "message": "fix: native iOS audio session cycling for reliable duck/unduck toggle",
