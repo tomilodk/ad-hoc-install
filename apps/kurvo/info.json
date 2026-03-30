@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.378",
-  "commit": "979e7e8",
-  "message": "refactor: DRY up navigation event and voice guidance changes",
-  "date": "2026-03-29 10:10 UTC",
+  "version": "1.0.379",
+  "commit": "149fe52",
+  "message": "fix: native iOS audio session cycling for reliable duck/unduck toggle",
+  "date": "2026-03-30 08:30 UTC",
   "bundle": "app.kurvo.prod",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }

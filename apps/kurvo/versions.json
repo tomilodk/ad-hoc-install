@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.379",
+    "commit": "149fe52",
+    "message": "fix: native iOS audio session cycling for reliable duck/unduck toggle",
+    "date": "2026-03-30 08:30 UTC"
+  },
+  {
     "version": "1.0.378",
     "commit": "979e7e8",
     "message": "refactor: DRY up navigation event and voice guidance changes",
