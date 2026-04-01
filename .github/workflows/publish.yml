@@ -1,0 +1,189 @@
+name: Publish Build
+
+on:
+  workflow_dispatch:
+    inputs:
+      app:
+        description: "App name (e.g., kurvo)"
+        required: true
+        type: string
+      title:
+        description: "Display title (e.g., Kurvo)"
+        required: true
+        type: string
+      version:
+        description: "App version (e.g., 1.0.378)"
+        required: true
+        type: string
+      bundle-id:
+        description: "Bundle identifier (e.g., app.kurvo.prod)"
+        required: true
+        type: string
+      commit:
+        description: "Short commit hash"
+        required: true
+        type: string
+      message:
+        description: "Commit message"
+        required: true
+        type: string
+      register-device-url:
+        description: "Expo device registration URL (optional)"
+        required: false
+        type: string
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      APP: ${{ inputs.app }}
+      VERSION: ${{ inputs.version }}
+      TITLE: ${{ inputs.title }}
+      BUNDLE_ID: ${{ inputs.bundle-id }}
+      COMMIT: ${{ inputs.commit }}
+      COMMIT_MESSAGE: ${{ inputs.message }}
+      REGISTER_URL: ${{ inputs.register-device-url }}
+      R2_URL: ${{ secrets.R2_PUBLIC_URL }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update manifests and metadata
+        run: |
+          export BUILD_DATE="$(date -u '+%Y-%m-%d %H:%M UTC')"
+
+          IPA_LATEST="${R2_URL}/${APP}/${APP}.ipa"
+          IPA_VERSIONED="${R2_URL}/stash/${APP}/${VERSION}/${APP}.ipa"
+
+          mkdir -p "apps/${APP}/versions/${VERSION}"
+
+          # Latest manifest — points to latest IPA on R2
+          cat > "apps/${APP}/manifest.plist" << PLIST
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+            <key>items</key>
+            <array>
+              <dict>
+                <key>assets</key>
+                <array>
+                  <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>${IPA_LATEST}</string>
+                  </dict>
+                </array>
+                <key>metadata</key>
+                <dict>
+                  <key>bundle-identifier</key>
+                  <string>${BUNDLE_ID}</string>
+                  <key>bundle-version</key>
+                  <string>${VERSION}</string>
+                  <key>kind</key>
+                  <string>software</string>
+                  <key>title</key>
+                  <string>${TITLE}</string>
+                </dict>
+              </dict>
+            </array>
+          </dict>
+          </plist>
+          PLIST
+
+          # Versioned manifest — points to stash IPA on R2
+          cat > "apps/${APP}/versions/${VERSION}/manifest.plist" << PLIST
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+            <key>items</key>
+            <array>
+              <dict>
+                <key>assets</key>
+                <array>
+                  <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>${IPA_VERSIONED}</string>
+                  </dict>
+                </array>
+                <key>metadata</key>
+                <dict>
+                  <key>bundle-identifier</key>
+                  <string>${BUNDLE_ID}</string>
+                  <key>bundle-version</key>
+                  <string>${VERSION}</string>
+                  <key>kind</key>
+                  <string>software</string>
+                  <key>title</key>
+                  <string>${TITLE}</string>
+                </dict>
+              </dict>
+            </array>
+          </dict>
+          </plist>
+          PLIST
+
+          # info.json
+          node -e "
+            const fs = require('fs');
+            const info = {
+              title: process.env.TITLE,
+              version: process.env.VERSION,
+              commit: process.env.COMMIT,
+              message: process.env.COMMIT_MESSAGE,
+              date: process.env.BUILD_DATE,
+              bundle: process.env.BUNDLE_ID,
+              downloadBaseUrl: process.env.R2_URL
+            };
+            if (process.env.REGISTER_URL) info.registerDeviceUrl = process.env.REGISTER_URL;
+            fs.writeFileSync('apps/' + process.env.APP + '/info.json', JSON.stringify(info, null, 2) + '\n');
+          "
+
+      - name: Update versions.json
+        run: |
+          export BUILD_DATE="$(date -u '+%Y-%m-%d %H:%M UTC')"
+
+          VERSIONS_FILE="apps/${APP}/versions.json"
+          if [ ! -f "$VERSIONS_FILE" ]; then
+            echo "[]" > "$VERSIONS_FILE"
+          fi
+
+          VERSIONS_FILE="$VERSIONS_FILE" node -e "
+            const fs = require('fs');
+            const versions = JSON.parse(fs.readFileSync(process.env.VERSIONS_FILE, 'utf8'));
+            const entry = {
+              version: process.env.VERSION,
+              commit: process.env.COMMIT,
+              message: process.env.COMMIT_MESSAGE,
+              date: process.env.BUILD_DATE
+            };
+            const idx = versions.findIndex(v => v.version === entry.version);
+            if (idx >= 0) versions[idx] = entry;
+            else versions.unshift(entry);
+            fs.writeFileSync(process.env.VERSIONS_FILE, JSON.stringify(versions, null, 2) + '\n');
+          "
+
+      - name: Commit and push
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add .
+          git diff --cached --quiet || {
+            git commit -m "Update ${APP} v${VERSION} (${COMMIT})"
+            git push
+          }
+
+      - name: Summary
+        run: |
+          INSTALL_URL="https://install.mappso.com/?app=${APP}"
+          {
+            echo "## Install ${TITLE}"
+            echo ""
+            echo "Open on iPhone: ${INSTALL_URL}"
+            echo ""
+            echo "Version: \`${VERSION}\` | Commit: \`${COMMIT}\`"
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -150,8 +150,6 @@
       var isAndroid = /Android/.test(navigator.userAgent);
       var isDesktop = !isIOS && !isAndroid;
 
-      var INSTALL_REPO = 'tomilodk/ad-hoc-install';
-
       // iOS: itms-services manifest
       var manifestUrl;
       if (selectedVersion) {
@@ -161,9 +159,8 @@
       }
       var iosInstallHref = 'itms-services://?action=download-manifest&url=' + encodeURIComponent(manifestUrl);
 
-      // Android: direct APK download from GitHub release
-      var apkTag = selectedVersion ? app + '-v' + selectedVersion : app + '-latest';
-      var androidInstallHref = 'https://github.com/' + INSTALL_REPO + '/releases/download/' + apkTag + '/' + app + '.apk';
+      // Android: direct APK download (URL resolved after info.json loads)
+      var androidInstallHref = '#';
 
       var iosBtn = document.getElementById('install-btn-ios');
       var androidBtn = document.getElementById('install-btn-android');
@@ -211,6 +208,14 @@
           document.getElementById('subtitle').textContent =
             'v' + displayVersion + (isLatest ? ' \u2014 Latest' : '');
           document.title = 'Install ' + (info.title || app);
+
+          // Update Android download URL from R2
+          if (info.downloadBaseUrl) {
+            var apkPath = selectedVersion
+              ? '/stash/' + app + '/' + selectedVersion + '/' + app + '.apk'
+              : '/' + app + '/' + app + '.apk';
+            androidBtn.href = info.downloadBaseUrl + apkPath;
+          }
 
           // Show register device button if configured (iOS only)
           if (info.registerDeviceUrl && (isIOS || isDesktop)) {
