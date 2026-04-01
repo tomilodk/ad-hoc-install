@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.67",
+    "commit": "de861a1",
+    "message": "Pass GH_TOKEN to publish.sh for manifest updates",
+    "date": "2026-04-01 17:41 UTC"
+  },
+  {
     "version": "1.0.61",
     "commit": "b3a56f4",
     "message": "Added register device url for ad-hoc-install page",
