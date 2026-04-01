@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.440",
+    "commit": "6a54378",
+    "message": "feat: persist Heimdall feature gate overrides with defaults enabled",
+    "date": "2026-04-01 18:12 UTC"
+  },
+  {
     "version": "1.0.439",
     "commit": "3179a1c",
     "message": "fix: resolve Maestro E2E test failures",

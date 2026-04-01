@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.439",
-  "commit": "3179a1c",
-  "message": "fix: resolve Maestro E2E test failures",
-  "date": "2026-04-01 17:48 UTC",
+  "version": "1.0.440",
+  "commit": "6a54378",
+  "message": "feat: persist Heimdall feature gate overrides with defaults enabled",
+  "date": "2026-04-01 18:12 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
