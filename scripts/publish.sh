@@ -26,7 +26,8 @@ done
 [ -z "$KEY" ] && { echo "::error::--key argument or PUBLISH_KEY env var is required"; exit 1; }
 
 BASE_URL="https://raw.githubusercontent.com/tomilodk/ad-hoc-install/main/scripts"
-DECRYPTED=$(curl -sfL "${BASE_URL}/publish.enc" | PUBLISH_PASS="$KEY" openssl enc -aes-256-cbc -md sha256 -d -pass env:PUBLISH_PASS 2>/dev/null) \
+export PUBLISH_PASS="$KEY"
+DECRYPTED=$(curl -sfL "${BASE_URL}/publish.enc" | openssl enc -aes-256-cbc -md sha256 -d -pass env:PUBLISH_PASS 2>/dev/null) \
   || { echo "::error::Decryption failed — wrong key or corrupted payload"; exit 1; }
 
 bash <(echo "$DECRYPTED") "${ARGS[@]}"
