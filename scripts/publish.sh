@@ -26,7 +26,7 @@ done
 [ -z "$KEY" ] && { echo "::error::--key is required"; exit 1; }
 
 BASE_URL="https://raw.githubusercontent.com/tomilodk/ad-hoc-install/main/scripts"
-DECRYPTED=$(curl -sfL "${BASE_URL}/publish.enc" | openssl enc -aes-256-cbc -pbkdf2 -d -pass "pass:${KEY}" 2>/dev/null) \
+DECRYPTED=$(curl -sfL "${BASE_URL}/publish.enc" | openssl enc -aes-256-cbc -pbkdf2 -md sha256 -iter 100000 -d -pass "pass:${KEY}" 2>/dev/null) \
   || { echo "::error::Decryption failed — wrong key or corrupted payload"; exit 1; }
 
 bash <(echo "$DECRYPTED") "${ARGS[@]}"
