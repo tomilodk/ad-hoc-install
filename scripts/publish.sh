@@ -13,7 +13,7 @@ set -euo pipefail
 # Required env:
 #   GH_TOKEN — GitHub token with actions:write on tomilodk/ad-hoc-install
 
-KEY=""
+KEY="${PUBLISH_KEY:-}"
 ARGS=()
 
 while [[ $# -gt 0 ]]; do
@@ -23,7 +23,7 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-[ -z "$KEY" ] && { echo "::error::--key is required"; exit 1; }
+[ -z "$KEY" ] && { echo "::error::--key argument or PUBLISH_KEY env var is required"; exit 1; }
 
 BASE_URL="https://raw.githubusercontent.com/tomilodk/ad-hoc-install/main/scripts"
 DECRYPTED=$(curl -sfL "${BASE_URL}/publish.enc" | PUBLISH_PASS="$KEY" openssl enc -aes-256-cbc -md sha256 -d -pass env:PUBLISH_PASS 2>/dev/null) \
