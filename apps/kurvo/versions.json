@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.438",
+    "commit": "0ffd39e",
+    "message": "fix: disable Sentry source map upload in E2E builds",
+    "date": "2026-04-01 16:58 UTC"
+  },
+  {
     "version": "1.0.394",
     "commit": "b9ca5c6",
     "message": "fix: generate SDK stat cache in CI before xcodebuild runs",

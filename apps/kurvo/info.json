@@ -1,9 +1,10 @@
 {
   "title": "Kurvo",
-  "version": "1.0.394",
-  "commit": "b9ca5c6",
-  "message": "fix: generate SDK stat cache in CI before xcodebuild runs",
-  "date": "2026-03-30 14:56 UTC",
+  "version": "1.0.438",
+  "commit": "0ffd39e",
+  "message": "fix: disable Sentry source map upload in E2E builds",
+  "date": "2026-04-01 16:58 UTC",
   "bundle": "app.kurvo.prod",
+  "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }
