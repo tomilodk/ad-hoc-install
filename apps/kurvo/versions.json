@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.442",
+    "commit": "1ebd2d0",
+    "message": "fix: reduce voice guidance announcement distances for tighter timing",
+    "date": "2026-04-02 18:42 UTC"
+  },
+  {
     "version": "1.0.440",
     "commit": "6a54378",
     "message": "feat: persist Heimdall feature gate overrides with defaults enabled",
