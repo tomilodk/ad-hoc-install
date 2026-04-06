@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.443",
+    "commit": "50b0d65",
+    "message": "fix: suppress curve voice guidance in roundabouts and add green health indicator",
+    "date": "2026-04-06 17:48 UTC"
+  },
+  {
     "version": "1.0.442",
     "commit": "1ebd2d0",
     "message": "fix: reduce voice guidance announcement distances for tighter timing",
