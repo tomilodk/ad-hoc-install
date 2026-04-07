@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.445",
+    "commit": "941b30a",
+    "message": "refactor: introduce AppConfig build-profile abstraction and fix unit tests",
+    "date": "2026-04-07 10:09 UTC"
+  },
+  {
     "version": "1.0.443",
     "commit": "50b0d65",
     "message": "fix: suppress curve voice guidance in roundabouts and add green health indicator",
