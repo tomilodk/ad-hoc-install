@@ -3,7 +3,7 @@
     "version": "1.0.481",
     "commit": "e0fb9ba",
     "message": "fix(ci): include native modules in EAS build + extend production for Android",
-    "date": "2026-04-09 09:07 UTC"
+    "date": "2026-04-09 09:13 UTC"
   },
   {
     "version": "1.0.445",
