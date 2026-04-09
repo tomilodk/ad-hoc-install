@@ -3,7 +3,7 @@
     "version": "1.0.485",
     "commit": "efb8085",
     "message": "test(e2e): skip feedback-bubble flow until Animated.View visibility resolved",
-    "date": "2026-04-09 11:44 UTC"
+    "date": "2026-04-09 11:50 UTC"
   },
   {
     "version": "1.0.484",
