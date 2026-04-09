@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.487",
+    "commit": "c44bd12",
+    "message": "fix(android): unify package ID to app.kurvo.prod across codebase",
+    "date": "2026-04-09 18:43 UTC"
+  },
+  {
     "version": "1.0.498",
     "commit": "e3d9387",
     "message": "fix: post-OSRM budget enforcement, unreachable waypoint fallback, robust OMG route lookup",
