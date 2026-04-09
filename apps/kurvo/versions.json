@@ -3,7 +3,7 @@
     "version": "1.0.484",
     "commit": "a1c3d05",
     "message": "fix(feedback): fade backdrop instead of sliding + fix E2E test scroll",
-    "date": "2026-04-09 11:12 UTC"
+    "date": "2026-04-09 11:17 UTC"
   },
   {
     "version": "1.0.483",
