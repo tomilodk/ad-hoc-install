@@ -3,7 +3,7 @@
     "version": "1.0.486",
     "commit": "aafe958",
     "message": "ci: add continue-on-error to artifact upload steps",
-    "date": "2026-04-09 12:18 UTC"
+    "date": "2026-04-09 12:25 UTC"
   },
   {
     "version": "1.0.485",
