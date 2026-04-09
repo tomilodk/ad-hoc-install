@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.485",
+    "commit": "efb8085",
+    "message": "test(e2e): skip feedback-bubble flow until Animated.View visibility resolved",
+    "date": "2026-04-09 11:44 UTC"
+  },
+  {
     "version": "1.0.484",
     "commit": "a1c3d05",
     "message": "fix(feedback): fade backdrop instead of sliding + fix E2E test scroll",
