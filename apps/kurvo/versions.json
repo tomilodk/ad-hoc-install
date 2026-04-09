@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.484",
+    "commit": "a1c3d05",
+    "message": "fix(feedback): fade backdrop instead of sliding + fix E2E test scroll",
+    "date": "2026-04-09 11:12 UTC"
+  },
+  {
     "version": "1.0.483",
     "commit": "15a978e",
     "message": "fix(e2e): move feedback-sheet testID from Modal to inner Pressable",

@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.483",
-  "commit": "15a978e",
-  "message": "fix(e2e): move feedback-sheet testID from Modal to inner Pressable",
-  "date": "2026-04-09 10:24 UTC",
+  "version": "1.0.484",
+  "commit": "a1c3d05",
+  "message": "fix(feedback): fade backdrop instead of sliding + fix E2E test scroll",
+  "date": "2026-04-09 11:12 UTC",
   "bundle": "com.kurvo.app",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
