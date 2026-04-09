@@ -3,7 +3,7 @@
     "version": "1.0.498",
     "commit": "e3d9387",
     "message": "fix: post-OSRM budget enforcement, unreachable waypoint fallback, robust OMG route lookup",
-    "date": "2026-04-09 17:12 UTC"
+    "date": "2026-04-09 17:17 UTC"
   },
   {
     "version": "1.0.486",
