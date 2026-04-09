@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.486",
+    "commit": "aafe958",
+    "message": "ci: add continue-on-error to artifact upload steps",
+    "date": "2026-04-09 12:18 UTC"
+  },
+  {
     "version": "1.0.485",
     "commit": "efb8085",
     "message": "test(e2e): skip feedback-bubble flow until Animated.View visibility resolved",

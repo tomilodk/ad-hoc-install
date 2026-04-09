@@ -1,10 +1,10 @@
 {
   "title": "Kurvo",
-  "version": "1.0.485",
-  "commit": "efb8085",
-  "message": "test(e2e): skip feedback-bubble flow until Animated.View visibility resolved",
-  "date": "2026-04-09 11:50 UTC",
-  "bundle": "app.kurvo.prod",
+  "version": "1.0.486",
+  "commit": "aafe958",
+  "message": "ci: add continue-on-error to artifact upload steps",
+  "date": "2026-04-09 12:18 UTC",
+  "bundle": "com.kurvo.app",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
 }
