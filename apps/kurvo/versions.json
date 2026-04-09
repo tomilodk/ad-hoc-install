@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.498",
+    "commit": "e3d9387",
+    "message": "fix: post-OSRM budget enforcement, unreachable waypoint fallback, robust OMG route lookup",
+    "date": "2026-04-09 17:12 UTC"
+  },
+  {
     "version": "1.0.486",
     "commit": "aafe958",
     "message": "ci: add continue-on-error to artifact upload steps",
