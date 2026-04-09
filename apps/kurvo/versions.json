@@ -3,7 +3,7 @@
     "version": "1.0.487",
     "commit": "c44bd12",
     "message": "fix(android): unify package ID to app.kurvo.prod across codebase",
-    "date": "2026-04-09 18:43 UTC"
+    "date": "2026-04-09 18:48 UTC"
   },
   {
     "version": "1.0.498",
