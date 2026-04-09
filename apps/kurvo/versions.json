@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.481",
+    "commit": "e0fb9ba",
+    "message": "fix(ci): include native modules in EAS build + extend production for Android",
+    "date": "2026-04-09 09:07 UTC"
+  },
+  {
     "version": "1.0.445",
     "commit": "941b30a",
     "message": "refactor: introduce AppConfig build-profile abstraction and fix unit tests",
