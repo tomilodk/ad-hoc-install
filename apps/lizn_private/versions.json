@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.72",
+    "commit": "b304b53",
+    "message": "Appname and bundle id as vars",
+    "date": "2026-04-14 09:56 UTC"
+  },
+  {
     "version": "1.0.71",
     "commit": "d6f052c",
     "message": "Use DEVELOPER_DIR GitHub variable for Xcode version selection",
