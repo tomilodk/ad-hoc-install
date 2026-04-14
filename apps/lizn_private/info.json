@@ -1,9 +1,9 @@
 {
   "title": "LIZN Beta",
-  "version": "1.0.69",
-  "commit": "e24a483",
-  "message": "Use process.env for project id, slug and owner",
-  "date": "2026-04-14 09:37 UTC",
+  "version": "1.0.71",
+  "commit": "d6f052c",
+  "message": "Use DEVELOPER_DIR GitHub variable for Xcode version selection",
+  "date": "2026-04-14 09:43 UTC",
   "bundle": "biz.lizn.app.dev",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/5318614b-e60e-465f-a300-aca185af3546"

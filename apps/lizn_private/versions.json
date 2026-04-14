@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.71",
+    "commit": "d6f052c",
+    "message": "Use DEVELOPER_DIR GitHub variable for Xcode version selection",
+    "date": "2026-04-14 09:43 UTC"
+  },
+  {
     "version": "1.0.69",
     "commit": "e24a483",
     "message": "Use process.env for project id, slug and owner",
