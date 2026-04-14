@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.80",
+    "commit": "28a18f1",
+    "message": "Merge pull request #4 from tomilodk/feature-ota",
+    "date": "2026-04-14 20:40 UTC"
+  },
+  {
     "version": "1.0.100",
     "commit": "dfc299d",
     "message": "Merge pull request #4 from tomilodk/feature-ota",
