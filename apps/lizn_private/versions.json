@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.85",
+    "commit": "63ec7d4",
+    "message": "Merge branch 'main' of https://github.com/tomilodk/lizn2app_private",
+    "date": "2026-04-14 11:14 UTC"
+  },
+  {
     "version": "1.0.84",
     "commit": "44742a2",
     "message": "Merge pull request #1 from tomilodk/refactor-native-to-ts",
