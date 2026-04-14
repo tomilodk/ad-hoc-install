@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.73",
+    "commit": "ca3bddd",
+    "message": "Default DEVELOPER_DIR to Xcode 26.1",
+    "date": "2026-04-14 10:32 UTC"
+  },
+  {
     "version": "1.0.72",
     "commit": "b304b53",
     "message": "Appname and bundle id as vars",

@@ -1,9 +1,9 @@
 {
   "title": "lizn_private",
-  "version": "1.0.72",
-  "commit": "b304b53",
-  "message": "Appname and bundle id as vars",
-  "date": "2026-04-14 09:56 UTC",
+  "version": "1.0.73",
+  "commit": "ca3bddd",
+  "message": "Default DEVELOPER_DIR to Xcode 26.1",
+  "date": "2026-04-14 10:32 UTC",
   "bundle": "com.mappso.lizn2app.beta",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/5318614b-e60e-465f-a300-aca185af3546"
