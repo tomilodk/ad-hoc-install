@@ -3,7 +3,7 @@
     "version": "1.0.89",
     "commit": "ca65817",
     "message": "Restore BUNDLE_ID and APP_NAME workflow env vars as overrides",
-    "date": "2026-04-14 11:37 UTC"
+    "date": "2026-04-14 11:41 UTC"
   },
   {
     "version": "1.0.85",
