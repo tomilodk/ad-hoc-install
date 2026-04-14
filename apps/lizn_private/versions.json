@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.100",
+    "commit": "dfc299d",
+    "message": "Merge pull request #4 from tomilodk/feature-ota",
+    "date": "2026-04-14 20:33 UTC"
+  },
+  {
     "version": "1.0.91",
     "commit": "ace712d",
     "message": "Merge pull request #3 from tomilodk/refactor-native-to-ts",
