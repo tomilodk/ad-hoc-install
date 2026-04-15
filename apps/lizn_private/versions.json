@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.87",
+    "commit": "9c2511e",
+    "message": "Merge pull request #5 from tomilodk/fix-reconnect-on-launch",
+    "date": "2026-04-15 11:28 UTC"
+  },
+  {
     "version": "1.0.83",
     "commit": "736485d",
     "message": "Remove withFirebaseModularHeaders plugin, remove path filter from preview build",
