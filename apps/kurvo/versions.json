@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.513",
+    "commit": "ff59ff1",
+    "message": "perf(curves-engine): worker thread pool + 10x route cache",
+    "date": "2026-04-15 22:28 UTC"
+  },
+  {
     "version": "1.0.512",
     "commit": "03d6ea0",
     "message": "chore: revert MOCK_GRPC changes, add optimization notes",
