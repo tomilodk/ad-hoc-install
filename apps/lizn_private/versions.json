@@ -37,9 +37,9 @@
   },
   {
     "version": "1.0.84",
-    "commit": "44742a2",
-    "message": "Merge pull request #1 from tomilodk/refactor-native-to-ts",
-    "date": "2026-04-14 10:53 UTC"
+    "commit": "03f5d8a",
+    "message": "fix: pass getDFUInfo to OTAProvider via earbuds context bridge",
+    "date": "2026-04-15 10:00 UTC"
   },
   {
     "version": "1.0.73",
