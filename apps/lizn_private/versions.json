@@ -39,7 +39,7 @@
     "version": "1.0.84",
     "commit": "03f5d8a",
     "message": "fix: pass getDFUInfo to OTAProvider via earbuds context bridge",
-    "date": "2026-04-15 10:00 UTC"
+    "date": "2026-04-15 10:06 UTC"
   },
   {
     "version": "1.0.73",

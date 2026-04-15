@@ -3,7 +3,7 @@
   "version": "1.0.84",
   "commit": "03f5d8a",
   "message": "fix: pass getDFUInfo to OTAProvider via earbuds context bridge",
-  "date": "2026-04-15 10:00 UTC",
+  "date": "2026-04-15 10:06 UTC",
   "bundle": "com.mappso.lizn2app.beta",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/5318614b-e60e-465f-a300-aca185af3546"
