@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.495",
+    "commit": "108286f",
+    "message": "chore: remove explicit wait:false now that it is the action default",
+    "date": "2026-04-15 12:44 UTC"
+  },
+  {
     "version": "1.0.487",
     "commit": "c44bd12",
     "message": "fix(android): unify package ID to app.kurvo.prod across codebase",
