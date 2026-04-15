@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.83",
+    "commit": "736485d",
+    "message": "Remove withFirebaseModularHeaders plugin, remove path filter from preview build",
+    "date": "2026-04-15 09:38 UTC"
+  },
+  {
     "version": "1.0.80",
     "commit": "28a18f1",
     "message": "Merge pull request #4 from tomilodk/feature-ota",

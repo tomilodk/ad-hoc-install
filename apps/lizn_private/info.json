@@ -1,9 +1,9 @@
 {
   "title": "lizn_private",
-  "version": "1.0.80",
-  "commit": "28a18f1",
-  "message": "Merge pull request #4 from tomilodk/feature-ota",
-  "date": "2026-04-14 20:40 UTC",
+  "version": "1.0.83",
+  "commit": "736485d",
+  "message": "Remove withFirebaseModularHeaders plugin, remove path filter from preview build",
+  "date": "2026-04-15 09:38 UTC",
   "bundle": "com.mappso.lizn2app.beta",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/5318614b-e60e-465f-a300-aca185af3546"
