@@ -3,7 +3,7 @@
   "version": "1.0.512",
   "commit": "03d6ea0",
   "message": "chore: revert MOCK_GRPC changes, add optimization notes",
-  "date": "2026-04-15 21:18 UTC",
+  "date": "2026-04-15 21:23 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
