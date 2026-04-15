@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.512",
+    "commit": "03d6ea0",
+    "message": "chore: revert MOCK_GRPC changes, add optimization notes",
+    "date": "2026-04-15 21:18 UTC"
+  },
+  {
     "version": "1.0.495",
     "commit": "108286f",
     "message": "chore: remove explicit wait:false now that it is the action default",
