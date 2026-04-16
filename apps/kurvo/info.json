@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.513",
-  "commit": "ff59ff1",
-  "message": "perf(curves-engine): worker thread pool + 10x route cache",
-  "date": "2026-04-15 22:27 UTC",
+  "version": "1.0.514",
+  "commit": "4f6a286",
+  "message": "feat(app): show service URLs and build info in developer settings",
+  "date": "2026-04-16 08:46 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

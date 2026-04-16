@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.514",
+    "commit": "4f6a286",
+    "message": "feat(app): show service URLs and build info in developer settings",
+    "date": "2026-04-16 08:46 UTC"
+  },
+  {
     "version": "1.0.513",
     "commit": "ff59ff1",
     "message": "perf(curves-engine): worker thread pool + 10x route cache",
