@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.515",
+    "commit": "79e4d7a",
+    "message": "fix(backend): use wget for curves-engine healthcheck",
+    "date": "2026-04-16 09:26 UTC"
+  },
+  {
     "version": "1.0.514",
     "commit": "4f6a286",
     "message": "feat(app): show service URLs and build info in developer settings",
