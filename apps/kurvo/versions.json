@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.518",
+    "commit": "05bd213",
+    "message": "fix(app): restore developer settings section in preview/ad-hoc builds",
+    "date": "2026-04-21 11:50 UTC"
+  },
+  {
     "version": "1.0.515",
     "commit": "79e4d7a",
     "message": "fix(backend): use wget for curves-engine healthcheck",
