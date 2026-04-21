@@ -1,9 +1,9 @@
 {
   "title": "lizn_private",
-  "version": "1.0.88",
-  "commit": "232a1b7",
-  "message": "ota: fix command IDs, UI bugs, and add debug logging",
-  "date": "2026-04-15 11:53 UTC",
+  "version": "1.0.95",
+  "commit": "8f3094a",
+  "message": "Dfu data button instead",
+  "date": "2026-04-21 09:13 UTC",
   "bundle": "com.mappso.lizn2app.beta",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/5318614b-e60e-465f-a300-aca185af3546"

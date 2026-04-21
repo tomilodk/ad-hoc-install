@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.95",
+    "commit": "8f3094a",
+    "message": "Dfu data button instead",
+    "date": "2026-04-21 09:13 UTC"
+  },
+  {
     "version": "1.0.88",
     "commit": "232a1b7",
     "message": "ota: fix command IDs, UI bugs, and add debug logging",
