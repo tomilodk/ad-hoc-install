@@ -3,7 +3,7 @@
     "version": "1.0.554",
     "commit": "365ff9c",
     "message": "ci(osrm): drop brittle 'ls | head' that pipefail-tripped on EPIPE",
-    "date": "2026-04-22 16:11 UTC"
+    "date": "2026-04-22 16:17 UTC"
   },
   {
     "version": "1.0.553",
