@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.537",
+    "commit": "5dd4c5a",
+    "message": "ci: sync ci-deploy-staging.yml (temp) — throwaway staging-only deploy",
+    "date": "2026-04-22 12:49 UTC"
+  },
+  {
     "version": "1.0.536",
     "commit": "a3b203e",
     "message": "ci: sync ci-test-r2.yml (temp) — Phase C import probes",
