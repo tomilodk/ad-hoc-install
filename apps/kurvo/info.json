@@ -3,7 +3,7 @@
   "version": "1.0.555",
   "commit": "58d475e",
   "message": "ci(osrm): run import-osrm-data.sh detached + poll, work around 100s SSH timeout",
-  "date": "2026-04-22 16:49 UTC",
+  "date": "2026-04-22 16:54 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
