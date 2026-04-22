@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.537",
-  "commit": "5dd4c5a",
-  "message": "ci: sync ci-deploy-staging.yml (temp) — throwaway staging-only deploy",
-  "date": "2026-04-22 13:02 UTC",
+  "version": "1.0.549",
+  "commit": "f4b3dd0",
+  "message": "Merge remote-tracking branch 'origin/main'",
+  "date": "2026-04-22 13:53 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
