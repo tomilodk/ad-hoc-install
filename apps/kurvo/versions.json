@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.551",
+    "commit": "5e9609e",
+    "message": "feat: post-deploy OSRM import via R2 + compozerr ssh (#24)",
+    "date": "2026-04-22 14:29 UTC"
+  },
+  {
     "version": "1.0.550",
     "commit": "dcea2ea",
     "message": "Revert temp syncs: remove throwaway CI workflows",
