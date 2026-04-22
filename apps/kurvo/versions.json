@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.550",
+    "commit": "dcea2ea",
+    "message": "Revert temp syncs: remove throwaway CI workflows",
+    "date": "2026-04-22 14:19 UTC"
+  },
+  {
     "version": "1.0.549",
     "commit": "f4b3dd0",
     "message": "Merge remote-tracking branch 'origin/main'",
