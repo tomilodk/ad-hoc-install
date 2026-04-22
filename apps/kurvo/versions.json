@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.559",
+    "commit": "f01c4ee",
+    "message": "Sentry: tag events with build profile, skip E2E (#25)",
+    "date": "2026-04-22 21:56 UTC"
+  },
+  {
     "version": "1.0.558",
     "commit": "098a814",
     "message": "build app",
