@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.554",
+    "commit": "365ff9c",
+    "message": "ci(osrm): drop brittle 'ls | head' that pipefail-tripped on EPIPE",
+    "date": "2026-04-22 16:11 UTC"
+  },
+  {
     "version": "1.0.553",
     "commit": "9a445a7",
     "message": "ci(osrm): chown OSRM output to runner before tar packaging",
