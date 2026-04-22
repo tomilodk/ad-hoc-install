@@ -3,7 +3,7 @@
     "version": "1.0.560",
     "commit": "99171f5",
     "message": "fix(app): restore AppConfig casing in _layout (was: appConfig)",
-    "date": "2026-04-22 22:03 UTC"
+    "date": "2026-04-22 22:08 UTC"
   },
   {
     "version": "1.0.559",
