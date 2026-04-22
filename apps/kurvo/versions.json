@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.519",
+    "commit": "d15f834",
+    "message": "ci(ios): self-heal from orphaned eas-build keychains",
+    "date": "2026-04-22 08:18 UTC"
+  },
+  {
     "version": "1.0.518",
     "commit": "05bd213",
     "message": "fix(app): restore developer settings section in preview/ad-hoc builds",
