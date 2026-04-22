@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.98",
+    "commit": "0bf7b52",
+    "message": "ota: retry upgrade CONNECT once when firmware reports no active session",
+    "date": "2026-04-22 14:26 UTC"
+  },
+  {
     "version": "1.0.95",
     "commit": "8f3094a",
     "message": "Dfu data button instead",
