@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.534",
+    "commit": "274ee03",
+    "message": "ci: sync ci-test-r2.yml (temp) — char probe",
+    "date": "2026-04-22 10:45 UTC"
+  },
+  {
     "version": "1.0.531",
     "commit": "d785e69",
     "message": "ci: sync ci-test-r2.yml (temp) — simplified SSH commands",
