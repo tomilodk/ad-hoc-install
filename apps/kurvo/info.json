@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.556",
-  "commit": "aef43e1",
-  "message": "ci(osrm): add missing working-directory: backend to import start+poll steps",
-  "date": "2026-04-22 17:11 UTC",
+  "version": "1.0.557",
+  "commit": "9af8fa4",
+  "message": "ci(osrm): parse launcher status line out of compozerr-ssh spinner output",
+  "date": "2026-04-22 17:35 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
