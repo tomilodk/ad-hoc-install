@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.567",
-  "commit": "ba45c15",
-  "message": "fix(ci): omit deploy environment for Production so upstream action skips -e",
-  "date": "2026-04-23 08:58 UTC",
+  "version": "1.0.568",
+  "commit": "f90c04d",
+  "message": "refactor(feedback): native bottom sheet, remove voice memo (#28)",
+  "date": "2026-04-23 09:14 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

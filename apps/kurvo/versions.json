@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.568",
+    "commit": "f90c04d",
+    "message": "refactor(feedback): native bottom sheet, remove voice memo (#28)",
+    "date": "2026-04-23 09:14 UTC"
+  },
+  {
     "version": "1.0.567",
     "commit": "ba45c15",
     "message": "fix(ci): omit deploy environment for Production so upstream action skips -e",
