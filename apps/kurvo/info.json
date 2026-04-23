@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.569",
-  "commit": "cb3d113",
-  "message": "fix(backend): self-heal phantom data dirs on deploy start",
-  "date": "2026-04-23 09:40 UTC",
+  "version": "1.0.572",
+  "commit": "0469e8b",
+  "message": "fix(backend): mount heimdall data outside /main so git clean can't touch it",
+  "date": "2026-04-23 20:20 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
