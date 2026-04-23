@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.565",
+    "commit": "348d2b9",
+    "message": "fix(app): suppress connection banner for 3s after launch",
+    "date": "2026-04-23 08:40 UTC"
+  },
+  {
     "version": "1.0.560",
     "commit": "99171f5",
     "message": "fix(app): restore AppConfig casing in _layout (was: appConfig)",
