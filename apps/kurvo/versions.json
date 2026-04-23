@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.569",
+    "commit": "cb3d113",
+    "message": "fix(backend): self-heal phantom data dirs on deploy start",
+    "date": "2026-04-23 09:34 UTC"
+  },
+  {
     "version": "1.0.568",
     "commit": "f90c04d",
     "message": "refactor(feedback): native bottom sheet, remove voice memo (#28)",
