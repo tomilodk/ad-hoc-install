@@ -3,7 +3,7 @@
     "version": "1.0.572",
     "commit": "0469e8b",
     "message": "fix(backend): mount heimdall data outside /main so git clean can't touch it",
-    "date": "2026-04-23 20:20 UTC"
+    "date": "2026-04-23 20:26 UTC"
   },
   {
     "version": "1.0.569",
