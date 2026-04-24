@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.574",
+    "commit": "132d74e",
+    "message": "ci: split preview into app/backend workflows, gate prod backend deploy",
+    "date": "2026-04-24 07:52 UTC"
+  },
+  {
     "version": "1.0.573",
     "commit": "3c7e7f8",
     "message": "chore(backend): rename host mount /var/lib/kurvo-heimdall → /var/lib/kurvo",
