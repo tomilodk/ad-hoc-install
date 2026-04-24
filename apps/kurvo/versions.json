@@ -3,7 +3,7 @@
     "version": "1.0.573",
     "commit": "3c7e7f8",
     "message": "chore(backend): rename host mount /var/lib/kurvo-heimdall → /var/lib/kurvo",
-    "date": "2026-04-24 07:28 UTC"
+    "date": "2026-04-24 07:34 UTC"
   },
   {
     "version": "1.0.572",
