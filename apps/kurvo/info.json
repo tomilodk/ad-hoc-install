@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.574",
-  "commit": "132d74e",
-  "message": "ci: split preview into app/backend workflows, gate prod backend deploy",
-  "date": "2026-04-24 07:52 UTC",
+  "version": "1.0.577",
+  "commit": "dc3f664",
+  "message": "feat(app/developer): env override picker for backend/alert URLs",
+  "date": "2026-04-24 10:38 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

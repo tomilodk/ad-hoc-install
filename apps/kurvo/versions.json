@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.577",
+    "commit": "dc3f664",
+    "message": "feat(app/developer): env override picker for backend/alert URLs",
+    "date": "2026-04-24 10:38 UTC"
+  },
+  {
     "version": "1.0.574",
     "commit": "132d74e",
     "message": "ci: split preview into app/backend workflows, gate prod backend deploy",
