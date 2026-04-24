@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.572",
-  "commit": "0469e8b",
-  "message": "fix(backend): mount heimdall data outside /main so git clean can't touch it",
-  "date": "2026-04-23 20:26 UTC",
+  "version": "1.0.573",
+  "commit": "3c7e7f8",
+  "message": "chore(backend): rename host mount /var/lib/kurvo-heimdall → /var/lib/kurvo",
+  "date": "2026-04-24 07:28 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
