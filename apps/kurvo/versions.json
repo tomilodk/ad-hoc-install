@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.580",
+    "commit": "526c11b",
+    "message": "feat(feedback): store submissions in heimdall, add /admin feedback tab (#33)",
+    "date": "2026-04-26 14:02 UTC"
+  },
+  {
     "version": "1.0.579",
     "commit": "53f7e6f",
     "message": "fix(app/developer): use colors.background for selected env text (#32)",
