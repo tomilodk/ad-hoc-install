@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.579",
+    "commit": "53f7e6f",
+    "message": "fix(app/developer): use colors.background for selected env text (#32)",
+    "date": "2026-04-26 09:36 UTC"
+  },
+  {
     "version": "1.0.577",
     "commit": "dc3f664",
     "message": "feat(app/developer): env override picker for backend/alert URLs",
