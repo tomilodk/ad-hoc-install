@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.580",
-  "commit": "526c11b",
-  "message": "feat(feedback): store submissions in heimdall, add /admin feedback tab (#33)",
-  "date": "2026-04-26 14:08 UTC",
+  "version": "1.0.583",
+  "commit": "8d04edd",
+  "message": "feat(web): route planner at /planner with QR handoff to app (#29)",
+  "date": "2026-04-26 21:49 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

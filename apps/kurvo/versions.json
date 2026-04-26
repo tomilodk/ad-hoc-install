@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.583",
+    "commit": "8d04edd",
+    "message": "feat(web): route planner at /planner with QR handoff to app (#29)",
+    "date": "2026-04-26 21:49 UTC"
+  },
+  {
     "version": "1.0.580",
     "commit": "526c11b",
     "message": "feat(feedback): store submissions in heimdall, add /admin feedback tab (#33)",
