@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.584",
+    "commit": "344658f",
+    "message": "feat(feature-flags): per-flag descriptions in /admin and developer settings (#35)",
+    "date": "2026-04-26 22:19 UTC"
+  },
+  {
     "version": "1.0.583",
     "commit": "8d04edd",
     "message": "feat(web): route planner at /planner with QR handoff to app (#29)",
