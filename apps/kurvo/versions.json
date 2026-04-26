@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.586",
+    "commit": "0aa64c5",
+    "message": "feat: saved trips (planned routes synced across web + app) (#36)",
+    "date": "2026-04-26 22:58 UTC"
+  },
+  {
     "version": "1.0.584",
     "commit": "344658f",
     "message": "feat(feature-flags): per-flag descriptions in /admin and developer settings (#35)",
