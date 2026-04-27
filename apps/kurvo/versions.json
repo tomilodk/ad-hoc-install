@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.618",
+    "commit": "39313c2",
+    "message": "Merge pull request #53 from tomilodk/feat/settings-polish",
+    "date": "2026-04-27 14:09 UTC"
+  },
+  {
     "version": "1.0.608",
     "commit": "d76b780",
     "message": "Merge pull request #46 from tomilodk/feat/planner-light-dark-toggle",
