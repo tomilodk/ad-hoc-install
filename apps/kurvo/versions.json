@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.608",
+    "commit": "d76b780",
+    "message": "Merge pull request #46 from tomilodk/feat/planner-light-dark-toggle",
+    "date": "2026-04-27 13:09 UTC"
+  },
+  {
     "version": "1.0.606",
     "commit": "f104cdf",
     "message": "fix(cors): fall back on empty-string CORS_ORIGINS, not just undefined",
