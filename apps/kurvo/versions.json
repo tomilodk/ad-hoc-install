@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.606",
+    "commit": "f104cdf",
+    "message": "fix(cors): fall back on empty-string CORS_ORIGINS, not just undefined",
+    "date": "2026-04-27 12:15 UTC"
+  },
+  {
     "version": "1.0.605",
     "commit": "f104cdf",
     "message": "Merge pull request #22 from tomilodk/refactor/2026-04-22-coordination",
