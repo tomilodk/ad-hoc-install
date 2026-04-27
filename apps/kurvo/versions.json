@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.605",
+    "commit": "f104cdf",
+    "message": "Merge pull request #22 from tomilodk/refactor/2026-04-22-coordination",
+    "date": "2026-04-27 12:05 UTC"
+  },
+  {
     "version": "1.0.597",
     "commit": "a019e7c",
     "message": "feat(planner): fuzzy vs. exact stops + use-my-location (#43)",
