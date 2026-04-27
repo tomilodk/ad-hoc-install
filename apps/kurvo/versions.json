@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.597",
+    "commit": "a019e7c",
+    "message": "feat(planner): fuzzy vs. exact stops + use-my-location (#43)",
+    "date": "2026-04-27 10:22 UTC"
+  },
+  {
     "version": "1.0.594",
     "commit": "3c68aac",
     "message": "feat: planner kill-switch (web Nav + trips empty-state) (#38)",
