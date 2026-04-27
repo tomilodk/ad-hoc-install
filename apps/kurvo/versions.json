@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.588",
+    "commit": "919e9ae",
+    "message": "style: saved-trips dark-theme follow-up + app polish (#37)",
+    "date": "2026-04-27 07:46 UTC"
+  },
+  {
     "version": "1.0.586",
     "commit": "0aa64c5",
     "message": "feat: saved trips (planned routes synced across web + app) (#36)",
