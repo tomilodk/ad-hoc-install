@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.624",
+    "commit": "26a8c8a",
+    "message": "Merge pull request #56 from tomilodk/fix/theme-mode-icons",
+    "date": "2026-04-27 14:40 UTC"
+  },
+  {
     "version": "1.0.618",
     "commit": "39313c2",
     "message": "Merge pull request #53 from tomilodk/feat/settings-polish",
