@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.658",
+    "commit": "84351b9",
+    "message": "Merge pull request #73 from tomilodk/feat-vehicle-marker",
+    "date": "2026-04-28 20:09 UTC"
+  },
+  {
     "version": "1.0.654",
     "commit": "69a687f",
     "message": "Merge pull request #72 from tomilodk/fix/home-pill-fullwidth-planner-block",

@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.654",
-  "commit": "69a687f",
-  "message": "Merge pull request #72 from tomilodk/fix/home-pill-fullwidth-planner-block",
-  "date": "2026-04-28 19:10 UTC",
+  "version": "1.0.658",
+  "commit": "84351b9",
+  "message": "Merge pull request #73 from tomilodk/feat-vehicle-marker",
+  "date": "2026-04-28 20:09 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
