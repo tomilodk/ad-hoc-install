@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.679",
+    "commit": "62b8cf1",
+    "message": "Merge pull request #80 from tomilodk/feat-qr-scanner-camera-fade",
+    "date": "2026-04-28 21:41 UTC"
+  },
+  {
     "version": "1.0.674",
     "commit": "4e5eb06",
     "message": "Merge pull request #74 from tomilodk/feat/google-places-search",
