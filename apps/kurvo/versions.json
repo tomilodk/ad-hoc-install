@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.651",
+    "commit": "b78e8c4",
+    "message": "Merge pull request #71 from tomilodk/fix/test-failures",
+    "date": "2026-04-28 14:22 UTC"
+  },
+  {
     "version": "1.0.648",
     "commit": "b78e8c4",
     "message": "Merge pull request #69 from tomilodk/fix/search-star-visibility",

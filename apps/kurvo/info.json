@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.648",
+  "version": "1.0.651",
   "commit": "b78e8c4",
-  "message": "Merge pull request #69 from tomilodk/fix/search-star-visibility",
-  "date": "2026-04-28 14:15 UTC",
+  "message": "Merge pull request #71 from tomilodk/fix/test-failures",
+  "date": "2026-04-28 14:22 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
