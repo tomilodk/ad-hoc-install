@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.654",
+    "commit": "69a687f",
+    "message": "Merge pull request #72 from tomilodk/fix/home-pill-fullwidth-planner-block",
+    "date": "2026-04-28 19:02 UTC"
+  },
+  {
     "version": "1.0.653",
     "commit": "4e81bd8",
     "message": "Merge pull request #67 from tomilodk/feat/home-mode-pill",
