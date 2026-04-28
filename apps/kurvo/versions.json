@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.646",
+    "commit": "1d92de4",
+    "message": "Merge pull request #68 from tomilodk/fix/maestro-planner-and-settings",
+    "date": "2026-04-28 13:51 UTC"
+  },
+  {
     "version": "1.0.644",
     "commit": "a79b0ea",
     "message": "Merge pull request #66 from tomilodk/feat/android-icon-scale",
