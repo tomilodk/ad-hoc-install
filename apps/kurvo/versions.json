@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.630",
+    "commit": "e29e482",
+    "message": "Merge pull request #62 from tomilodk/feat/qr-dismiss-polish",
+    "date": "2026-04-28 08:19 UTC"
+  },
+  {
     "version": "1.0.626",
     "commit": "ac0b0f7",
     "message": "Merge pull request #59 from tomilodk/feat/home-qr-polish",
