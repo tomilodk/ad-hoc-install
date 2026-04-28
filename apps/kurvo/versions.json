@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.653",
+    "commit": "4e81bd8",
+    "message": "Merge pull request #67 from tomilodk/feat/home-mode-pill",
+    "date": "2026-04-28 18:17 UTC"
+  },
+  {
     "version": "1.0.651",
     "commit": "b78e8c4",
     "message": "Merge pull request #71 from tomilodk/fix/test-failures",
