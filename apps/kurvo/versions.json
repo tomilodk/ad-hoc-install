@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.674",
+    "commit": "4e5eb06",
+    "message": "Merge pull request #74 from tomilodk/feat/google-places-search",
+    "date": "2026-04-28 20:36 UTC"
+  },
+  {
     "version": "1.0.658",
     "commit": "84351b9",
     "message": "Merge pull request #73 from tomilodk/feat-vehicle-marker",
