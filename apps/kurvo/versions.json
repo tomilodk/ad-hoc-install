@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.648",
+    "commit": "b78e8c4",
+    "message": "Merge pull request #69 from tomilodk/fix/search-star-visibility",
+    "date": "2026-04-28 14:15 UTC"
+  },
+  {
     "version": "1.0.646",
     "commit": "1d92de4",
     "message": "Merge pull request #68 from tomilodk/fix/maestro-planner-and-settings",
