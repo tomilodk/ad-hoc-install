@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.712",
-  "commit": "096afc2",
-  "message": "Merge pull request #92 from tomilodk/feat/marker-snap-tween",
-  "date": "2026-04-29 15:55 UTC",
+  "version": "1.0.731",
+  "commit": "f65fa56",
+  "message": "Merge pull request #102 from tomilodk/fix/show-traveled-curvature",
+  "date": "2026-04-29 22:03 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

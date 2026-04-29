@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.731",
+    "commit": "f65fa56",
+    "message": "Merge pull request #102 from tomilodk/fix/show-traveled-curvature",
+    "date": "2026-04-29 22:03 UTC"
+  },
+  {
     "version": "1.0.712",
     "commit": "096afc2",
     "message": "Merge pull request #92 from tomilodk/feat/marker-snap-tween",
