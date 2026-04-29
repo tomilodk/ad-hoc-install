@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.705",
+    "commit": "1f94356",
+    "message": "Merge pull request #86 from tomilodk/chore/standardize-public-env-vars",
+    "date": "2026-04-29 11:33 UTC"
+  },
+  {
     "version": "1.0.700",
     "commit": "1db6bff",
     "message": "Merge pull request #84 from tomilodk/fix/places-search-error-surface",

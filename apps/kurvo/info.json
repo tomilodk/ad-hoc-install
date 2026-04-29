@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.700",
-  "commit": "1db6bff",
-  "message": "Merge pull request #84 from tomilodk/fix/places-search-error-surface",
-  "date": "2026-04-29 08:55 UTC",
+  "version": "1.0.705",
+  "commit": "1f94356",
+  "message": "Merge pull request #86 from tomilodk/chore/standardize-public-env-vars",
+  "date": "2026-04-29 11:33 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
