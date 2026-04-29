@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.700",
+    "commit": "1db6bff",
+    "message": "Merge pull request #84 from tomilodk/fix/places-search-error-surface",
+    "date": "2026-04-29 08:55 UTC"
+  },
+  {
     "version": "1.0.681",
     "commit": "38cb422",
     "message": "Merge pull request #82 from tomilodk/fix/where-to-input-padding",
