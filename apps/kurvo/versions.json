@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.759",
+    "commit": "79223d3",
+    "message": "Merge pull request #115 from tomilodk/fix/onboarding-grant-anim-speed",
+    "date": "2026-04-30 21:45 UTC"
+  },
+  {
     "version": "1.0.753",
     "commit": "12268f0",
     "message": "Onboarding safety disclaimer + Danish-law clickwrap acceptance (#112)",
