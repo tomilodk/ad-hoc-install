@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.768",
+    "commit": "5e9f9a1",
+    "message": "Merge pull request #117 from tomilodk/feat/audio-ducking-flag",
+    "date": "2026-04-30 22:51 UTC"
+  },
+  {
     "version": "1.0.759",
     "commit": "79223d3",
     "message": "Merge pull request #115 from tomilodk/fix/onboarding-grant-anim-speed",
