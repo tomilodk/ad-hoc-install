@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.753",
+    "commit": "12268f0",
+    "message": "Onboarding safety disclaimer + Danish-law clickwrap acceptance (#112)",
+    "date": "2026-04-30 20:15 UTC"
+  },
+  {
     "version": "1.0.741",
     "commit": "b2a2505",
     "message": "Merge pull request #108 from tomilodk/fix/polygon-pitch-invariant-scale",
