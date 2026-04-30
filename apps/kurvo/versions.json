@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.741",
+    "commit": "b2a2505",
+    "message": "Merge pull request #108 from tomilodk/fix/polygon-pitch-invariant-scale",
+    "date": "2026-04-30 13:48 UTC"
+  },
+  {
     "version": "1.0.735",
     "commit": "d7b1322",
     "message": "Merge pull request #104 from tomilodk/fix/polygon-zoom-fix",
