@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.826",
+    "commit": "da8c1ad",
+    "message": "Merge pull request #135 from tomilodk/fix/current-location-marker-bugs",
+    "date": "2026-05-01 14:39 UTC"
+  },
+  {
     "version": "1.0.792",
     "commit": "54ad6c7",
     "message": "Merge pull request #130 from tomilodk/feat/screenshot-multi-device",
