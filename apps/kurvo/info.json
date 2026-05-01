@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.849",
-  "commit": "7c77702",
-  "message": "chore: rename errorLog flag to errorLogBubble (#152)",
-  "date": "2026-05-01 20:26 UTC",
+  "version": "1.0.857",
+  "commit": "1bbce22",
+  "message": "Merge pull request #157 from tomilodk/feature-paywall-trial-eligibility-per-plan",
+  "date": "2026-05-01 21:54 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
