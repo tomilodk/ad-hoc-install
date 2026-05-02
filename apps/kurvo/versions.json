@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.919",
+    "commit": "91cbc1b",
+    "message": "Merge pull request #197 from tomilodk/fix-splash-crash-and-trace",
+    "date": "2026-05-02 13:28 UTC"
+  },
+  {
     "version": "1.0.916",
     "commit": "df14b37",
     "message": "Merge pull request #195 from tomilodk/feature-animated-splash",
