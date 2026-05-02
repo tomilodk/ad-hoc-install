@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.878",
+    "commit": "57462b2",
+    "message": "Merge pull request #171 from tomilodk/fix-maestro-skip-onboarding",
+    "date": "2026-05-02 01:10 UTC"
+  },
+  {
     "version": "1.0.858",
     "commit": "cf6f7cb",
     "message": "fix(rc): wire real public SDK keys for app.kurvo.test and prod android",

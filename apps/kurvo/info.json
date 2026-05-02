@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.858",
-  "commit": "cf6f7cb",
-  "message": "fix(rc): wire real public SDK keys for app.kurvo.test and prod android",
-  "date": "2026-05-01 22:21 UTC",
+  "version": "1.0.878",
+  "commit": "57462b2",
+  "message": "Merge pull request #171 from tomilodk/fix-maestro-skip-onboarding",
+  "date": "2026-05-02 01:10 UTC",
   "bundle": "app.kurvo.prod",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
