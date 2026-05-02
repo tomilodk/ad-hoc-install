@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.942",
+    "commit": "72b4c0f",
+    "message": "Merge pull request #202 from tomilodk/fix-heimdall-speed-camera-gate",
+    "date": "2026-05-02 21:23 UTC"
+  },
+  {
     "version": "1.0.923",
     "commit": "7a7ae47",
     "message": "Merge pull request #199 from tomilodk/speed-up-splash",
