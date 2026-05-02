@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.916",
+    "commit": "df14b37",
+    "message": "Merge pull request #195 from tomilodk/feature-animated-splash",
+    "date": "2026-05-02 13:09 UTC"
+  },
+  {
     "version": "1.0.878",
     "commit": "57462b2",
     "message": "Merge pull request #171 from tomilodk/fix-maestro-skip-onboarding",
