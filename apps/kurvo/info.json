@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.921",
-  "commit": "130f836",
-  "message": "Merge pull request #198 from tomilodk/tweak-splash-size-gap",
-  "date": "2026-05-02 14:26 UTC",
+  "version": "1.0.923",
+  "commit": "7a7ae47",
+  "message": "Merge pull request #199 from tomilodk/speed-up-splash",
+  "date": "2026-05-02 14:44 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
