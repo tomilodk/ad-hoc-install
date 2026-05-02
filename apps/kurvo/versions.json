@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.955",
+    "commit": "601fa2c",
+    "message": "Merge pull request #221 from tomilodk/fix-mobile-planner-interactions",
+    "date": "2026-05-02 23:17 UTC"
+  },
+  {
     "version": "1.0.949",
     "commit": "bcb9884",
     "message": "Merge pull request #217 from tomilodk/fix-audio-alerts-music",
