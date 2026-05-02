@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.921",
+    "commit": "130f836",
+    "message": "Merge pull request #198 from tomilodk/tweak-splash-size-gap",
+    "date": "2026-05-02 14:20 UTC"
+  },
+  {
     "version": "1.0.919",
     "commit": "91cbc1b",
     "message": "Merge pull request #197 from tomilodk/fix-splash-crash-and-trace",
