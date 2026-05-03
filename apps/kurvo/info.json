@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.988",
-  "commit": "712a194",
-  "message": "Merge pull request #239 from tomilodk/fix-mobile-planner-v2-longpress",
-  "date": "2026-05-03 15:44 UTC",
+  "version": "1.0.1018",
+  "commit": "5e84bfb",
+  "message": "Merge pull request #250 from tomilodk/mobile-planner-v2-embedded",
+  "date": "2026-05-03 21:27 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
