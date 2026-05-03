@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.985",
+    "commit": "ceb6253",
+    "message": "Merge pull request #238 from tomilodk/fix-provider-auth-existing-account",
+    "date": "2026-05-03 15:01 UTC"
+  },
+  {
     "version": "1.0.983",
     "commit": "76ddf86",
     "message": "Merge pull request #237 from tomilodk/feature-web-subscription-pricing",
