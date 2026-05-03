@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.968",
+    "commit": "c22ef19",
+    "message": "Merge pull request #229 from tomilodk/fix-fuzzy-radius-band",
+    "date": "2026-05-03 09:46 UTC"
+  },
+  {
     "version": "1.0.956",
     "commit": "601fa2c",
     "message": "Merge pull request #222 from tomilodk/fix-splash-fade-out",
