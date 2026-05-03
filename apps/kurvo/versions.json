@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.967",
+    "commit": "c22ef19",
+    "message": "Merge pull request #227 from tomilodk/feature-delete-account",
+    "date": "2026-05-03 09:54 UTC"
+  },
+  {
     "version": "1.0.968",
     "commit": "c22ef19",
     "message": "Merge pull request #229 from tomilodk/fix-fuzzy-radius-band",
