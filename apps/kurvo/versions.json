@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1029",
+    "commit": "d911687",
+    "message": "Merge pull request #258 from tomilodk/feature-fuzzy-mode-presets",
+    "date": "2026-05-03 22:32 UTC"
+  },
+  {
     "version": "1.0.1024",
     "commit": "330ae9d",
     "message": "Merge pull request #257 from tomilodk/mobile-planner-v2-interaction-repair",
