@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.978",
+    "commit": "31dd456",
+    "message": "Revert \"Merge pull request #234 from tomilodk/fix-nonprod-revenuecat-test-key\"",
+    "date": "2026-05-03 12:00 UTC"
+  },
+  {
     "version": "1.0.977",
     "commit": "63c3179",
     "message": "Merge pull request #233 from tomilodk/fix-mobile-planner-inline-mode",
