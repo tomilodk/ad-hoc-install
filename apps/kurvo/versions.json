@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1024",
+    "commit": "330ae9d",
+    "message": "Merge pull request #257 from tomilodk/mobile-planner-v2-interaction-repair",
+    "date": "2026-05-03 22:18 UTC"
+  },
+  {
     "version": "1.0.1018",
     "commit": "5e84bfb",
     "message": "Merge pull request #250 from tomilodk/mobile-planner-v2-embedded",
