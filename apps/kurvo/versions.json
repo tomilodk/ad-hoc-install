@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1055",
+    "commit": "fbc5118",
+    "message": "Document OSRM region expansion plan",
+    "date": "2026-05-04 13:28 UTC"
+  },
+  {
     "version": "1.0.1054",
     "commit": "fbc5118",
     "message": "Merge pull request #276 from tomilodk/fix-mobile-planner-v2-finish",

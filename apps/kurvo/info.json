@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1054",
+  "version": "1.0.1055",
   "commit": "fbc5118",
-  "message": "Merge pull request #276 from tomilodk/fix-mobile-planner-v2-finish",
-  "date": "2026-05-04 13:20 UTC",
+  "message": "Document OSRM region expansion plan",
+  "date": "2026-05-04 13:28 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
