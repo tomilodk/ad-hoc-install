@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1059",
+    "commit": "e11945b",
+    "message": "Merge pull request #277 from tomilodk/fix-mobile-planner-v2-gestures",
+    "date": "2026-05-04 16:33 UTC"
+  },
+  {
     "version": "1.0.1055",
     "commit": "fbc5118",
     "message": "Document OSRM region expansion plan",
