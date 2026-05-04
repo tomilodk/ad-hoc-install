@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1029",
-  "commit": "d911687",
-  "message": "Merge pull request #258 from tomilodk/feature-fuzzy-mode-presets",
-  "date": "2026-05-03 22:38 UTC",
+  "version": "1.0.1043",
+  "commit": "bec9816",
+  "message": "Merge pull request #269 from tomilodk/fix-heimdall-motion-telemetry",
+  "date": "2026-05-04 10:00 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
