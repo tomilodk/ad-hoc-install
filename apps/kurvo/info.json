@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1043",
-  "commit": "bec9816",
-  "message": "Merge pull request #269 from tomilodk/fix-heimdall-motion-telemetry",
-  "date": "2026-05-04 10:07 UTC",
+  "version": "1.0.1051",
+  "commit": "cd0b167",
+  "message": "Merge pull request #274 from tomilodk/feature-feature-flag-source",
+  "date": "2026-05-04 12:43 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
