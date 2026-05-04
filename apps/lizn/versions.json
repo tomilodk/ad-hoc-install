@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.76",
+    "commit": "a67b038",
+    "message": "Merge branch 'feature/ota'",
+    "date": "2026-05-04 17:53 UTC"
+  },
+  {
     "version": "1.0.67",
     "commit": "de861a1",
     "message": "Pass GH_TOKEN to publish.sh for manifest updates",

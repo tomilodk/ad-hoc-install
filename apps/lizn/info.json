@@ -1,9 +1,9 @@
 {
-  "title": "LIZN Beta",
-  "version": "1.0.67",
-  "commit": "de861a1",
-  "message": "Pass GH_TOKEN to publish.sh for manifest updates",
-  "date": "2026-04-08 06:54 UTC",
+  "title": "lizn",
+  "version": "1.0.76",
+  "commit": "a67b038",
+  "message": "Merge branch 'feature/ota'",
+  "date": "2026-05-04 17:53 UTC",
   "bundle": "biz.lizn.app.dev",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/477537d2-04e4-4425-84cc-2f651875cc2b"
