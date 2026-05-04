@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1061",
+    "commit": "99cefbe",
+    "message": "Merge pull request #278 from tomilodk/feature-planner-stop-focus",
+    "date": "2026-05-04 16:45 UTC"
+  },
+  {
     "version": "1.0.1059",
     "commit": "e11945b",
     "message": "Merge pull request #277 from tomilodk/fix-mobile-planner-v2-gestures",
