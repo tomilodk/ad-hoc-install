@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1066",
+    "commit": "83dddfb",
+    "message": "Merge pull request #281 from tomilodk/feature-anonymous-kurvo-plus",
+    "date": "2026-05-05 00:06 UTC"
+  },
+  {
     "version": "1.0.1062",
     "commit": "2914d71",
     "message": "Fix App Store review issues (#280)",
