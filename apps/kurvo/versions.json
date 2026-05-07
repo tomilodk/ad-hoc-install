@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1074",
+    "commit": "1656873",
+    "message": "Merge pull request #289 from tomilodk/fix-anonymous-account-copy",
+    "date": "2026-05-07 20:06 UTC"
+  },
+  {
     "version": "1.0.1070",
     "commit": "9f36851",
     "message": "Merge pull request #286 from tomilodk/fix-mobile-planner-drawer-prerender",
