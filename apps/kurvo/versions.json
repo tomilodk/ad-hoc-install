@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1070",
+    "commit": "9f36851",
+    "message": "Merge pull request #286 from tomilodk/fix-mobile-planner-drawer-prerender",
+    "date": "2026-05-07 19:47 UTC"
+  },
+  {
     "version": "1.0.1066",
     "commit": "83dddfb",
     "message": "Merge pull request #281 from tomilodk/feature-anonymous-kurvo-plus",
