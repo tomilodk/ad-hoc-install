@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1082",
+    "commit": "88d8989",
+    "message": "Added dev app",
+    "date": "2026-05-09 21:22 UTC"
+  },
+  {
     "version": "1.0.1078",
     "commit": "0d72582",
     "message": "Merge pull request #293 from tomilodk/feature-omg-route-non-plus",
