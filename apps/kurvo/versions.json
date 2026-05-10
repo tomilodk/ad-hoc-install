@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1123",
+    "commit": "9cee20a",
+    "message": "Web planner: preview all 3 tiers on map (#308)",
+    "date": "2026-05-10 18:45 UTC"
+  },
+  {
     "version": "1.0.1118",
     "commit": "267628f",
     "message": "Merge pull request #305 from tomilodk/fuzzy-rebuild",
