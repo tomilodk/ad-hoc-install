@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1097",
+    "commit": "15e384f",
+    "message": "Merge pull request #301 from tomilodk/kurvo-plus-celebration",
+    "date": "2026-05-10 10:51 UTC"
+  },
+  {
     "version": "1.0.1091",
     "commit": "7c92dec",
     "message": "Build curvature worker before curves-engine tests in CI",
