@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1124",
+    "commit": "b37c266",
+    "message": "Business-card QR tracking: /c/<slug> redirects, admin CRUD, install attribution (#311)",
+    "date": "2026-05-10 20:00 UTC"
+  },
+  {
     "version": "1.0.1123",
     "commit": "9cee20a",
     "message": "Web planner: preview all 3 tiers on map (#308)",
