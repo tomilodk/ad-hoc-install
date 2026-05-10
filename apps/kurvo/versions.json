@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1118",
+    "commit": "267628f",
+    "message": "Merge pull request #305 from tomilodk/fuzzy-rebuild",
+    "date": "2026-05-10 18:32 UTC"
+  },
+  {
     "version": "1.0.1115",
     "commit": "1454425",
     "message": "Merge pull request #300 from tomilodk/fix-mobile-planner-v2-snap-and-drag",
