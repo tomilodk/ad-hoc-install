@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1109",
-  "commit": "12f0b1f",
-  "message": "Merge pull request #279 from tomilodk/feature-limit-search-to-osrm-regions",
-  "date": "2026-05-10 14:34 UTC",
+  "version": "1.0.1115",
+  "commit": "1454425",
+  "message": "Merge pull request #300 from tomilodk/fix-mobile-planner-v2-snap-and-drag",
+  "date": "2026-05-10 14:49 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

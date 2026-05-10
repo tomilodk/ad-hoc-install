@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1115",
+    "commit": "1454425",
+    "message": "Merge pull request #300 from tomilodk/fix-mobile-planner-v2-snap-and-drag",
+    "date": "2026-05-10 14:49 UTC"
+  },
+  {
     "version": "1.0.1109",
     "commit": "12f0b1f",
     "message": "Merge pull request #279 from tomilodk/feature-limit-search-to-osrm-regions",
