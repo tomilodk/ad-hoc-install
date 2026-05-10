@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1088",
+    "commit": "7c92dec",
+    "message": "Trigger pipeline",
+    "date": "2026-05-10 09:14 UTC"
+  },
+  {
     "version": "1.0.1082",
     "commit": "88d8989",
     "message": "Added dev app",
