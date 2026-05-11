@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1189",
+    "commit": "7db88f1",
+    "message": "Use NestedReorderableList in the v2 landscape side panel (KUR-137) (#355)",
+    "date": "2026-05-11 18:03 UTC"
+  },
+  {
     "version": "1.0.1180",
     "commit": "a794262",
     "message": "Merge pull request #346 from tomilodk/contact/kur-124-when-dragging-a-stop-on-the-map-and-dragging-it-out-of-the",
