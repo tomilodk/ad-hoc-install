@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1215",
+    "commit": "5384f3d",
+    "message": "Restore reorder + fix snap on v2 landscape side panel (KUR-138) (#373)",
+    "date": "2026-05-11 19:59 UTC"
+  },
+  {
     "version": "1.0.1203",
     "commit": "434ad03",
     "message": "Merge pull request #366 from tomilodk/fix-planner-overlay-keyboard-and-close",
