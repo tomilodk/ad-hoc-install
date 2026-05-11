@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1202",
+    "commit": "434ad03",
+    "message": "Tracked-link install attribution: deterministic paths (Bug 2) (#363)",
+    "date": "2026-05-11 19:00 UTC"
+  },
+  {
     "version": "1.0.1189",
     "commit": "7db88f1",
     "message": "Use NestedReorderableList in the v2 landscape side panel (KUR-137) (#355)",
