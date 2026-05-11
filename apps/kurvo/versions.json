@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1158",
+    "commit": "a3cccf2",
+    "message": "Merge pull request #330 from tomilodk/fix-edge-pan-races",
+    "date": "2026-05-11 15:36 UTC"
+  },
+  {
     "version": "1.0.1142",
     "commit": "9b75f7d",
     "message": "Merge pull request #321 from tomilodk/refactor-tracked-links",
