@@ -3,7 +3,7 @@
     "version": "1.0.1220",
     "commit": "fe46929",
     "message": "Replace native marker drag with JS overlay for KUR-124 edge-pan (#376)",
-    "date": "2026-05-11 20:22 UTC"
+    "date": "2026-05-11 20:29 UTC"
   },
   {
     "version": "1.0.1218",
