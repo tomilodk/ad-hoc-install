@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1218",
+    "commit": "414c10a",
+    "message": "Revert \"Merge pull request #374 from tomilodk/fix-planner-finish-marker-disappear\"",
+    "date": "2026-05-11 20:10 UTC"
+  },
+  {
     "version": "1.0.1215",
     "commit": "5384f3d",
     "message": "Restore reorder + fix snap on v2 landscape side panel (KUR-138) (#373)",
