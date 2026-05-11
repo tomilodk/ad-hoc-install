@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1180",
+    "commit": "a794262",
+    "message": "Merge pull request #346 from tomilodk/contact/kur-124-when-dragging-a-stop-on-the-map-and-dragging-it-out-of-the",
+    "date": "2026-05-11 17:37 UTC"
+  },
+  {
     "version": "1.0.1166",
     "commit": "43f908e",
     "message": "Merge pull request #337 from tomilodk/feature-homepage-qr-link-param",
