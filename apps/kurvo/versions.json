@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1228",
+    "commit": "723d2ae",
+    "message": "Fix planner long-press 2-tries and Finish-pin disappear (#382)",
+    "date": "2026-05-11 21:30 UTC"
+  },
+  {
     "version": "1.0.1220",
     "commit": "fe46929",
     "message": "Replace native marker drag with JS overlay for KUR-124 edge-pan (#376)",

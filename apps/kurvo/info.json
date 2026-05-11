@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1220",
-  "commit": "fe46929",
-  "message": "Replace native marker drag with JS overlay for KUR-124 edge-pan (#376)",
-  "date": "2026-05-11 20:29 UTC",
+  "version": "1.0.1228",
+  "commit": "723d2ae",
+  "message": "Fix planner long-press 2-tries and Finish-pin disappear (#382)",
+  "date": "2026-05-11 21:30 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
