@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1203",
+    "commit": "434ad03",
+    "message": "Merge pull request #366 from tomilodk/fix-planner-overlay-keyboard-and-close",
+    "date": "2026-05-11 19:08 UTC"
+  },
+  {
     "version": "1.0.1202",
     "commit": "434ad03",
     "message": "Tracked-link install attribution: deterministic paths (Bug 2) (#363)",
