@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1166",
+    "commit": "43f908e",
+    "message": "Merge pull request #337 from tomilodk/feature-homepage-qr-link-param",
+    "date": "2026-05-11 16:24 UTC"
+  },
+  {
     "version": "1.0.1158",
     "commit": "a3cccf2",
     "message": "Merge pull request #330 from tomilodk/fix-edge-pan-races",
