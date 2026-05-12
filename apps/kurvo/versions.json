@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1268",
+    "commit": "adc0bcb",
+    "message": "gateway: stop stripping forward_auth's trusted X-Kurvo-* headers (#409)",
+    "date": "2026-05-12 16:49 UTC"
+  },
+  {
     "version": "1.0.1256",
     "commit": "436ae4f",
     "message": "Merge pull request #400 from tomilodk/fix-gateway-legacy-host-passthrough",
