@@ -3,7 +3,7 @@
   "version": "1.0.1250",
   "commit": "314547c",
   "message": "Merge pull request #397 from tomilodk/fix-compozerr-product-api-context",
-  "date": "2026-05-12 09:00 UTC",
+  "date": "2026-05-12 09:08 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
