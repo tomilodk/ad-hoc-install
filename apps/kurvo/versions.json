@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1281",
+    "commit": "c00d13f",
+    "message": "Merge pull request #415 from tomilodk/worktree-ws-ticket-diagnostic-token-vs-authstate",
+    "date": "2026-05-12 18:59 UTC"
+  },
+  {
     "version": "1.0.1273",
     "commit": "238c7d7",
     "message": "Merge pull request #411 from tomilodk/worktree-drop-jwt-decode-from-ticket-diagnostic",
