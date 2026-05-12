@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1250",
+    "commit": "314547c",
+    "message": "Merge pull request #397 from tomilodk/fix-compozerr-product-api-context",
+    "date": "2026-05-12 09:00 UTC"
+  },
+  {
     "version": "1.0.1239",
     "commit": "2e17450",
     "message": "backend: split into product-api + heimdall via Caddy gateway (#388)",
