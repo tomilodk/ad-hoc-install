@@ -3,7 +3,7 @@
     "version": "1.0.1239",
     "commit": "2e17450",
     "message": "backend: split into product-api + heimdall via Caddy gateway (#388)",
-    "date": "2026-05-12 00:12 UTC"
+    "date": "2026-05-12 00:21 UTC"
   },
   {
     "version": "1.0.1228",
