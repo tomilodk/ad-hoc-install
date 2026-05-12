@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1256",
+    "commit": "436ae4f",
+    "message": "Merge pull request #400 from tomilodk/fix-gateway-legacy-host-passthrough",
+    "date": "2026-05-12 11:31 UTC"
+  },
+  {
     "version": "1.0.1250",
     "commit": "314547c",
     "message": "Merge pull request #397 from tomilodk/fix-compozerr-product-api-context",
