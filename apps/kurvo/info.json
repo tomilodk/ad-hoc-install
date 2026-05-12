@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1228",
-  "commit": "723d2ae",
-  "message": "Fix planner long-press 2-tries and Finish-pin disappear (#382)",
-  "date": "2026-05-11 21:37 UTC",
+  "version": "1.0.1239",
+  "commit": "2e17450",
+  "message": "backend: split into product-api + heimdall via Caddy gateway (#388)",
+  "date": "2026-05-12 00:12 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
