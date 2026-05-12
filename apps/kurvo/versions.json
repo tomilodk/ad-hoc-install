@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1273",
+    "commit": "238c7d7",
+    "message": "Merge pull request #411 from tomilodk/worktree-drop-jwt-decode-from-ticket-diagnostic",
+    "date": "2026-05-12 17:13 UTC"
+  },
+  {
     "version": "1.0.1270",
     "commit": "adc0bcb",
     "message": "OMG! tier: real-curvature scoring + perpendicular candidate expansion (#309)",
