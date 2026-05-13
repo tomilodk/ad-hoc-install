@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1303",
-  "commit": "3cb13d7",
-  "message": "Merge pull request #429 from tomilodk/refactor-connect-heimdall-options-object",
-  "date": "2026-05-13 11:39 UTC",
+  "version": "1.0.1308",
+  "commit": "3eb3082",
+  "message": "Merge pull request #432 from tomilodk/fix-heimdall-business-error-props-telemetry-assignable",
+  "date": "2026-05-13 12:04 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
