@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1303",
+    "commit": "3cb13d7",
+    "message": "Merge pull request #429 from tomilodk/refactor-connect-heimdall-options-object",
+    "date": "2026-05-13 11:31 UTC"
+  },
+  {
     "version": "1.0.1283",
     "commit": "c31b3c5",
     "message": "Merge pull request #416 from tomilodk/fix-android-pin-quarter-render-wrapper",
