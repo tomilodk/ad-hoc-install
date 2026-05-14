@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1330",
+    "commit": "4e332bf",
+    "message": "Revert \"ci(ios): publish cloud builds to ad-hoc-install page\"",
+    "date": "2026-05-14 13:01 UTC"
+  },
+  {
     "version": "1.0.1329",
     "commit": "e0db4ff",
     "message": "Merge pull request #444 from tomilodk/worktree-feature-toggle-freeride-while-driving",
