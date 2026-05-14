@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1324",
+    "commit": "5a05b58",
+    "message": "ci(ios): publish cloud builds to ad-hoc-install page",
+    "date": "2026-05-14 09:53 UTC"
+  },
+  {
     "version": "1.0.1323",
     "commit": "b867e96",
     "message": "workflow trigger",
