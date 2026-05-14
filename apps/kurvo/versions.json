@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1331",
+    "commit": "16a9ac7",
+    "message": "fix(heimdall): replace AbortSignal.timeout with AbortController in proxy fetch (#445)",
+    "date": "2026-05-14 19:57 UTC"
+  },
+  {
     "version": "1.0.1330",
     "commit": "4e332bf",
     "message": "Revert \"ci(ios): publish cloud builds to ad-hoc-install page\"",
