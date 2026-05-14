@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1323",
+    "commit": "b867e96",
+    "message": "workflow trigger",
+    "date": "2026-05-14 09:34 UTC"
+  },
+  {
     "version": "1.0.1322",
     "commit": "a6f7d3a",
     "message": "Auto-recenter the map after 10s of gesture inactivity during navigation (#442)",
