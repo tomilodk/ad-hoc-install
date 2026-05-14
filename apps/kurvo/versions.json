@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1322",
+    "commit": "a6f7d3a",
+    "message": "Auto-recenter the map after 10s of gesture inactivity during navigation (#442)",
+    "date": "2026-05-14 08:17 UTC"
+  },
+  {
     "version": "1.0.1315",
     "commit": "1dfeef3",
     "message": "Merge pull request #436 from tomilodk/fix-maestro-safety-disclaimer-flake",

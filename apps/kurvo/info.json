@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1315",
-  "commit": "1dfeef3",
-  "message": "Merge pull request #436 from tomilodk/fix-maestro-safety-disclaimer-flake",
-  "date": "2026-05-13 12:58 UTC",
+  "version": "1.0.1322",
+  "commit": "a6f7d3a",
+  "message": "Auto-recenter the map after 10s of gesture inactivity during navigation (#442)",
+  "date": "2026-05-14 08:17 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
