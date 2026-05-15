@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1349",
+    "commit": "75e60e3",
+    "message": "chore: remove unused battery-warmer feature (#457)",
+    "date": "2026-05-15 12:24 UTC"
+  },
+  {
     "version": "1.0.1345",
     "commit": "29575ab",
     "message": "workflow trigger",
