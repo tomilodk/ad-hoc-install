@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1345",
+    "commit": "29575ab",
+    "message": "workflow trigger",
+    "date": "2026-05-15 11:24 UTC"
+  },
+  {
     "version": "1.0.1331",
     "commit": "16a9ac7",
     "message": "fix(heimdall): replace AbortSignal.timeout with AbortController in proxy fetch (#445)",

@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1331",
-  "commit": "16a9ac7",
-  "message": "fix(heimdall): replace AbortSignal.timeout with AbortController in proxy fetch (#445)",
-  "date": "2026-05-14 20:05 UTC",
+  "version": "1.0.1345",
+  "commit": "29575ab",
+  "message": "workflow trigger",
+  "date": "2026-05-15 11:24 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
