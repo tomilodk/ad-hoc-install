@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1379",
+    "commit": "893fc01",
+    "message": "planner: pin tap flashes the matching tile instead of opening search (#477)",
+    "date": "2026-05-15 16:40 UTC"
+  },
+  {
     "version": "1.0.1361",
     "commit": "0f54c23",
     "message": "hud: ship simplified top HUD globally; refine curve card material (#464)",
