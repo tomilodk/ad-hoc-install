@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1383",
+    "commit": "391c49b",
+    "message": "hud: merge pace-note + turn instruction into one top bar (#470)",
+    "date": "2026-05-15 17:18 UTC"
+  },
+  {
     "version": "1.0.1379",
     "commit": "893fc01",
     "message": "planner: pin tap flashes the matching tile instead of opening search (#477)",
