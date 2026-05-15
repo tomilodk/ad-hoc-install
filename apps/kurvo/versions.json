@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1361",
+    "commit": "0f54c23",
+    "message": "hud: ship simplified top HUD globally; refine curve card material (#464)",
+    "date": "2026-05-15 14:13 UTC"
+  },
+  {
     "version": "1.0.1354",
     "commit": "bf6d97d",
     "message": "docs: replace blanket feature-flag rule with selective 3-rule test",
