@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1353",
+    "commit": "bf6d97d",
+    "message": "planner v2: swap collapsed Add stop chip for a recenter pill (#459)",
+    "date": "2026-05-15 12:36 UTC"
+  },
+  {
     "version": "1.0.1349",
     "commit": "75e60e3",
     "message": "chore: remove unused battery-warmer feature (#457)",
