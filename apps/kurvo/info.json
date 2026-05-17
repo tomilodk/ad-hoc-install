@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1404",
-  "commit": "7bb74f4",
-  "message": "hud: redesign turn arrows + roundabout glyph (#493)",
-  "date": "2026-05-15 21:23 UTC",
+  "version": "1.0.1432",
+  "commit": "8861076",
+  "message": "Merge pull request #513 from tomilodk/perf-adaptive-gps-accuracy",
+  "date": "2026-05-17 21:00 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

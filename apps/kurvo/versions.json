@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1432",
+    "commit": "8861076",
+    "message": "Merge pull request #513 from tomilodk/perf-adaptive-gps-accuracy",
+    "date": "2026-05-17 21:00 UTC"
+  },
+  {
     "version": "1.0.1404",
     "commit": "7bb74f4",
     "message": "hud: redesign turn arrows + roundabout glyph (#493)",
