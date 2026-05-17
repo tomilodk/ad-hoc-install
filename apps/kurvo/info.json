@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1435",
-  "commit": "ae7ba91",
-  "message": "perf(nav): auto-dim display 30% after 15s no-touch (Google Maps/Waze pattern) (#514)",
-  "date": "2026-05-17 21:26 UTC",
+  "version": "1.0.1440",
+  "commit": "11b8fee",
+  "message": "ignore local settings",
+  "date": "2026-05-17 21:36 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

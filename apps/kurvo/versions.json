@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1440",
+    "commit": "11b8fee",
+    "message": "ignore local settings",
+    "date": "2026-05-17 21:36 UTC"
+  },
+  {
     "version": "1.0.1435",
     "commit": "ae7ba91",
     "message": "perf(nav): auto-dim display 30% after 15s no-touch (Google Maps/Waze pattern) (#514)",
