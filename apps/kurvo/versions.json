@@ -3,7 +3,7 @@
     "version": "1.0.1465",
     "commit": "3e576cd",
     "message": "fix(hud): suppress passthrough turns in nextTurn so HUD doesn't show \"↑ 150 m\" (#527)",
-    "date": "2026-05-18 12:13 UTC"
+    "date": "2026-05-18 12:22 UTC"
   },
   {
     "version": "1.0.1440",
