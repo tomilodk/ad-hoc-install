@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1470",
+    "commit": "83688e9",
+    "message": "Merge pull request #536 from tomilodk/fix-activity-reset-on-ws-reconnect",
+    "date": "2026-05-18 13:14 UTC"
+  },
+  {
     "version": "1.0.1465",
     "commit": "3e576cd",
     "message": "fix(hud): suppress passthrough turns in nextTurn so HUD doesn't show \"↑ 150 m\" (#527)",
