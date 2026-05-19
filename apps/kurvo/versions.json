@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1504",
+    "commit": "06ed1fd",
+    "message": "home + planner recenter: wire embedded pill, auto-fit on open, fix accept-button hang (#558)",
+    "date": "2026-05-19 11:23 UTC"
+  },
+  {
     "version": "1.0.1492",
     "commit": "675819f",
     "message": "Merge pull request #550 from tomilodk/worktree-fix-product-api-ci-firestore-emulator",
