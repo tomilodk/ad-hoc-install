@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1525",
+    "commit": "3378c60",
+    "message": "brand: fix PNG clipping + move dev artifacts out of repo (#574)",
+    "date": "2026-05-20 18:31 UTC"
+  },
+  {
     "version": "1.0.1504",
     "commit": "06ed1fd",
     "message": "home + planner recenter: wire embedded pill, auto-fit on open, fix accept-button hang (#558)",

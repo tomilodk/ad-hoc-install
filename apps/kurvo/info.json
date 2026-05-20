@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1504",
-  "commit": "06ed1fd",
-  "message": "home + planner recenter: wire embedded pill, auto-fit on open, fix accept-button hang (#558)",
-  "date": "2026-05-19 11:33 UTC",
+  "version": "1.0.1525",
+  "commit": "3378c60",
+  "message": "brand: fix PNG clipping + move dev artifacts out of repo (#574)",
+  "date": "2026-05-20 18:31 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
