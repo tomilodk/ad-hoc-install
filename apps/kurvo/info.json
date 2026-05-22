@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1525",
-  "commit": "3378c60",
-  "message": "brand: fix PNG clipping + move dev artifacts out of repo (#574)",
-  "date": "2026-05-20 18:31 UTC",
+  "version": "1.0.1571",
+  "commit": "20339fe",
+  "message": "Merge pull request #578 from tomilodk/refactor/arch-20260521-175952",
+  "date": "2026-05-22 10:00 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

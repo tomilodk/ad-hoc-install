@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1571",
+    "commit": "20339fe",
+    "message": "Merge pull request #578 from tomilodk/refactor/arch-20260521-175952",
+    "date": "2026-05-22 10:00 UTC"
+  },
+  {
     "version": "1.0.1525",
     "commit": "3378c60",
     "message": "brand: fix PNG clipping + move dev artifacts out of repo (#574)",
