@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1645",
+  "version": "1.0.1648",
   "commit": "49df570",
-  "message": "Merge pull request #592 from tomilodk/worktree-motorway-relax",
-  "date": "2026-05-24 12:53 UTC",
+  "message": "Merge pull request #603 from tomilodk/fix-curves-engine-bun-lock",
+  "date": "2026-05-24 13:01 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
