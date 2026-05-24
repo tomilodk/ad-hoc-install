@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1678",
+    "commit": "a181620",
+    "message": "Merge pull request #617 from tomilodk/marketing-screenshots-workover",
+    "date": "2026-05-24 21:40 UTC"
+  },
+  {
     "version": "1.0.1658",
     "commit": "b64f245",
     "message": "Merge pull request #610 from tomilodk/worktree-android-poi-marker-clip",
