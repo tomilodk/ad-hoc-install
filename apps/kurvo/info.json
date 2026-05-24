@@ -3,7 +3,7 @@
   "version": "1.0.1658",
   "commit": "b64f245",
   "message": "Merge pull request #610 from tomilodk/worktree-android-poi-marker-clip",
-  "date": "2026-05-24 17:37 UTC",
+  "date": "2026-05-24 17:48 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
