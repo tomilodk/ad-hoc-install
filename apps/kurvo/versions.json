@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1645",
+    "commit": "49df570",
+    "message": "Merge pull request #592 from tomilodk/worktree-motorway-relax",
+    "date": "2026-05-24 12:53 UTC"
+  },
+  {
     "version": "1.0.1578",
     "commit": "41b8f1a",
     "message": "Merge pull request #585 from tomilodk/worktree-drop-v1-planner-rebased",

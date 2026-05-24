@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1578",
-  "commit": "41b8f1a",
-  "message": "Merge pull request #585 from tomilodk/worktree-drop-v1-planner-rebased",
-  "date": "2026-05-22 11:39 UTC",
+  "version": "1.0.1645",
+  "commit": "49df570",
+  "message": "Merge pull request #592 from tomilodk/worktree-motorway-relax",
+  "date": "2026-05-24 12:53 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
