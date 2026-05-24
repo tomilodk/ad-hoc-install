@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1658",
+    "commit": "b64f245",
+    "message": "Merge pull request #610 from tomilodk/worktree-android-poi-marker-clip",
+    "date": "2026-05-24 17:37 UTC"
+  },
+  {
     "version": "1.0.1651",
     "commit": "3d3194e",
     "message": "Merge pull request #605 from tomilodk/fix-nav-drawer-body-drag",
