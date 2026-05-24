@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1651",
+    "commit": "3d3194e",
+    "message": "Merge pull request #605 from tomilodk/fix-nav-drawer-body-drag",
+    "date": "2026-05-24 16:42 UTC"
+  },
+  {
     "version": "1.0.1648",
     "commit": "49df570",
     "message": "Merge pull request #603 from tomilodk/fix-curves-engine-bun-lock",
