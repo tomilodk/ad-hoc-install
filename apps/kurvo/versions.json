@@ -3,7 +3,7 @@
     "version": "1.0.1713",
     "commit": "0b37d0e",
     "message": "fix(maestro): confirm cross-app deep-link modal by text, exclude dev helper from gate",
-    "date": "2026-05-25 15:29 UTC"
+    "date": "2026-05-25 15:39 UTC"
   },
   {
     "version": "1.0.1712",
