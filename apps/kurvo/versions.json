@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1703",
+    "commit": "789b048",
+    "message": "Merge pull request #634 from tomilodk/feat/lowpower-dev-settings",
+    "date": "2026-05-25 09:40 UTC"
+  },
+  {
     "version": "1.0.1692",
     "commit": "cc6e527",
     "message": "Merge pull request #627 from tomilodk/fix-no-results-favorite-match",

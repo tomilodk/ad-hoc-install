@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1692",
-  "commit": "cc6e527",
-  "message": "Merge pull request #627 from tomilodk/fix-no-results-favorite-match",
-  "date": "2026-05-25 08:54 UTC",
+  "version": "1.0.1703",
+  "commit": "789b048",
+  "message": "Merge pull request #634 from tomilodk/feat/lowpower-dev-settings",
+  "date": "2026-05-25 09:40 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
