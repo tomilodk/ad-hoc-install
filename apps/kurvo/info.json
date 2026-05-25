@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1678",
-  "commit": "a181620",
-  "message": "Merge pull request #617 from tomilodk/marketing-screenshots-workover",
-  "date": "2026-05-24 21:48 UTC",
+  "version": "1.0.1679",
+  "commit": "2490f17",
+  "message": "Merge pull request #618 from tomilodk/worktree-kur-planner-touch-capture",
+  "date": "2026-05-25 07:07 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

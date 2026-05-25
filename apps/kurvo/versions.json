@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1679",
+    "commit": "2490f17",
+    "message": "Merge pull request #618 from tomilodk/worktree-kur-planner-touch-capture",
+    "date": "2026-05-25 07:07 UTC"
+  },
+  {
     "version": "1.0.1678",
     "commit": "a181620",
     "message": "Merge pull request #617 from tomilodk/marketing-screenshots-workover",
