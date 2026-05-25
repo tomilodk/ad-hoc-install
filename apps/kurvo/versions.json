@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1714",
+    "commit": "b28556b",
+    "message": "fix(maestro): settle entrance animation before tapping Get Started in safety flow",
+    "date": "2026-05-25 16:31 UTC"
+  },
+  {
     "version": "1.0.1713",
     "commit": "0b37d0e",
     "message": "fix(maestro): confirm cross-app deep-link modal by text, exclude dev helper from gate",
