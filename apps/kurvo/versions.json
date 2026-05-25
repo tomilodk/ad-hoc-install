@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1690",
+    "commit": "cc6e527",
+    "message": "Merge pull request #623 from tomilodk/feature-planner-recenter-fit-route",
+    "date": "2026-05-25 08:40 UTC"
+  },
+  {
     "version": "1.0.1679",
     "commit": "2490f17",
     "message": "Merge pull request #618 from tomilodk/worktree-kur-planner-touch-capture",
