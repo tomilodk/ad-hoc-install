@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1730",
+    "commit": "3ea5269",
+    "message": "Removed arrows",
+    "date": "2026-05-26 13:01 UTC"
+  },
+  {
     "version": "1.0.1714",
     "commit": "b28556b",
     "message": "fix(maestro): settle entrance animation before tapping Get Started in safety flow",
