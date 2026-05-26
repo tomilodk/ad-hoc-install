@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1753",
+    "commit": "e6c0222",
+    "message": "Merge pull request #658 from tomilodk/worktree-feat-fastlane-submit",
+    "date": "2026-05-26 21:00 UTC"
+  },
+  {
     "version": "1.0.1743",
     "commit": "da79ec4",
     "message": "Merge pull request #654 from tomilodk/fix/tl-attribution-coldcache",
