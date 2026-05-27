@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1768",
+  "version": "1.0.1769",
   "commit": "27764e4",
-  "message": "Merge pull request #667 from tomilodk/worktree-kur-224-location-empty-state",
-  "date": "2026-05-27 22:59 UTC",
+  "message": "Merge pull request #669 from tomilodk/fix/overpass-relay-allowlist",
+  "date": "2026-05-27 23:09 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

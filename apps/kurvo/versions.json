@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1769",
+    "commit": "27764e4",
+    "message": "Merge pull request #669 from tomilodk/fix/overpass-relay-allowlist",
+    "date": "2026-05-27 23:09 UTC"
+  },
+  {
     "version": "1.0.1768",
     "commit": "27764e4",
     "message": "Merge pull request #667 from tomilodk/worktree-kur-224-location-empty-state",
