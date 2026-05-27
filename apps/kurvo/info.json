@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1764",
-  "commit": "1572a73",
-  "message": "fix(freeride): preserve lookahead turns so curve callouts couple to HUD/map (#665)",
-  "date": "2026-05-27 22:28 UTC",
+  "version": "1.0.1768",
+  "commit": "27764e4",
+  "message": "Merge pull request #667 from tomilodk/worktree-kur-224-location-empty-state",
+  "date": "2026-05-27 22:59 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
