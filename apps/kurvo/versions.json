@@ -3,7 +3,7 @@
     "version": "1.0.1764",
     "commit": "1572a73",
     "message": "fix(freeride): preserve lookahead turns so curve callouts couple to HUD/map (#665)",
-    "date": "2026-05-27 22:19 UTC"
+    "date": "2026-05-27 22:28 UTC"
   },
   {
     "version": "1.0.1753",
