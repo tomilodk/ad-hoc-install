@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1821",
+    "commit": "283fb3c",
+    "message": "Merge pull request #699 from tomilodk/fix-freeride-marker-reroute",
+    "date": "2026-05-29 18:41 UTC"
+  },
+  {
     "version": "1.0.1777",
     "commit": "a6c5398",
     "message": "Merge branch 'fix-android-fastlane-aab-path'",
