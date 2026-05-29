@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1832",
+    "commit": "02416b0",
+    "message": "Merge pull request #710 from tomilodk/grill/kur-243-reroute-spotify-pause",
+    "date": "2026-05-29 20:35 UTC"
+  },
+  {
     "version": "1.0.1821",
     "commit": "283fb3c",
     "message": "Merge pull request #699 from tomilodk/fix-freeride-marker-reroute",

@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1821",
-  "commit": "283fb3c",
-  "message": "Merge pull request #699 from tomilodk/fix-freeride-marker-reroute",
-  "date": "2026-05-29 18:41 UTC",
+  "version": "1.0.1832",
+  "commit": "02416b0",
+  "message": "Merge pull request #710 from tomilodk/grill/kur-243-reroute-spotify-pause",
+  "date": "2026-05-29 20:35 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
