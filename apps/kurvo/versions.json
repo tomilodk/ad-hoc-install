@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1837",
+    "commit": "02416b0",
+    "message": "Merge pull request #714 from tomilodk/docs-posthog-claudemd-link",
+    "date": "2026-05-29 20:47 UTC"
+  },
+  {
     "version": "1.0.1832",
     "commit": "02416b0",
     "message": "Merge pull request #710 from tomilodk/grill/kur-243-reroute-spotify-pause",
