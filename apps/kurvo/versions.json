@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1872",
+    "commit": "dbbb9a6",
+    "message": "refactor(discord-bot): lift out of backend into standalone compose",
+    "date": "2026-05-30 12:46 UTC"
+  },
+  {
     "version": "1.0.1868",
     "commit": "3fb6c0e",
     "message": "Merge pull request #717 from tomilodk/jj/discord-bot-scaffold",
