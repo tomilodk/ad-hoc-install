@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1868",
+    "commit": "3fb6c0e",
+    "message": "Merge pull request #717 from tomilodk/jj/discord-bot-scaffold",
+    "date": "2026-05-30 11:19 UTC"
+  },
+  {
     "version": "1.0.1837",
     "commit": "02416b0",
     "message": "Merge pull request #714 from tomilodk/docs-posthog-claudemd-link",

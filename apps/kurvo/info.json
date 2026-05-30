@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1837",
-  "commit": "02416b0",
-  "message": "Merge pull request #714 from tomilodk/docs-posthog-claudemd-link",
-  "date": "2026-05-29 20:47 UTC",
+  "version": "1.0.1868",
+  "commit": "3fb6c0e",
+  "message": "Merge pull request #717 from tomilodk/jj/discord-bot-scaffold",
+  "date": "2026-05-30 11:19 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
