@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1872",
-  "commit": "dbbb9a6",
-  "message": "refactor(discord-bot): lift out of backend into standalone compose",
-  "date": "2026-05-30 13:05 UTC",
+  "version": "1.0.1877",
+  "commit": "31a8441",
+  "message": "Merge pull request #718 from tomilodk/jj/nav-hud-fixes-kur-219-225-247",
+  "date": "2026-05-30 16:31 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

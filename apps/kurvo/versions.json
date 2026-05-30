@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.1877",
+    "commit": "31a8441",
+    "message": "Merge pull request #718 from tomilodk/jj/nav-hud-fixes-kur-219-225-247",
+    "date": "2026-05-30 16:31 UTC"
+  },
+  {
     "version": "1.0.1872",
     "commit": "dbbb9a6",
     "message": "refactor(discord-bot): lift out of backend into standalone compose",
