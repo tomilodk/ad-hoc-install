@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.1887",
-  "commit": "e0c5d4a",
-  "message": "Merge pull request #740 from tomilodk/feature-dev-custom-backend-domain",
-  "date": "2026-06-02 19:36 UTC",
+  "version": "1.0.1990",
+  "commit": "46599dd",
+  "message": "Merge branch 'next'",
+  "date": "2026-06-04 11:42 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
