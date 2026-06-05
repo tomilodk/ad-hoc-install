@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2042",
+    "commit": "22bff33",
+    "message": "Merge pull request #793 from tomilodk/chore-fuel-ranking-reuse-earth-radius",
+    "date": "2026-06-05 15:15 UTC"
+  },
+  {
     "version": "1.0.2035",
     "commit": "34b1924",
     "message": "Merge pull request #786 from tomilodk/task/fix-the-huge-route-navigation-crash-denm-20260605-092936",
