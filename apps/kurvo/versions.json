@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2035",
+    "commit": "34b1924",
+    "message": "Merge pull request #786 from tomilodk/task/fix-the-huge-route-navigation-crash-denm-20260605-092936",
+    "date": "2026-06-05 12:53 UTC"
+  },
+  {
     "version": "1.0.2004",
     "commit": "b64c34e",
     "message": "Merge pull request #769 from tomilodk/fuel-stability",
