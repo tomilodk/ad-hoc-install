@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2054",
+    "commit": "91bcaa3",
+    "message": "Merge pull request #800 from tomilodk/feature-nav-high-rate-follow",
+    "date": "2026-06-06 12:58 UTC"
+  },
+  {
     "version": "1.0.2042",
     "commit": "22bff33",
     "message": "Merge pull request #793 from tomilodk/chore-fuel-ranking-reuse-earth-radius",

@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2042",
-  "commit": "22bff33",
-  "message": "Merge pull request #793 from tomilodk/chore-fuel-ranking-reuse-earth-radius",
-  "date": "2026-06-05 15:15 UTC",
+  "version": "1.0.2054",
+  "commit": "91bcaa3",
+  "message": "Merge pull request #800 from tomilodk/feature-nav-high-rate-follow",
+  "date": "2026-06-06 12:58 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
