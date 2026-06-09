@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2102",
+    "commit": "1c1511e",
+    "message": "fix(curves-engine): coarsen destination coords in route_out_of_region event",
+    "date": "2026-06-09 19:06 UTC"
+  },
+  {
     "version": "1.0.2073",
     "commit": "027a94c",
     "message": "Merge pull request #811 from tomilodk/feature-tuner-drive-emulator",
