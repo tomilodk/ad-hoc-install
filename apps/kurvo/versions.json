@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2205",
+    "commit": "ca63bed",
+    "message": "Merge pull request #844 from tomilodk/fix-lod-pool-size-and-liveactivity-race",
+    "date": "2026-06-11 15:56 UTC"
+  },
+  {
     "version": "1.0.2202",
     "commit": "9e4d7d9",
     "message": "Merge pull request #843 from tomilodk/fix-share-extension-eas-app-group",
