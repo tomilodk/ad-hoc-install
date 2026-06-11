@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2198",
+    "commit": "916e77e",
+    "message": "Merge pull request #840 from tomilodk/feat/gpx-navigation",
+    "date": "2026-06-11 10:09 UTC"
+  },
+  {
     "version": "1.0.2102",
     "commit": "1c1511e",
     "message": "fix(curves-engine): coarsen destination coords in route_out_of_region event",
