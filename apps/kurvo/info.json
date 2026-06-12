@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2205",
-  "commit": "ca63bed",
-  "message": "Merge pull request #844 from tomilodk/fix-lod-pool-size-and-liveactivity-race",
-  "date": "2026-06-11 16:04 UTC",
+  "version": "1.0.2232",
+  "commit": "f8553aa",
+  "message": "Merge pull request #850 from tomilodk/feat/perf-c-gps-accuracy-pairing",
+  "date": "2026-06-12 04:35 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

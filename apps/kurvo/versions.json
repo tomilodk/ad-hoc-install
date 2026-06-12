@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2232",
+    "commit": "f8553aa",
+    "message": "Merge pull request #850 from tomilodk/feat/perf-c-gps-accuracy-pairing",
+    "date": "2026-06-12 04:35 UTC"
+  },
+  {
     "version": "1.0.2205",
     "commit": "ca63bed",
     "message": "Merge pull request #844 from tomilodk/fix-lod-pool-size-and-liveactivity-race",
