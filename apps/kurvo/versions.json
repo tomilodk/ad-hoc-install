@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2343",
+    "commit": "7ffe0a1",
+    "message": "Merge pull request #891 from tomilodk/task/build-a-3-profile-omg-craziness-selector-20260615-120737",
+    "date": "2026-06-15 14:10 UTC"
+  },
+  {
     "version": "1.0.2319",
     "commit": "0641e90",
     "message": "docs(drawer): add KurvoDrawer tray-system design rules",

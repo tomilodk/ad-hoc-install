@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2319",
-  "commit": "0641e90",
-  "message": "docs(drawer): add KurvoDrawer tray-system design rules",
-  "date": "2026-06-14 18:17 UTC",
+  "version": "1.0.2343",
+  "commit": "7ffe0a1",
+  "message": "Merge pull request #891 from tomilodk/task/build-a-3-profile-omg-craziness-selector-20260615-120737",
+  "date": "2026-06-15 14:10 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
