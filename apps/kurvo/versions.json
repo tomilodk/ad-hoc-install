@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2373",
+    "commit": "bfd82ce",
+    "message": "fix(voice): curve/turn callout separation + unify voice flags (#907)",
+    "date": "2026-06-18 17:18 UTC"
+  },
+  {
     "version": "1.0.2354",
     "commit": "6400575",
     "message": "feat(tet): remotely-overridable guided-TET injected scripts (#893)",
