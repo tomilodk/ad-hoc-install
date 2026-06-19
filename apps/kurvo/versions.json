@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2380",
+    "commit": "b5c62f5",
+    "message": "Merge pull request #912 from tomilodk/fix-nav-marker-boop-camera-heading",
+    "date": "2026-06-19 11:33 UTC"
+  },
+  {
     "version": "1.0.2373",
     "commit": "bfd82ce",
     "message": "fix(voice): curve/turn callout separation + unify voice flags (#907)",
