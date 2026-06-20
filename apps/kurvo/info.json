@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2380",
-  "commit": "b5c62f5",
-  "message": "Merge pull request #912 from tomilodk/fix-nav-marker-boop-camera-heading",
-  "date": "2026-06-19 11:33 UTC",
+  "version": "1.0.2389",
+  "commit": "8312f2f",
+  "message": "Merge pull request #919 from tomilodk/feature-resume-row-wash-sparkline",
+  "date": "2026-06-20 08:56 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2389",
+    "commit": "8312f2f",
+    "message": "Merge pull request #919 from tomilodk/feature-resume-row-wash-sparkline",
+    "date": "2026-06-20 08:56 UTC"
+  },
+  {
     "version": "1.0.2380",
     "commit": "b5c62f5",
     "message": "Merge pull request #912 from tomilodk/fix-nav-marker-boop-camera-heading",
