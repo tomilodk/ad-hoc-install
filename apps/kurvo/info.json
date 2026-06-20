@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2398",
-  "commit": "31fced6",
-  "message": "feat(favorites): show Home/Work icons for quick-action favorites",
-  "date": "2026-06-20 17:51 UTC",
+  "version": "1.0.2402",
+  "commit": "cf8544e",
+  "message": "Merge pull request #924 from tomilodk/task/navigation-ux-fixes-follow-camera-recent-20260620-114622",
+  "date": "2026-06-20 20:55 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
