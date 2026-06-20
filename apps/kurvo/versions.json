@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2392",
+    "commit": "6b7eb54",
+    "message": "Revert \"fix(ci): stop Sentry source-map upload from failing the Android preview build\"",
+    "date": "2026-06-20 10:06 UTC"
+  },
+  {
     "version": "1.0.2389",
     "commit": "8312f2f",
     "message": "Merge pull request #919 from tomilodk/feature-resume-row-wash-sparkline",
