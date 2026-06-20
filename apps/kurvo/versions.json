@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2397",
+    "commit": "6d059b7",
+    "message": "Merge pull request #923 from tomilodk/feature-resume-row-continue-eyebrow",
+    "date": "2026-06-20 10:34 UTC"
+  },
+  {
     "version": "1.0.2392",
     "commit": "6b7eb54",
     "message": "Revert \"fix(ci): stop Sentry source-map upload from failing the Android preview build\"",
