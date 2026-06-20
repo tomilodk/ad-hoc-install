@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2398",
+    "commit": "31fced6",
+    "message": "feat(favorites): show Home/Work icons for quick-action favorites",
+    "date": "2026-06-20 17:51 UTC"
+  },
+  {
     "version": "1.0.2397",
     "commit": "6d059b7",
     "message": "Merge pull request #923 from tomilodk/feature-resume-row-continue-eyebrow",
