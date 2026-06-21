@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2412",
+    "commit": "2744703",
+    "message": "Merge pull request #934 from tomilodk/feat/language-flags-and-roundtrip-resume-label",
+    "date": "2026-06-21 09:38 UTC"
+  },
+  {
     "version": "1.0.2411",
     "commit": "7530ce0",
     "message": "Merge pull request #933 from tomilodk/fix-settings-nav-audio-grouping",
