@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2417",
+    "commit": "e0e7e33",
+    "message": "Merge pull request #935 from tomilodk/fix-background-locked-live-activity-voice",
+    "date": "2026-06-21 21:38 UTC"
+  },
+  {
     "version": "1.0.2412",
     "commit": "2744703",
     "message": "Merge pull request #934 from tomilodk/feat/language-flags-and-roundtrip-resume-label",
