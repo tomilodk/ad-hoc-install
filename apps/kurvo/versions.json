@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2411",
+    "commit": "7530ce0",
+    "message": "Merge pull request #933 from tomilodk/fix-settings-nav-audio-grouping",
+    "date": "2026-06-21 09:03 UTC"
+  },
+  {
     "version": "1.0.2402",
     "commit": "cf8544e",
     "message": "Merge pull request #924 from tomilodk/task/navigation-ux-fixes-follow-camera-recent-20260620-114622",
