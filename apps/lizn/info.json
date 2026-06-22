@@ -1,9 +1,9 @@
 {
   "title": "lizn",
-  "version": "1.0.92",
-  "commit": "1e561f8",
-  "message": "Merge branch 'feature/design-port'",
-  "date": "2026-06-05 11:57 UTC",
+  "version": "1.0.93",
+  "commit": "3ff252e",
+  "message": "Added run and prebuild for devices",
+  "date": "2026-06-22 11:56 UTC",
   "bundle": "biz.lizn.app.dev",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/477537d2-04e4-4425-84cc-2f651875cc2b"
