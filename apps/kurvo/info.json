@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2418",
-  "commit": "f7636b1",
-  "message": "Merge pull request #937 from tomilodk/fix-landscape-native-statusbar",
-  "date": "2026-06-22 10:08 UTC",
+  "version": "1.0.2421",
+  "commit": "003fe8a",
+  "message": "Merge pull request #939 from tomilodk/chore-remove-unused-always-location-string",
+  "date": "2026-06-22 14:27 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
