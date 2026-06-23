@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2430",
+    "commit": "56c1d65",
+    "message": "Merge pull request #944 from tomilodk/fix-landscape-insets-statusbar",
+    "date": "2026-06-23 10:44 UTC"
+  },
+  {
     "version": "1.0.2421",
     "commit": "003fe8a",
     "message": "Merge pull request #939 from tomilodk/chore-remove-unused-always-location-string",
