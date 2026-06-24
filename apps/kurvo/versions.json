@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2438",
+    "commit": "f060875",
+    "message": "Merge pull request #949 from tomilodk/osrm-transfer-harden",
+    "date": "2026-06-24 08:56 UTC"
+  },
+  {
     "version": "1.0.2431",
     "commit": "0dc20be",
     "message": "debug: temporary on-screen orientation/inset HUD for device diagnosis (do not merge)",
