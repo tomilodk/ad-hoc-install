@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2449",
+    "commit": "e16f392",
+    "message": "test(maestro): audio-ducking scroll-target fix + GPX skip rationale",
+    "date": "2026-06-25 23:11 UTC"
+  },
+  {
     "version": "1.0.2438",
     "commit": "f060875",
     "message": "Merge pull request #949 from tomilodk/osrm-transfer-harden",
