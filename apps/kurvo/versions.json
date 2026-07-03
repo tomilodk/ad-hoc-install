@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2477",
+    "commit": "b620d2e",
+    "message": "Merge pull request #972 from tomilodk/fix-user-marker-vanish-mid-nav",
+    "date": "2026-07-03 22:45 UTC"
+  },
+  {
     "version": "1.0.2465",
     "commit": "f00bbce",
     "message": "Revert \"Merge pull request #963 from tomilodk/jj/kur-330-nav-marker-drift\"",
