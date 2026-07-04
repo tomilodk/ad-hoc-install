@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2485",
+    "commit": "91891fb",
+    "message": "Merge pull request #979 from tomilodk/feature-search-tray-alignment",
+    "date": "2026-07-04 15:09 UTC"
+  },
+  {
     "version": "1.0.2481",
     "commit": "f2301d0",
     "message": "Merge pull request #976 from tomilodk/feature-gpx-waypoint-tap",
