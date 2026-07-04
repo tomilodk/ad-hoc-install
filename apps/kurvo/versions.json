@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2481",
+    "commit": "f2301d0",
+    "message": "Merge pull request #976 from tomilodk/feature-gpx-waypoint-tap",
+    "date": "2026-07-04 11:14 UTC"
+  },
+  {
     "version": "1.0.2477",
     "commit": "b620d2e",
     "message": "Merge pull request #972 from tomilodk/fix-user-marker-vanish-mid-nav",

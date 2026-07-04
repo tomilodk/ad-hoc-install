@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2477",
-  "commit": "b620d2e",
-  "message": "Merge pull request #972 from tomilodk/fix-user-marker-vanish-mid-nav",
-  "date": "2026-07-03 22:45 UTC",
+  "version": "1.0.2481",
+  "commit": "f2301d0",
+  "message": "Merge pull request #976 from tomilodk/feature-gpx-waypoint-tap",
+  "date": "2026-07-04 11:14 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
