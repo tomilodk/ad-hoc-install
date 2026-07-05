@@ -3,7 +3,7 @@
   "version": "1.0.2522",
   "commit": "59444f2",
   "message": "Merge pull request #997 from tomilodk/fix/sentry-relay-release-object",
-  "date": "2026-07-05 12:49 UTC",
+  "date": "2026-07-05 12:59 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
