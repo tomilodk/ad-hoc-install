@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2533",
+    "commit": "f3dac1a",
+    "message": "Merge pull request #1002 from tomilodk/worktree-linear-bot",
+    "date": "2026-07-05 14:49 UTC"
+  },
+  {
     "version": "1.0.2532",
     "commit": "f3dac1a",
     "message": "fix(app): drop native ABI-mismatch Sentry noise (KUR-350) (#1001)",
