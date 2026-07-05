@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2532",
+    "commit": "f3dac1a",
+    "message": "fix(app): drop native ABI-mismatch Sentry noise (KUR-350) (#1001)",
+    "date": "2026-07-05 14:40 UTC"
+  },
+  {
     "version": "1.0.2522",
     "commit": "59444f2",
     "message": "Merge pull request #997 from tomilodk/fix/sentry-relay-release-object",

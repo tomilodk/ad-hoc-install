@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2522",
-  "commit": "59444f2",
-  "message": "Merge pull request #997 from tomilodk/fix/sentry-relay-release-object",
-  "date": "2026-07-05 12:59 UTC",
+  "version": "1.0.2532",
+  "commit": "f3dac1a",
+  "message": "fix(app): drop native ABI-mismatch Sentry noise (KUR-350) (#1001)",
+  "date": "2026-07-05 14:40 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
