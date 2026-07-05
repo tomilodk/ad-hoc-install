@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2506",
+    "commit": "bc273cb",
+    "message": "Merge pull request #985 from tomilodk/feature-nav-marker-true-heading",
+    "date": "2026-07-05 00:11 UTC"
+  },
+  {
     "version": "1.0.2485",
     "commit": "91891fb",
     "message": "Merge pull request #979 from tomilodk/feature-search-tray-alignment",
