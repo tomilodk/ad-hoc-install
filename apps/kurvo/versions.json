@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2522",
+    "commit": "59444f2",
+    "message": "Merge pull request #997 from tomilodk/fix/sentry-relay-release-object",
+    "date": "2026-07-05 12:49 UTC"
+  },
+  {
     "version": "1.0.2519",
     "commit": "cfb10b3",
     "message": "Merge pull request #993 from tomilodk/contact/kur-341-if-you-start-a-gpx-route-that-routes-to-the-actual-gpx-route",
