@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2540",
+    "commit": "1888f5a",
+    "message": "fix(app): guard react-native-maps MapUIBlock against unmounted-tag crash (KUR-353) (#1009)",
+    "date": "2026-07-06 11:35 UTC"
+  },
+  {
     "version": "1.0.2539",
     "commit": "c73c66f",
     "message": "fix(app): coerce non-Error values in captureFeatureError (KUR-351) (#1008)",
