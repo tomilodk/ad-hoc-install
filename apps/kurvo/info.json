@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2548",
+  "version": "1.0.2549",
   "commit": "70d15ff",
-  "message": "[AI] KUR-215: Pace-notes arrows in guide + on website + on onboarding screen should be reworked to match the rest of the design (#1014)",
-  "date": "2026-07-06 19:26 UTC",
+  "message": "fix(sandcastle-bot): clear promptArgs on review-fix resume (#1015)",
+  "date": "2026-07-06 19:37 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

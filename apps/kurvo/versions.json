@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2549",
+    "commit": "70d15ff",
+    "message": "fix(sandcastle-bot): clear promptArgs on review-fix resume (#1015)",
+    "date": "2026-07-06 19:37 UTC"
+  },
+  {
     "version": "1.0.2548",
     "commit": "70d15ff",
     "message": "[AI] KUR-215: Pace-notes arrows in guide + on website + on onboarding screen should be reworked to match the rest of the design (#1014)",
