@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2535",
-  "commit": "2517631",
-  "message": "fix(app): stop reporting maps-link geocode misses to Sentry (KUR-346) (#1004)",
-  "date": "2026-07-05 18:28 UTC",
+  "version": "1.0.2539",
+  "commit": "c73c66f",
+  "message": "fix(app): coerce non-Error values in captureFeatureError (KUR-351) (#1008)",
+  "date": "2026-07-06 11:01 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
