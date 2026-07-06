@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2548",
+    "commit": "70d15ff",
+    "message": "[AI] KUR-215: Pace-notes arrows in guide + on website + on onboarding screen should be reworked to match the rest of the design (#1014)",
+    "date": "2026-07-06 19:26 UTC"
+  },
+  {
     "version": "1.0.2540",
     "commit": "1888f5a",
     "message": "fix(app): guard react-native-maps MapUIBlock against unmounted-tag crash (KUR-353) (#1009)",
