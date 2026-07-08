@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2564",
+    "commit": "c474153",
+    "message": "Merge pull request #1017 from tomilodk/telemetry-audit-fixes",
+    "date": "2026-07-08 09:14 UTC"
+  },
+  {
     "version": "1.0.2549",
     "commit": "70d15ff",
     "message": "fix(sandcastle-bot): clear promptArgs on review-fix resume (#1015)",
