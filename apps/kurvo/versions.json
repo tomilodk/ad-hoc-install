@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2588",
+    "commit": "87790d4",
+    "message": "Merge pull request #1033 from tomilodk/fix-nav-prediction-turn-exit",
+    "date": "2026-07-09 14:40 UTC"
+  },
+  {
     "version": "1.0.2581",
     "commit": "cd09a5d",
     "message": "Merge pull request #1026 from tomilodk/fix-native-intent-test-in-router-dir",

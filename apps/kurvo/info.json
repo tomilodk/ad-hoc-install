@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2581",
-  "commit": "cd09a5d",
-  "message": "Merge pull request #1026 from tomilodk/fix-native-intent-test-in-router-dir",
-  "date": "2026-07-09 09:21 UTC",
+  "version": "1.0.2588",
+  "commit": "87790d4",
+  "message": "Merge pull request #1033 from tomilodk/fix-nav-prediction-turn-exit",
+  "date": "2026-07-09 14:40 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
