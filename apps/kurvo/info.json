@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2590",
-  "commit": "44a6a2d",
-  "message": "Merge pull request #1035 from tomilodk/fix-nav-standstill-backtrack",
-  "date": "2026-07-09 19:58 UTC",
+  "version": "1.0.2599",
+  "commit": "8dce340",
+  "message": "Merge pull request #1040 from tomilodk/feature-seo-geo-pass",
+  "date": "2026-07-09 21:14 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
