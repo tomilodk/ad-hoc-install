@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2613",
+    "commit": "fd20f4f",
+    "message": "Merge pull request #1047 from tomilodk/feature-voice-volume-user-scale",
+    "date": "2026-07-10 10:46 UTC"
+  },
+  {
     "version": "1.0.2611",
     "commit": "3203861",
     "message": "fix(onboarding): stop reporting benign expo-speech Android interruptions to Sentry (#1043)",
