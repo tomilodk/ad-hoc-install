@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2625",
-  "commit": "851eeb6",
-  "message": "fix(auth): retry transient anonymous sign-in network failures (#1057)",
-  "date": "2026-07-10 18:32 UTC",
+  "version": "1.0.2626",
+  "commit": "a4d1578",
+  "message": "fix(fuel): stop offline devices filing \"Fuel request timed out\" Sentry issues (#1058)",
+  "date": "2026-07-10 18:54 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

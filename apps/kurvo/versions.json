@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2626",
+    "commit": "a4d1578",
+    "message": "fix(fuel): stop offline devices filing \"Fuel request timed out\" Sentry issues (#1058)",
+    "date": "2026-07-10 18:54 UTC"
+  },
+  {
     "version": "1.0.2625",
     "commit": "851eeb6",
     "message": "fix(auth): retry transient anonymous sign-in network failures (#1057)",
