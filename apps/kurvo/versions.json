@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2625",
+    "commit": "851eeb6",
+    "message": "fix(auth): retry transient anonymous sign-in network failures (#1057)",
+    "date": "2026-07-10 18:20 UTC"
+  },
+  {
     "version": "1.0.2618",
     "commit": "fb13861",
     "message": "Merge pull request #1032 from tomilodk/worktree-mmkv-kurvo-storage",
