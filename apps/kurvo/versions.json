@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2627",
+    "commit": "0070971",
+    "message": "feat(web-planner): batch 2 — login gate, Kurvo+ gating, redo, fit parity, invalidation UX (#1059)",
+    "date": "2026-07-10 19:44 UTC"
+  },
+  {
     "version": "1.0.2626",
     "commit": "a4d1578",
     "message": "fix(fuel): stop offline devices filing \"Fuel request timed out\" Sentry issues (#1058)",
