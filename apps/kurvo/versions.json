@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2634",
+    "commit": "531b044",
+    "message": "[AI] KUR-379: 🚨 [issue created] Error: Error Domain=kCLErrorDomain Code=0 \"(null)\" (#1067)",
+    "date": "2026-07-11 12:21 UTC"
+  },
+  {
     "version": "1.0.2627",
     "commit": "0070971",
     "message": "feat(web-planner): batch 2 — login gate, Kurvo+ gating, redo, fit parity, invalidation UX (#1059)",
