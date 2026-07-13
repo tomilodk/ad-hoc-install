@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2643",
-  "commit": "b1275d1",
-  "message": "feat(nav): show single stop as a static tile without a dropdown (#1070)",
-  "date": "2026-07-13 21:09 UTC",
+  "version": "1.0.2660",
+  "commit": "9371219",
+  "message": "[AI] KUR-369: Fuel station preffered stations drawers, should be ported to KurvoDrawer and have better UX. Furthermore maybe add a refetch button or something like that. Make it fit into the rest of the UI design of the app! (#1086)",
+  "date": "2026-07-13 22:56 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
