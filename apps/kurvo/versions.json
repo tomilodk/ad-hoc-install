@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2685",
+    "commit": "289ba62",
+    "message": "Merge pull request #1108 from tomilodk/fix-cancel-eas-build-on-workflow-cancel",
+    "date": "2026-07-14 23:42 UTC"
+  },
+  {
     "version": "1.0.2669",
     "commit": "23ecda4",
     "message": "Merge pull request #1096 from tomilodk/jj/i18n-fr-context-validated-fixes",
