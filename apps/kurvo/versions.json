@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2669",
+    "commit": "23ecda4",
+    "message": "Merge pull request #1096 from tomilodk/jj/i18n-fr-context-validated-fixes",
+    "date": "2026-07-14 10:51 UTC"
+  },
+  {
     "version": "1.0.2660",
     "commit": "9371219",
     "message": "[AI] KUR-369: Fuel station preffered stations drawers, should be ported to KurvoDrawer and have better UX. Furthermore maybe add a refetch button or something like that. Make it fit into the rest of the UI design of the app! (#1086)",
