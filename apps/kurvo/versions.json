@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2694",
+    "commit": "9d9a476",
+    "message": "Merge pull request #1115 from tomilodk/fix-planner-avoidances-header-knob",
+    "date": "2026-07-15 09:08 UTC"
+  },
+  {
     "version": "1.0.2689",
     "commit": "a7e4d2b",
     "message": "Merge pull request #1111 from tomilodk/fix/artifact-upload-prod-only",
