@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2706",
+    "commit": "93ea960",
+    "message": "Merge pull request #1124 from tomilodk/fix-user-marker-corner-flash-native",
+    "date": "2026-07-15 20:55 UTC"
+  },
+  {
     "version": "1.0.2697",
     "commit": "b782441",
     "message": "Merge pull request #1118 from tomilodk/ai/kur-399",
