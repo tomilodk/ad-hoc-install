@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2706",
-  "commit": "93ea960",
-  "message": "Merge pull request #1124 from tomilodk/fix-user-marker-corner-flash-native",
-  "date": "2026-07-15 21:09 UTC",
+  "version": "1.0.2710",
+  "commit": "a3dbf71",
+  "message": "Merge pull request #1128 from tomilodk/ai/kur-402",
+  "date": "2026-07-16 11:26 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
