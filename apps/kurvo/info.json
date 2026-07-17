@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2719",
-  "commit": "6fa291c",
-  "message": "[AI] KUR-407: Add the avoidance settings button and tray to round-trips (#1135)",
-  "date": "2026-07-17 08:25 UTC",
+  "version": "1.0.2728",
+  "commit": "b5a849d",
+  "message": "[AI] KUR-409: The share button in roundtrip / mobile planner share button (which of course should if not already is the same component reused, then do that) And then right when clicked there is a bit of loading before the native share sheet is shown, so please right when clicked make the button disabled and have a loading spinner (use the same spinner svg or whatever it is, we use elsewhere in the app) and make sure it is the same size as the share icon is right now. (#1139)",
+  "date": "2026-07-17 11:14 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
