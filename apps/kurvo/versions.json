@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2738",
+    "commit": "03c3423",
+    "message": "Never show the compass",
+    "date": "2026-07-17 22:05 UTC"
+  },
+  {
     "version": "1.0.2735",
     "commit": "abbc815",
     "message": "[AI] KUR-412: 🚨 [issue created] Error: [auth/unknown] An internal error has occurred. [ Software caused connection abort ] (#1146)",
