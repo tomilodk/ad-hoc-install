@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2718",
+    "commit": "2400a3a",
+    "message": "fix(planner): make avoidances knob react to remote-config flip (#1131)",
+    "date": "2026-07-17 06:17 UTC"
+  },
+  {
     "version": "1.0.2710",
     "commit": "a3dbf71",
     "message": "Merge pull request #1128 from tomilodk/ai/kur-402",
