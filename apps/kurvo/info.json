@@ -3,7 +3,7 @@
   "version": "1.0.2735",
   "commit": "abbc815",
   "message": "[AI] KUR-412: 🚨 [issue created] Error: [auth/unknown] An internal error has occurred. [ Software caused connection abort ] (#1146)",
-  "date": "2026-07-17 18:23 UTC",
+  "date": "2026-07-17 18:41 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
