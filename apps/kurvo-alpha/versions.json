@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2747",
+    "commit": "4d8225c",
+    "message": "Merge branch 'main' into release/next",
+    "date": "2026-07-18 09:52 UTC"
+  },
+  {
     "version": "1.0.2713",
     "commit": "e7808ff",
     "message": "Merge remote-tracking branch 'origin/main' into release/next",
