@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2746",
-  "commit": "4f9fe0a",
-  "message": "fix(web-qr-login): retry authorize on a rejected ID token; stop masking failures (#1155)",
-  "date": "2026-07-18 09:32 UTC",
+  "version": "1.0.2753",
+  "commit": "4eec728",
+  "message": "Merge pull request #1161 from tomilodk/feature-omg-slider-exponential-8h",
+  "date": "2026-07-18 22:44 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

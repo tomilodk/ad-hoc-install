@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2753",
+    "commit": "4eec728",
+    "message": "Merge pull request #1161 from tomilodk/feature-omg-slider-exponential-8h",
+    "date": "2026-07-18 22:44 UTC"
+  },
+  {
     "version": "1.0.2746",
     "commit": "4f9fe0a",
     "message": "fix(web-qr-login): retry authorize on a rejected ID token; stop masking failures (#1155)",
