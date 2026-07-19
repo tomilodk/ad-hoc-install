@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2766",
+    "commit": "1fd1f49",
+    "message": "fix(web-login): map visible behind the login sheet, not a blank backdrop (#1167)",
+    "date": "2026-07-19 20:55 UTC"
+  },
+  {
     "version": "1.0.2762",
     "commit": "45e2671",
     "message": "Merge pull request #1166 from tomilodk/feature-web-login-sheet",
