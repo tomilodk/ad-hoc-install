@@ -3,7 +3,7 @@
     "version": "1.0.2766",
     "commit": "1fd1f49",
     "message": "fix(web-login): map visible behind the login sheet, not a blank backdrop (#1167)",
-    "date": "2026-07-19 20:55 UTC"
+    "date": "2026-07-19 21:14 UTC"
   },
   {
     "version": "1.0.2762",
