@@ -3,7 +3,7 @@
   "version": "1.0.2784",
   "commit": "ab28999",
   "message": "Merge pull request #1172 from tomilodk/feature-per-leg-routing",
-  "date": "2026-07-20 21:27 UTC",
+  "date": "2026-07-20 21:45 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
