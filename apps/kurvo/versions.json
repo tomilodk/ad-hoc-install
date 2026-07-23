@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2823",
+    "commit": "df04ce4",
+    "message": "fix(navigation): dismiss ridden-past fuzzy vias on reroute (KUR-441) (#1197)",
+    "date": "2026-07-23 19:14 UTC"
+  },
+  {
     "version": "1.0.2821",
     "commit": "0d75b37",
     "message": "Merge pull request #1196 from tomilodk/fix-planner-ghost-route-polylines",
