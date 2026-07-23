@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2824",
+    "commit": "d320f97",
+    "message": "feat(i18n): 8 new app languages + native-review skills + flag picker (KUR-440) (#1200)",
+    "date": "2026-07-23 21:41 UTC"
+  },
+  {
     "version": "1.0.2823",
     "commit": "df04ce4",
     "message": "fix(navigation): dismiss ridden-past fuzzy vias on reroute (KUR-441) (#1197)",
