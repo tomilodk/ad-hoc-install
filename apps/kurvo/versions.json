@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2821",
+    "commit": "0d75b37",
+    "message": "Merge pull request #1196 from tomilodk/fix-planner-ghost-route-polylines",
+    "date": "2026-07-23 13:42 UTC"
+  },
+  {
     "version": "1.0.2819",
     "commit": "cd2edc8",
     "message": "feat: OSM speed-camera Kurvo+ feature (data pipeline, legality-gated serving, admin, app provider seam, upsell surfaces) (#1193)",
