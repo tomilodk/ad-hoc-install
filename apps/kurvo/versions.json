@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2819",
+    "commit": "cd2edc8",
+    "message": "feat: OSM speed-camera Kurvo+ feature (data pipeline, legality-gated serving, admin, app provider seam, upsell surfaces) (#1193)",
+    "date": "2026-07-23 13:18 UTC"
+  },
+  {
     "version": "1.0.2809",
     "commit": "5e0b9a3",
     "message": "Merge pull request #1187 from tomilodk/feature/kur-435-custom-route",
