@@ -3,7 +3,7 @@
   "version": "1.0.2834",
   "commit": "06283d9",
   "message": "[AI] KUR-444: The add stop functionality. When pasting in a google maps link/gps coords/ apple maps or whatever also works right now in the “where to” input field. It should show the different stops from the link if more than one, and a selection for each of the stop to be able to add more than one. And if only one stop in the link it should just auto-select that - like what the where to does. (#1206)",
-  "date": "2026-07-24 20:55 UTC",
+  "date": "2026-07-24 21:12 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
