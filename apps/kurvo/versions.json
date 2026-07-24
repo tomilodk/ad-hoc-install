@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2834",
+    "commit": "06283d9",
+    "message": "[AI] KUR-444: The add stop functionality. When pasting in a google maps link/gps coords/ apple maps or whatever also works right now in the “where to” input field. It should show the different stops from the link if more than one, and a selection for each of the stop to be able to add more than one. And if only one stop in the link it should just auto-select that - like what the where to does. (#1206)",
+    "date": "2026-07-24 20:55 UTC"
+  },
+  {
     "version": "1.0.2829",
     "commit": "4bf9a47",
     "message": "fix(nav): centre the rider in the helicopter camera (KUR-442) (#1204)",
