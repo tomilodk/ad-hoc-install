@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2852",
+    "commit": "a447b09",
+    "message": "Merge pull request #1218 from tomilodk/fix-map-audit-visible-inventory",
+    "date": "2026-07-25 11:24 UTC"
+  },
+  {
     "version": "1.0.2849",
     "commit": "2507e0e",
     "message": "Merge pull request #1217 from tomilodk/fix-integration-gate-render-reads",
