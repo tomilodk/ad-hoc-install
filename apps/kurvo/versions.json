@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2856",
+    "commit": "d960ca6",
+    "message": "Merge pull request #1219 from tomilodk/fix-linger-route-preview",
+    "date": "2026-07-25 20:53 UTC"
+  },
+  {
     "version": "1.0.2852",
     "commit": "a447b09",
     "message": "Merge pull request #1218 from tomilodk/fix-map-audit-visible-inventory",
