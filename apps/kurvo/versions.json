@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2893",
+    "commit": "6266df9",
+    "message": "Merge pull request #1239 from tomilodk/feature-baked-sentry-release",
+    "date": "2026-07-26 11:12 UTC"
+  },
+  {
     "version": "1.0.2872",
     "commit": "c99245f",
     "message": "Merge pull request #1228 from tomilodk/fix-orphan-overlay-sweep",
