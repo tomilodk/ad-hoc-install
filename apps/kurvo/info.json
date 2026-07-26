@@ -3,7 +3,7 @@
   "version": "1.0.2899",
   "commit": "c5b6cf9",
   "message": "Merge pull request #1241 from tomilodk/fix-planner-collapse-scroll-reset",
-  "date": "2026-07-26 14:15 UTC",
+  "date": "2026-07-26 14:31 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
