@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2913",
-  "commit": "a465118",
-  "message": "Merge pull request #1248 from tomilodk/fix-ios-eas-submit-changelog-gate",
-  "date": "2026-07-28 06:30 UTC",
+  "version": "1.0.2916",
+  "commit": "e8be58c",
+  "message": "[AI] KUR-462: The osm speed cameras feature flags should be per feature flag template, just put them as a section by themselves. So different template groups can have different countries open for them (#1251)",
+  "date": "2026-07-28 21:08 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
