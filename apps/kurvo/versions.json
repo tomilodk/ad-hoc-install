@@ -3,7 +3,7 @@
     "version": "1.0.2916",
     "commit": "e8be58c",
     "message": "[AI] KUR-462: The osm speed cameras feature flags should be per feature flag template, just put them as a section by themselves. So different template groups can have different countries open for them (#1251)",
-    "date": "2026-07-28 21:08 UTC"
+    "date": "2026-07-28 21:27 UTC"
   },
   {
     "version": "1.0.2913",
