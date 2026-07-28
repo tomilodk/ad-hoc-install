@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.2908",
-  "commit": "2826651",
-  "message": "fix(ci): submit iOS cloud builds via EAS, not fastlane pilot (#1246)",
-  "date": "2026-07-27 21:13 UTC",
+  "version": "1.0.2913",
+  "commit": "a465118",
+  "message": "Merge pull request #1248 from tomilodk/fix-ios-eas-submit-changelog-gate",
+  "date": "2026-07-28 06:20 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
