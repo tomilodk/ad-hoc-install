@@ -3,7 +3,7 @@
   "version": "1.0.2925",
   "commit": "494f310",
   "message": "[AI] KUR-464: Marker offset in Portrait mode. It should be moved down so it is just above the HUD, right now it is kinda in the center of the screen. Make sure that the \"helicopter\" view also is offset down, so in portrait the user can actually see what is going on. I believe it works well for landscape, but the portrait needs adjusting! (#1256)",
-  "date": "2026-07-29 05:38 UTC",
+  "date": "2026-07-29 05:56 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
