@@ -3,7 +3,7 @@
     "version": "1.0.2927",
     "commit": "a4bf18e",
     "message": "fix(relay): stop paging Sentry for phone-side proxy fetch failures (KUR-468) (#1266)",
-    "date": "2026-07-29 15:08 UTC"
+    "date": "2026-07-29 15:25 UTC"
   },
   {
     "version": "1.0.2925",
