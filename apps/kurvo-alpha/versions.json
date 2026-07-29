@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2776",
+    "commit": "6a5808a",
+    "message": "perf(map): draw speed-camera POI pills inside the GL surface (SymbolLayer) (#1271)",
+    "date": "2026-07-29 18:38 UTC"
+  },
+  {
     "version": "1.0.2769",
     "commit": "7e1b8d2",
     "message": "Merge remote-tracking branch 'origin/main' into release/next",
