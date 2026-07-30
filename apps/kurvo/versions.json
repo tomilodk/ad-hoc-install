@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2969",
+    "commit": "3a057e3",
+    "message": "Merge pull request #1296 from tomilodk/fix-nav-fade-border-orphans",
+    "date": "2026-07-30 13:49 UTC"
+  },
+  {
     "version": "1.0.2954",
     "commit": "0fc4b1c",
     "message": "Merge pull request #1286 from tomilodk/fix-speed-camera-marker-bound",
