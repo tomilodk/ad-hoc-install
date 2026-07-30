@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2954",
+    "commit": "0fc4b1c",
+    "message": "Merge pull request #1286 from tomilodk/fix-speed-camera-marker-bound",
+    "date": "2026-07-30 11:15 UTC"
+  },
+  {
     "version": "1.0.2940",
     "commit": "b503f2a",
     "message": "Merge pull request #1276 from tomilodk/ai/kur-469",
