@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2972",
+    "commit": "ef28343",
+    "message": "Merge pull request #1275 from tomilodk/merge/main-into-release-next",
+    "date": "2026-07-30 14:36 UTC"
+  },
+  {
     "version": "1.0.2776",
     "commit": "6a5808a",
     "message": "perf(map): draw speed-camera POI pills inside the GL surface (SymbolLayer) (#1271)",
