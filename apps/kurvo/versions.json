@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2940",
+    "commit": "b503f2a",
+    "message": "Merge pull request #1276 from tomilodk/ai/kur-469",
+    "date": "2026-07-30 08:31 UTC"
+  },
+  {
     "version": "1.0.2934",
     "commit": "d58addb",
     "message": "fix(nav): kill phantom motorway keeps, speak real exits with numbers and destinations (#1267)",
