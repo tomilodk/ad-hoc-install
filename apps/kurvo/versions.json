@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.2992",
+    "commit": "73b124f",
+    "message": "Merge pull request #1306 from tomilodk/chore-session-audit-fixes",
+    "date": "2026-07-30 19:43 UTC"
+  },
+  {
     "version": "1.0.2981",
     "commit": "f10d4d8",
     "message": "Merge pull request #1303 from tomilodk/feature-keychain-promo-claim-flow",
