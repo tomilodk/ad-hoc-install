@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3013",
+    "commit": "5511f78",
+    "message": "fix(notifications): gate lock-screen alerts at the seam, defer ActivityKit start (KUR-499) (#1313)",
+    "date": "2026-07-31 13:02 UTC"
+  },
+  {
     "version": "1.0.3012",
     "commit": "cc96a30",
     "message": "Merge pull request #1314 from tomilodk/keychain-3d-lab",
