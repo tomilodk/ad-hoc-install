@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3014",
+    "commit": "7f5686e",
+    "message": "messages: deep module, tray surface, push channel + server-side i18n (#1315)",
+    "date": "2026-07-31 18:21 UTC"
+  },
+  {
     "version": "1.0.3013",
     "commit": "5511f78",
     "message": "fix(notifications): gate lock-screen alerts at the seam, defer ActivityKit start (KUR-499) (#1313)",
