@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.3020",
-  "commit": "726c87e",
-  "message": "Keychain gift sheet: the real 3D object as its hero, plus true per-state copy (#1318)",
-  "date": "2026-08-01 20:32 UTC",
+  "version": "1.0.3026",
+  "commit": "be960e6",
+  "message": "Merge pull request #1319 from tomilodk/kur-505-paywall-sequencing",
+  "date": "2026-08-01 22:21 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
