@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.3028",
-  "commit": "110b49b",
-  "message": "Merge pull request #1321 from tomilodk/fix-kur-504-first-ride-dead-ends",
-  "date": "2026-08-01 22:32 UTC",
+  "version": "1.0.3030",
+  "commit": "fc2144e",
+  "message": "Merge pull request #1324 from tomilodk/fix-kur-506-safety-terms-cliff",
+  "date": "2026-08-01 22:42 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3030",
+    "commit": "fc2144e",
+    "message": "Merge pull request #1324 from tomilodk/fix-kur-506-safety-terms-cliff",
+    "date": "2026-08-01 22:42 UTC"
+  },
+  {
     "version": "1.0.3028",
     "commit": "110b49b",
     "message": "Merge pull request #1321 from tomilodk/fix-kur-504-first-ride-dead-ends",
