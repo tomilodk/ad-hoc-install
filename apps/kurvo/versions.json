@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3028",
+    "commit": "110b49b",
+    "message": "Merge pull request #1321 from tomilodk/fix-kur-504-first-ride-dead-ends",
+    "date": "2026-08-01 22:32 UTC"
+  },
+  {
     "version": "1.0.3026",
     "commit": "be960e6",
     "message": "Merge pull request #1319 from tomilodk/kur-505-paywall-sequencing",
