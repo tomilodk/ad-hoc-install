@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3040",
+    "commit": "4cc0a4b",
+    "message": "Merge pull request #1328 from tomilodk/fix/kur-508-freeride-heading",
+    "date": "2026-08-02 08:10 UTC"
+  },
+  {
     "version": "1.0.3030",
     "commit": "fc2144e",
     "message": "Merge pull request #1324 from tomilodk/fix-kur-506-safety-terms-cliff",
