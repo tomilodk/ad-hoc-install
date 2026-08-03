@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.3042",
-  "commit": "0a3d904",
-  "message": "Merge pull request #1326 from tomilodk/fix/kur-509-omg-inline-unlock",
-  "date": "2026-08-02 08:43 UTC",
+  "version": "1.0.3047",
+  "commit": "1c5665a",
+  "message": "[AI] KUR-516: 🔁 [issue unresolved] captureFeatureMessage (#1331)",
+  "date": "2026-08-03 11:40 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
