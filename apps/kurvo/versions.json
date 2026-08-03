@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3067",
+    "commit": "56bc767",
+    "message": "Merge pull request #1340 from tomilodk/fix-eas-expo-doctor-gate",
+    "date": "2026-08-03 15:02 UTC"
+  },
+  {
     "version": "1.0.3047",
     "commit": "1c5665a",
     "message": "[AI] KUR-516: 🔁 [issue unresolved] captureFeatureMessage (#1331)",
