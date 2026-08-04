@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3101",
+    "commit": "e18b52c",
+    "message": "Merge pull request #1344 from tomilodk/feature-push-prime-after-first-ride",
+    "date": "2026-08-04 05:33 UTC"
+  },
+  {
     "version": "1.0.3067",
     "commit": "56bc767",
     "message": "Merge pull request #1340 from tomilodk/fix-eas-expo-doctor-gate",
