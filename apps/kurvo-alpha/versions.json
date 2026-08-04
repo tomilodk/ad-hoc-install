@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3127",
+    "commit": "8a012e3",
+    "message": "Merge pull request #1348 from tomilodk/fleet/mapbox-port-regressions-20260804-120842",
+    "date": "2026-08-04 17:16 UTC"
+  },
+  {
     "version": "1.0.3111",
     "commit": "ccae290",
     "message": "Merge pull request #1347 from tomilodk/merge/main-into-release-next-20260804",
