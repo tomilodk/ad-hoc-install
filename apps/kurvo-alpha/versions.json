@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3111",
+    "commit": "ccae290",
+    "message": "Merge pull request #1347 from tomilodk/merge/main-into-release-next-20260804",
+    "date": "2026-08-04 11:38 UTC"
+  },
+  {
     "version": "1.0.2972",
     "commit": "ef28343",
     "message": "Merge pull request #1275 from tomilodk/merge/main-into-release-next",
