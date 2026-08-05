@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3136",
+    "commit": "6c7845e",
+    "message": "Merge pull request #1350 from tomilodk/fleet/alpha-device-findings-20260805-122905",
+    "date": "2026-08-05 14:28 UTC"
+  },
+  {
     "version": "1.0.3127",
     "commit": "8a012e3",
     "message": "Merge pull request #1348 from tomilodk/fleet/mapbox-port-regressions-20260804-120842",
