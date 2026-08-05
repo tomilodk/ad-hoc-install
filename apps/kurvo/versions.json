@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3125",
+    "commit": "67cb23a",
+    "message": "Merge pull request #1352 from tomilodk/fix/reckon-no-false-positives",
+    "date": "2026-08-05 14:18 UTC"
+  },
+  {
     "version": "1.0.3101",
     "commit": "e18b52c",
     "message": "Merge pull request #1344 from tomilodk/feature-push-prime-after-first-ride",
