@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3166",
+    "commit": "3e2bcaf",
+    "message": "Merge branch 'main' into release/next",
+    "date": "2026-08-06 15:01 UTC"
+  },
+  {
     "version": "1.0.3165",
     "commit": "7b67ebb",
     "message": "Merge pull request #1355 from tomilodk/fleet/mapbox-ride-findings-round-two-20260806-141328",
