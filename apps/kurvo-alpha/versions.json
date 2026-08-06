@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3165",
+    "commit": "7b67ebb",
+    "message": "Merge pull request #1355 from tomilodk/fleet/mapbox-ride-findings-round-two-20260806-141328",
+    "date": "2026-08-06 14:31 UTC"
+  },
+  {
     "version": "1.0.3154",
     "commit": "78b7f1a",
     "message": "Merge pull request #1354 from tomilodk/fleet/mapbox-device-findings-20260805-220517",
