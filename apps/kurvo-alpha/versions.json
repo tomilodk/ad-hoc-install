@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3154",
+    "commit": "78b7f1a",
+    "message": "Merge pull request #1354 from tomilodk/fleet/mapbox-device-findings-20260805-220517",
+    "date": "2026-08-06 12:09 UTC"
+  },
+  {
     "version": "1.0.3136",
     "commit": "6c7845e",
     "message": "Merge pull request #1350 from tomilodk/fleet/alpha-device-findings-20260805-122905",
