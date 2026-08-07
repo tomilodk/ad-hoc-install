@@ -1,9 +1,9 @@
 {
   "title": "Kurvo Alpha",
-  "version": "1.4884.0",
-  "commit": "64c42d8",
-  "message": "Ship JS-only merges to preview/alpha as EAS Updates, with a version that survives them",
-  "date": "2026-08-07 12:51 UTC",
+  "version": "1.4906.0",
+  "commit": "462fc26",
+  "message": "Merge pull request #1362 from tomilodk/fix/instant-topdown-on-zoom-out",
+  "date": "2026-08-07 13:41 UTC",
   "bundle": "app.kurvo.alpha",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

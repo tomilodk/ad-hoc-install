@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.4906.0",
+    "commit": "462fc26",
+    "message": "Merge pull request #1362 from tomilodk/fix/instant-topdown-on-zoom-out",
+    "date": "2026-08-07 13:41 UTC"
+  },
+  {
     "version": "1.4884.0",
     "commit": "64c42d8",
     "message": "Ship JS-only merges to preview/alpha as EAS Updates, with a version that survives them",
