@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.4921.0",
+    "commit": "10a3a87",
+    "message": "Merge pull request #1366 from tomilodk/fix/ota-publish-env-quoting",
+    "date": "2026-08-07 15:45 UTC"
+  },
+  {
     "version": "1.4906.0",
     "commit": "462fc26",
     "message": "Merge pull request #1362 from tomilodk/fix/instant-topdown-on-zoom-out",
