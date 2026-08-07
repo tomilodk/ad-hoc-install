@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.3125",
-  "commit": "67cb23a",
-  "message": "Merge pull request #1352 from tomilodk/fix/reckon-no-false-positives",
-  "date": "2026-08-05 14:42 UTC",
+  "version": "1.0.3136",
+  "commit": "f4dbafb",
+  "message": "Merge pull request #1356 from tomilodk/ai/kur-518",
+  "date": "2026-08-07 08:38 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"

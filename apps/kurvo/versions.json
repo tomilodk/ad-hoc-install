@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3136",
+    "commit": "f4dbafb",
+    "message": "Merge pull request #1356 from tomilodk/ai/kur-518",
+    "date": "2026-08-07 08:38 UTC"
+  },
+  {
     "version": "1.0.3125",
     "commit": "67cb23a",
     "message": "Merge pull request #1352 from tomilodk/fix/reckon-no-false-positives",
