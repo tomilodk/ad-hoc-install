@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.3144",
+    "commit": "790fa5a",
+    "message": "Merge pull request #1361 from tomilodk/fix/feature-flag-refresh-race",
+    "date": "2026-08-07 21:10 UTC"
+  },
+  {
     "version": "1.0.3136",
     "commit": "f4dbafb",
     "message": "Merge pull request #1356 from tomilodk/ai/kur-518",
