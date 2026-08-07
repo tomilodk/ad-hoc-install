@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.4884.0",
+    "commit": "64c42d8",
+    "message": "Ship JS-only merges to preview/alpha as EAS Updates, with a version that survives them",
+    "date": "2026-08-07 12:19 UTC"
+  },
+  {
     "version": "1.0.3166",
     "commit": "3e2bcaf",
     "message": "Merge branch 'main' into release/next",
