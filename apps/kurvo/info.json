@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.0.3190",
-  "commit": "6a60876",
-  "message": "Merge pull request #1388 from tomilodk/fleet/drop-settled-nav-voice-flags-20260809-184039",
-  "date": "2026-08-09 20:47 UTC",
+  "version": "1.0.3193",
+  "commit": "62151a3",
+  "message": "Merge pull request #1378 from tomilodk/ai/kur-522",
+  "date": "2026-08-09 20:58 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
