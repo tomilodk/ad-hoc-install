@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.4831.0",
+    "commit": "3957be1",
+    "message": "Merge pull request #1416 from tomilodk/fleet/merge-next-and-port-version-20260816-162805",
+    "date": "2026-08-16 17:37 UTC"
+  },
+  {
     "version": "1.0.3259",
     "commit": "c210971",
     "message": "Merge pull request #1413 from tomilodk/ai/kur-527",
