@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.4973.0",
+    "commit": "698c71d",
+    "message": "feat(gates): socialProof defaults on, so the surface arms itself",
+    "date": "2026-09-05 13:23 UTC"
+  },
+  {
     "version": "1.4965.0",
     "commit": "41973d9",
     "message": "Merge branch 'new_main'",

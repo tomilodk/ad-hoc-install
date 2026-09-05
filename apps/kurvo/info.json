@@ -1,9 +1,9 @@
 {
   "title": "Kurvo",
-  "version": "1.4965.0",
-  "commit": "41973d9",
-  "message": "Merge branch 'new_main'",
-  "date": "2026-09-05 11:51 UTC",
+  "version": "1.4973.0",
+  "commit": "698c71d",
+  "message": "feat(gates): socialProof defaults on, so the surface arms itself",
+  "date": "2026-09-05 13:23 UTC",
   "bundle": "app.kurvo.test",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/dcace71a-71b7-4bf3-b6c6-2bd6c3a326ae"
