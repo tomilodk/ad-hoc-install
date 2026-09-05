@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.4977.0",
+    "commit": "82d117c",
+    "message": "Merge pull request #1435 from tomilodk/feat/expo-updates-ota-on-main",
+    "date": "2026-09-05 14:14 UTC"
+  },
+  {
     "version": "1.4973.0",
     "commit": "698c71d",
     "message": "feat(gates): socialProof defaults on, so the surface arms itself",
