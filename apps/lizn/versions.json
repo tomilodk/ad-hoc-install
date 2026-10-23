@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.249",
+    "commit": "9b4920d",
+    "message": "Merge pull request #22 from LIZNWARE/feature/ci",
+    "date": "2026-10-23 15:14 UTC"
+  },
+  {
     "version": "1.0.132",
     "commit": "2f593d9",
     "message": "Upgraded to node-version 22",
