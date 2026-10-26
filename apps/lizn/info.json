@@ -1,9 +1,9 @@
 {
   "title": "lizn",
-  "version": "1.0.249",
-  "commit": "9b4920d",
-  "message": "Merge pull request #22 from LIZNWARE/feature/ci",
-  "date": "2026-10-23 15:14 UTC",
+  "version": "1.0.254",
+  "commit": "4598f95",
+  "message": "Merge pull request #23 from LIZNWARE/feature/wordChallenge",
+  "date": "2026-10-26 07:44 UTC",
   "bundle": "biz.lizn.app.next",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/477537d2-04e4-4425-84cc-2f651875cc2b"
