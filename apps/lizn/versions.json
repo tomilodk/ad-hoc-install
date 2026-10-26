@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.261",
+    "commit": "8b6b17f",
+    "message": "Merge pull request #25 from LIZNWARE/feature/featureEntryCards",
+    "date": "2026-10-26 12:16 UTC"
+  },
+  {
     "version": "1.0.254",
     "commit": "4598f95",
     "message": "Merge pull request #23 from LIZNWARE/feature/wordChallenge",
