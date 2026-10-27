@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.269",
+    "commit": "3101e33",
+    "message": "Merge pull request #28 from LIZNWARE/ci/node24-actions",
+    "date": "2026-10-27 08:41 UTC"
+  },
+  {
     "version": "1.0.267",
     "commit": "14b9b5c",
     "message": "Merge pull request #27 from LIZNWARE/feature/nativeAssets",

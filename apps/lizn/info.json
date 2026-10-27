@@ -1,9 +1,9 @@
 {
   "title": "lizn",
-  "version": "1.0.267",
-  "commit": "14b9b5c",
-  "message": "Merge pull request #27 from LIZNWARE/feature/nativeAssets",
-  "date": "2026-10-27 07:26 UTC",
+  "version": "1.0.269",
+  "commit": "3101e33",
+  "message": "Merge pull request #28 from LIZNWARE/ci/node24-actions",
+  "date": "2026-10-27 08:40 UTC",
   "bundle": "biz.lizn.app.next",
   "downloadBaseUrl": "https://pub-19ee8613ca7d4862bc40bb299d198039.r2.dev",
   "registerDeviceUrl": "https://expo.dev/register-device/477537d2-04e4-4425-84cc-2f651875cc2b"
