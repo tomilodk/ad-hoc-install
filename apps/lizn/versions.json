@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.0.267",
+    "commit": "14b9b5c",
+    "message": "Merge pull request #27 from LIZNWARE/feature/nativeAssets",
+    "date": "2026-10-27 07:26 UTC"
+  },
+  {
     "version": "1.0.261",
     "commit": "8b6b17f",
     "message": "Merge pull request #25 from LIZNWARE/feature/featureEntryCards",
