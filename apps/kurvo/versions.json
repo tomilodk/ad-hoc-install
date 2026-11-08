@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.5072.0",
+    "commit": "c737558",
+    "message": "Merge pull request #1455 from tomilodk/fix/pass-1-bugs",
+    "date": "2026-11-08 18:42 UTC"
+  },
+  {
     "version": "1.4991.0",
     "commit": "c55c13a",
     "message": "chore(car): actually disable Android Auto, which was still shipping",
