@@ -1,5 +1,11 @@
 [
   {
+    "version": "1.5903.0",
+    "commit": "9b24be2",
+    "message": "Merge pull request #1518 from tomilodk/fix/car-store-readiness",
+    "date": "2026-11-10 07:12 UTC"
+  },
+  {
     "version": "1.5881.0",
     "commit": "7fdf43f",
     "message": "Merge pull request #1516 from tomilodk/merge/main-into-release-next-20261109",
